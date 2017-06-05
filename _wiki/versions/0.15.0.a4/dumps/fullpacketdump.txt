@@ -1,0 +1,888 @@
+00528bc0 <InteractPacket::getId() const@plt>:
+  528bc0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  528bc4:	e28cca76 	add	ip, ip, #483328	; 0x76000
+  528bc8:	e5bcf4a8 	ldr	pc, [ip, #1192]!	; 0x4a8
+
+00528bcc <InteractPacket::write(RakNet::BitStream*) const@plt>:
+--
+00528bfc <SetSpawnPositionPacket::getId() const@plt>:
+  528bfc:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  528c00:	e28cca76 	add	ip, ip, #483328	; 0x76000
+  528c04:	e5bcf480 	ldr	pc, [ip, #1152]!	; 0x480
+
+00528c08 <SetSpawnPositionPacket::write(RakNet::BitStream*) const@plt>:
+--
+0052ec80 <CraftingEventPacket::getId() const@plt>:
+  52ec80:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  52ec84:	e28cca72 	add	ip, ip, #466944	; 0x72000
+  52ec88:	e5bcf428 	ldr	pc, [ip, #1064]!	; 0x428
+
+0052ec8c <CraftingEventPacket::write(RakNet::BitStream*) const@plt>:
+--
+0052ecc8 <ContainerSetSlotPacket::getId() const@plt>:
+  52ecc8:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  52eccc:	e28cca72 	add	ip, ip, #466944	; 0x72000
+  52ecd0:	e5bcf3f8 	ldr	pc, [ip, #1016]!	; 0x3f8
+
+0052ecd4 <ContainerSetSlotPacket::write(RakNet::BitStream*) const@plt>:
+--
+0052f340 <TextPacket::getId() const@plt>:
+  52f340:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  52f344:	e28cca71 	add	ip, ip, #462848	; 0x71000
+  52f348:	e5bcffa8 	ldr	pc, [ip, #4008]!	; 0xfa8
+
+0052f34c <TextPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053a938 <DropItemPacket::getId() const@plt>:
+  53a938:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53a93c:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  53a940:	e5bcf658 	ldr	pc, [ip, #1624]!	; 0x658
+
+0053a944 <DropItemPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053a974 <ClientToServerHandshakePacket::getId() const@plt>:
+  53a974:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53a978:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  53a97c:	e5bcf630 	ldr	pc, [ip, #1584]!	; 0x630
+
+0053a980 <ClientToServerHandshakePacket::write(RakNet::BitStream*) const@plt>:
+--
+0053b064 <FullChunkDataPacket::getId() const@plt>:
+  53b064:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53b068:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  53b06c:	e5bcf190 	ldr	pc, [ip, #400]!	; 0x190
+
+0053b070 <FullChunkDataPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053b130 <SetEntityLinkPacket::getId() const@plt>:
+  53b130:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53b134:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  53b138:	e5bcf108 	ldr	pc, [ip, #264]!	; 0x108
+
+0053b13c <SetEntityLinkPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053b178 <LoginPacket::getId() const@plt>:
+  53b178:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53b17c:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  53b180:	e5bcf0d8 	ldr	pc, [ip, #216]!	; 0xd8
+
+0053b184 <LoginPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053cf90 <PlayerInputPacket::getId() const@plt>:
+  53cf90:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53cf94:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53cf98:	e5bcfcc8 	ldr	pc, [ip, #3272]!	; 0xcc8
+
+0053cf9c <PlayerInputPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053cfd8 <MobArmorEquipmentPacket::getId() const@plt>:
+  53cfd8:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53cfdc:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53cfe0:	e5bcfc98 	ldr	pc, [ip, #3224]!	; 0xc98
+
+0053cfe4 <MobArmorEquipmentPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d014 <AnimatePacket::getId() const@plt>:
+  53d014:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d018:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d01c:	e5bcfc70 	ldr	pc, [ip, #3184]!	; 0xc70
+
+0053d020 <AnimatePacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d050 <PlayerActionPacket::getId() const@plt>:
+  53d050:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d054:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d058:	e5bcfc48 	ldr	pc, [ip, #3144]!	; 0xc48
+
+0053d05c <PlayerActionPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d08c <ContainerClosePacket::getId() const@plt>:
+  53d08c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d090:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d094:	e5bcfc20 	ldr	pc, [ip, #3104]!	; 0xc20
+
+0053d098 <ContainerClosePacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d0d4 <MobEquipmentPacket::getId() const@plt>:
+  53d0d4:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d0d8:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d0dc:	e5bcfbf0 	ldr	pc, [ip, #3056]!	; 0xbf0
+
+0053d0e0 <MobEquipmentPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d110 <MovePlayerPacket::getId() const@plt>:
+  53d110:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d114:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d118:	e5bcfbc8 	ldr	pc, [ip, #3016]!	; 0xbc8
+
+0053d11c <MovePlayerPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d14c <EntityEventPacket::getId() const@plt>:
+  53d14c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d150:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d154:	e5bcfba0 	ldr	pc, [ip, #2976]!	; 0xba0
+
+0053d158 <EntityEventPacket::write(RakNet::BitStream*) const@plt>:
+--
+0053d188 <RequestChunkRadiusPacket::getId() const@plt>:
+  53d188:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  53d18c:	e28cca68 	add	ip, ip, #104, 20	; 0x68000
+  53d190:	e5bcfb78 	ldr	pc, [ip, #2936]!	; 0xb78
+
+0053d194 <RequestChunkRadiusPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543c5c <ReplaceSelectedItemPacket::getId() const@plt>:
+  543c5c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543c60:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543c64:	e5bcf440 	ldr	pc, [ip, #1088]!	; 0x440
+
+00543c68 <ReplaceSelectedItemPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543c98 <MapInfoRequestPacket::getId() const@plt>:
+  543c98:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543c9c:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543ca0:	e5bcf418 	ldr	pc, [ip, #1048]!	; 0x418
+
+00543ca4 <MapInfoRequestPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543cd4 <ChunkRadiusUpdatedPacket::getId() const@plt>:
+  543cd4:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543cd8:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543cdc:	e5bcf3f0 	ldr	pc, [ip, #1008]!	; 0x3f0
+
+00543ce0 <ChunkRadiusUpdatedPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543d10 <SpawnExperienceOrbPacket::getId() const@plt>:
+  543d10:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543d14:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543d18:	e5bcf3c8 	ldr	pc, [ip, #968]!	; 0x3c8
+
+00543d1c <SpawnExperienceOrbPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543d58 <PlayerListPacket::getId() const@plt>:
+  543d58:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543d5c:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543d60:	e5bcf398 	ldr	pc, [ip, #920]!	; 0x398
+
+00543d64 <PlayerListPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543d94 <SetPlayerGameTypePacket::getId() const@plt>:
+  543d94:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543d98:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543d9c:	e5bcf370 	ldr	pc, [ip, #880]!	; 0x370
+
+00543da0 <SetPlayerGameTypePacket::write(RakNet::BitStream*) const@plt>:
+--
+00543dd0 <ChangeDimensionPacket::getId() const@plt>:
+  543dd0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543dd4:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543dd8:	e5bcf348 	ldr	pc, [ip, #840]!	; 0x348
+
+00543ddc <ChangeDimensionPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543e0c <SetDifficultyPacket::getId() const@plt>:
+  543e0c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543e10:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543e14:	e5bcf320 	ldr	pc, [ip, #800]!	; 0x320
+
+00543e18 <SetDifficultyPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543e54 <BlockEntityDataPacket::getId() const@plt>:
+  543e54:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543e58:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543e5c:	e5bcf2f0 	ldr	pc, [ip, #752]!	; 0x2f0
+
+00543e60 <BlockEntityDataPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543e90 <AdventureSettingsPacket::getId() const@plt>:
+  543e90:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543e94:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543e98:	e5bcf2c8 	ldr	pc, [ip, #712]!	; 0x2c8
+
+00543e9c <AdventureSettingsPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543ed8 <AddPaintingPacket::getId() const@plt>:
+  543ed8:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543edc:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543ee0:	e5bcf298 	ldr	pc, [ip, #664]!	; 0x298
+
+00543ee4 <AddPaintingPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543f20 <ContainerSetContentPacket::getId() const@plt>:
+  543f20:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543f24:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543f28:	e5bcf268 	ldr	pc, [ip, #616]!	; 0x268
+
+00543f2c <ContainerSetContentPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543f5c <ContainerSetDataPacket::getId() const@plt>:
+  543f5c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543f60:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543f64:	e5bcf240 	ldr	pc, [ip, #576]!	; 0x240
+
+00543f68 <ContainerSetDataPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543f98 <ContainerOpenPacket::getId() const@plt>:
+  543f98:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543f9c:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543fa0:	e5bcf218 	ldr	pc, [ip, #536]!	; 0x218
+
+00543fa4 <ContainerOpenPacket::write(RakNet::BitStream*) const@plt>:
+--
+00543fe0 <ItemFrameDropItemPacket::getId() const@plt>:
+  543fe0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  543fe4:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  543fe8:	e5bcf1e8 	ldr	pc, [ip, #488]!	; 0x1e8
+
+00543fec <ItemFrameDropItemPacket::write(RakNet::BitStream*) const@plt>:
+--
+0054401c <SetHealthPacket::getId() const@plt>:
+  54401c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544020:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  544024:	e5bcf1c0 	ldr	pc, [ip, #448]!	; 0x1c0
+
+00544028 <SetHealthPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544064 <SetEntityMotionPacket::getId() const@plt>:
+  544064:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544068:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  54406c:	e5bcf190 	ldr	pc, [ip, #400]!	; 0x190
+
+00544070 <SetEntityMotionPacket::write(RakNet::BitStream*) const@plt>:
+--
+005440ac <SetEntityDataPacket::getId() const@plt>:
+  5440ac:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5440b0:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  5440b4:	e5bcf160 	ldr	pc, [ip, #352]!	; 0x160
+
+005440b8 <SetEntityDataPacket::write(RakNet::BitStream*) const@plt>:
+--
+005440e8 <HurtArmorPacket::getId() const@plt>:
+  5440e8:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5440ec:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  5440f0:	e5bcf138 	ldr	pc, [ip, #312]!	; 0x138
+
+005440f4 <HurtArmorPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544130 <UseItemPacket::getId() const@plt>:
+  544130:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544134:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  544138:	e5bcf108 	ldr	pc, [ip, #264]!	; 0x108
+
+0054413c <UseItemPacket::write(RakNet::BitStream*) const@plt>:
+--
+0054416c <MobEffectPacket::getId() const@plt>:
+  54416c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544170:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  544174:	e5bcf0e0 	ldr	pc, [ip, #224]!	; 0xe0
+
+00544178 <MobEffectPacket::write(RakNet::BitStream*) const@plt>:
+--
+005441a8 <BlockEventPacket::getId() const@plt>:
+  5441a8:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5441ac:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  5441b0:	e5bcf0b8 	ldr	pc, [ip, #184]!	; 0xb8
+
+005441b4 <BlockEventPacket::write(RakNet::BitStream*) const@plt>:
+--
+005441e4 <LevelEventPacket::getId() const@plt>:
+  5441e4:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5441e8:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  5441ec:	e5bcf090 	ldr	pc, [ip, #144]!	; 0x90
+
+005441f0 <LevelEventPacket::write(RakNet::BitStream*) const@plt>:
+--
+0054422c <ExplodePacket::getId() const@plt>:
+  54422c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544230:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  544234:	e5bcf060 	ldr	pc, [ip, #96]!	; 0x60
+
+00544238 <ExplodePacket::write(RakNet::BitStream*) const@plt>:
+--
+00544274 <UpdateBlockPacket::getId() const@plt>:
+  544274:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544278:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  54427c:	e5bcf030 	ldr	pc, [ip, #48]!	; 0x30
+
+00544280 <UpdateBlockPacket::write(RakNet::BitStream*) const@plt>:
+--
+005442b0 <RemoveBlockPacket::getId() const@plt>:
+  5442b0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5442b4:	e28cca64 	add	ip, ip, #100, 20	; 0x64000
+  5442b8:	e5bcf008 	ldr	pc, [ip, #8]!
+
+005442bc <RemoveBlockPacket::write(RakNet::BitStream*) const@plt>:
+--
+005442ec <RemoveEntityPacket::getId() const@plt>:
+  5442ec:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5442f0:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5442f4:	e5bcffe0 	ldr	pc, [ip, #4064]!	; 0xfe0
+
+005442f8 <RemoveEntityPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544328 <RespawnPacket::getId() const@plt>:
+  544328:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  54432c:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544330:	e5bcffb8 	ldr	pc, [ip, #4024]!	; 0xfb8
+
+00544334 <RespawnPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544370 <MoveEntityPacket::getId() const@plt>:
+  544370:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544374:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544378:	e5bcff88 	ldr	pc, [ip, #3976]!	; 0xf88
+
+0054437c <MoveEntityPacket::write(RakNet::BitStream*) const@plt>:
+--
+005443ac <RemovePlayerPacket::getId() const@plt>:
+  5443ac:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5443b0:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5443b4:	e5bcff60 	ldr	pc, [ip, #3936]!	; 0xf60
+
+005443b8 <RemovePlayerPacket::write(RakNet::BitStream*) const@plt>:
+--
+005443f4 <AddPlayerPacket::getId() const@plt>:
+  5443f4:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5443f8:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5443fc:	e5bcff30 	ldr	pc, [ip, #3888]!	; 0xf30
+
+00544400 <AddPlayerPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544430 <TakeItemEntityPacket::getId() const@plt>:
+  544430:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544434:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544438:	e5bcff08 	ldr	pc, [ip, #3848]!	; 0xf08
+
+0054443c <TakeItemEntityPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544478 <AddItemEntityPacket::getId() const@plt>:
+  544478:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  54447c:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544480:	e5bcfed8 	ldr	pc, [ip, #3800]!	; 0xed8
+
+00544484 <AddItemEntityPacket::write(RakNet::BitStream*) const@plt>:
+--
+005444c0 <AddEntityPacket::getId() const@plt>:
+  5444c0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5444c4:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5444c8:	e5bcfea8 	ldr	pc, [ip, #3752]!	; 0xea8
+
+005444cc <AddEntityPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544508 <StartGamePacket::getId() const@plt>:
+  544508:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  54450c:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544510:	e5bcfe78 	ldr	pc, [ip, #3704]!	; 0xe78
+
+00544514 <StartGamePacket::write(RakNet::BitStream*) const@plt>:
+--
+00544544 <SetTimePacket::getId() const@plt>:
+  544544:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544548:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  54454c:	e5bcfe50 	ldr	pc, [ip, #3664]!	; 0xe50
+
+00544550 <SetTimePacket::write(RakNet::BitStream*) const@plt>:
+--
+0054458c <DisconnectPacket::getId() const@plt>:
+  54458c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544590:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544594:	e5bcfe20 	ldr	pc, [ip, #3616]!	; 0xe20
+
+00544598 <DisconnectPacket::write(RakNet::BitStream*) const@plt>:
+--
+005445d4 <ServerToClientHandshakePacket::getId() const@plt>:
+  5445d4:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5445d8:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5445dc:	e5bcfdf0 	ldr	pc, [ip, #3568]!	; 0xdf0
+
+005445e0 <ServerToClientHandshakePacket::write(RakNet::BitStream*) const@plt>:
+--
+00544610 <PlayStatusPacket::getId() const@plt>:
+  544610:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544614:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544618:	e5bcfdc8 	ldr	pc, [ip, #3528]!	; 0xdc8
+
+0054461c <PlayStatusPacket::write(RakNet::BitStream*) const@plt>:
+--
+005446a0 <BatchPacket::getId() const@plt>:
+  5446a0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5446a4:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5446a8:	e5bcfd68 	ldr	pc, [ip, #3432]!	; 0xd68
+
+005446ac <BatchPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544790 <ClientboundMapItemDataPacket::getId() const@plt>:
+  544790:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544794:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544798:	e5bcfcc8 	ldr	pc, [ip, #3272]!	; 0xcc8
+
+0054479c <ClientboundMapItemDataPacket::write(RakNet::BitStream*) const@plt>:
+--
+005449d0 <CraftingDataPacket::getId() const@plt>:
+  5449d0:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  5449d4:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  5449d8:	e5bcfb48 	ldr	pc, [ip, #2888]!	; 0xb48
+
+005449dc <CraftingDataPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544a0c <TelemetryEventPacket::getId() const@plt>:
+  544a0c:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544a10:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544a14:	e5bcfb20 	ldr	pc, [ip, #2848]!	; 0xb20
+
+00544a18 <TelemetryEventPacket::write(RakNet::BitStream*) const@plt>:
+--
+00544acc <UpdateAttributesPacket::getId() const@plt>:
+  544acc:	e28fc60e 	add	ip, pc, #14680064	; 0xe00000
+  544ad0:	e28cca63 	add	ip, ip, #405504	; 0x63000
+  544ad4:	e5bcfaa0 	ldr	pc, [ip, #2720]!	; 0xaa0
+
+00544ad8 <UpdateAttributesPacket::write(RakNet::BitStream*) const@plt>:
+--
+00639404 <InteractPacket::getId() const>:
+  639404:	201d      	movs	r0, #29
+  639406:	4770      	bx	lr
+
+00639408 <InteractPacket::write(RakNet::BitStream*) const>:
+  639408:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+00639520 <SetSpawnPositionPacket::getId() const>:
+  639520:	2025      	movs	r0, #37	; 0x25
+  639522:	4770      	bx	lr
+
+00639524 <SetSpawnPositionPacket::write(RakNet::BitStream*) const>:
+  639524:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+006b4af4 <CraftingEventPacket::getId() const>:
+  6b4af4:	202f      	movs	r0, #47	; 0x2f
+  6b4af6:	4770      	bx	lr
+
+006b4af8 <CraftingEventPacket::write(RakNet::BitStream*) const>:
+  6b4af8:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+006b4f74 <ContainerSetSlotPacket::getId() const>:
+  6b4f74:	202b      	movs	r0, #43	; 0x2b
+  6b4f76:	4770      	bx	lr
+
+006b4f78 <ContainerSetSlotPacket::write(RakNet::BitStream*) const>:
+  6b4f78:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+006bdf2c <TextPacket::getId() const>:
+  6bdf2c:	2007      	movs	r0, #7
+  6bdf2e:	4770      	bx	lr
+
+006bdf30 <TextPacket::write(RakNet::BitStream*) const>:
+  6bdf30:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+008167ec <DropItemPacket::getId() const>:
+  8167ec:	2028      	movs	r0, #40	; 0x28
+  8167ee:	4770      	bx	lr
+
+008167f0 <DropItemPacket::write(RakNet::BitStream*) const>:
+  8167f0:	b570      	push	{r4, r5, r6, lr}
+--
+00816894 <ClientToServerHandshakePacket::getId() const>:
+  816894:	2004      	movs	r0, #4
+  816896:	4770      	bx	lr
+
+00816898 <ClientToServerHandshakePacket::write(RakNet::BitStream*) const>:
+  816898:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0081a14c <FullChunkDataPacket::getId() const>:
+  81a14c:	2033      	movs	r0, #51	; 0x33
+  81a14e:	4770      	bx	lr
+
+0081a150 <FullChunkDataPacket::write(RakNet::BitStream*) const>:
+  81a150:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0081a7b8 <SetEntityLinkPacket::getId() const>:
+  81a7b8:	2023      	movs	r0, #35	; 0x23
+  81a7ba:	4770      	bx	lr
+
+0081a7bc <SetEntityLinkPacket::write(RakNet::BitStream*) const>:
+  81a7bc:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
+--
+0081aa00 <LoginPacket::getId() const>:
+  81aa00:	2001      	movs	r0, #1
+  81aa02:	4770      	bx	lr
+
+0081aa04 <LoginPacket::write(RakNet::BitStream*) const>:
+  81aa04:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+008326c0 <PlayerInputPacket::getId() const>:
+  8326c0:	2032      	movs	r0, #50	; 0x32
+  8326c2:	4770      	bx	lr
+
+008326c4 <PlayerInputPacket::write(RakNet::BitStream*) const>:
+  8326c4:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0083287c <MobArmorEquipmentPacket::getId() const>:
+  83287c:	201c      	movs	r0, #28
+  83287e:	4770      	bx	lr
+
+00832880 <MobArmorEquipmentPacket::write(RakNet::BitStream*) const>:
+  832880:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+00832a9c <AnimatePacket::getId() const>:
+  832a9c:	2026      	movs	r0, #38	; 0x26
+  832a9e:	4770      	bx	lr
+
+00832aa0 <AnimatePacket::write(RakNet::BitStream*) const>:
+  832aa0:	e92d 4bf0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, fp, lr}
+--
+00832c3c <PlayerActionPacket::getId() const>:
+  832c3c:	201f      	movs	r0, #31
+  832c3e:	4770      	bx	lr
+
+00832c40 <PlayerActionPacket::write(RakNet::BitStream*) const>:
+  832c40:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+00832f18 <ContainerClosePacket::getId() const>:
+  832f18:	202a      	movs	r0, #42	; 0x2a
+  832f1a:	4770      	bx	lr
+
+00832f1c <ContainerClosePacket::write(RakNet::BitStream*) const>:
+  832f1c:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
+--
+00832fa0 <MobEquipmentPacket::getId() const>:
+  832fa0:	201b      	movs	r0, #27
+  832fa2:	4770      	bx	lr
+
+00832fa4 <MobEquipmentPacket::write(RakNet::BitStream*) const>:
+  832fa4:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+  833108:	b172      	cbz	r2, 833128 <MovePlayerPacket::getId() const>
+  83310a:	00b6      	lsls	r6, r6, #2
+  83310c:	ad64      	add	r5, sp, #400	; 0x190
+  83310e:	ffff b0f4 	vshr.u64	<illegal reg q13.5>, q10, #1
+  833112:	00b6      	lsls	r6, r6, #2
+
+--
+00833128 <MovePlayerPacket::getId() const>:
+  833128:	2011      	movs	r0, #17
+  83312a:	4770      	bx	lr
+
+0083312c <MovePlayerPacket::write(RakNet::BitStream*) const>:
+  83312c:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+008334b0 <EntityEventPacket::getId() const>:
+  8334b0:	2018      	movs	r0, #24
+  8334b2:	4770      	bx	lr
+
+008334b4 <EntityEventPacket::write(RakNet::BitStream*) const>:
+  8334b4:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+008335d4 <RequestChunkRadiusPacket::getId() const>:
+  8335d4:	203c      	movs	r0, #60	; 0x3c
+  8335d6:	4770      	bx	lr
+
+008335d8 <RequestChunkRadiusPacket::write(RakNet::BitStream*) const>:
+  8335d8:	b570      	push	{r4, r5, r6, lr}
+--
+0090aeac <ReplaceSelectedItemPacket::getId() const>:
+  90aeac:	203f      	movs	r0, #63	; 0x3f
+  90aeae:	4770      	bx	lr
+
+0090aeb0 <ReplaceSelectedItemPacket::write(RakNet::BitStream*) const>:
+  90aeb0:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
+--
+0090af34 <MapInfoRequestPacket::getId() const>:
+  90af34:	203b      	movs	r0, #59	; 0x3b
+  90af36:	4770      	bx	lr
+
+0090af38 <MapInfoRequestPacket::write(RakNet::BitStream*) const>:
+  90af38:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090b030 <ChunkRadiusUpdatedPacket::getId() const>:
+  90b030:	203d      	movs	r0, #61	; 0x3d
+  90b032:	4770      	bx	lr
+
+0090b034 <ChunkRadiusUpdatedPacket::write(RakNet::BitStream*) const>:
+  90b034:	b570      	push	{r4, r5, r6, lr}
+--
+0090b0dc <SpawnExperienceOrbPacket::getId() const>:
+  90b0dc:	2039      	movs	r0, #57	; 0x39
+  90b0de:	4770      	bx	lr
+
+0090b0e0 <SpawnExperienceOrbPacket::write(RakNet::BitStream*) const>:
+  90b0e0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090b3c4 <PlayerListPacket::getId() const>:
+  90b3c4:	2037      	movs	r0, #55	; 0x37
+  90b3c6:	4770      	bx	lr
+
+0090b3c8 <PlayerListPacket::write(RakNet::BitStream*) const>:
+  90b3c8:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090c210 <SetPlayerGameTypePacket::getId() const>:
+  90c210:	2036      	movs	r0, #54	; 0x36
+  90c212:	4770      	bx	lr
+
+0090c214 <SetPlayerGameTypePacket::write(RakNet::BitStream*) const>:
+  90c214:	b570      	push	{r4, r5, r6, lr}
+--
+0090c2b8 <ChangeDimensionPacket::getId() const>:
+  90c2b8:	2035      	movs	r0, #53	; 0x35
+  90c2ba:	4770      	bx	lr
+
+0090c2bc <ChangeDimensionPacket::write(RakNet::BitStream*) const>:
+  90c2bc:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090c46c <SetDifficultyPacket::getId() const>:
+  90c46c:	2034      	movs	r0, #52	; 0x34
+  90c46e:	4770      	bx	lr
+
+0090c470 <SetDifficultyPacket::write(RakNet::BitStream*) const>:
+  90c470:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
+--
+0090c570 <BlockEntityDataPacket::getId() const>:
+  90c570:	2031      	movs	r0, #49	; 0x31
+  90c572:	4770      	bx	lr
+
+0090c574 <BlockEntityDataPacket::write(RakNet::BitStream*) const>:
+  90c574:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090c8c4 <AdventureSettingsPacket::getId() const>:
+  90c8c4:	2030      	movs	r0, #48	; 0x30
+  90c8c6:	4770      	bx	lr
+
+0090c8c8 <AdventureSettingsPacket::write(RakNet::BitStream*) const>:
+  90c8c8:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090cae8 <AddPaintingPacket::getId() const>:
+  90cae8:	2014      	movs	r0, #20
+  90caea:	4770      	bx	lr
+
+0090caec <AddPaintingPacket::write(RakNet::BitStream*) const>:
+  90caec:	b570      	push	{r4, r5, r6, lr}
+--
+0090ce78 <ContainerSetContentPacket::getId() const>:
+  90ce78:	202d      	movs	r0, #45	; 0x2d
+  90ce7a:	4770      	bx	lr
+
+0090ce7c <ContainerSetContentPacket::write(RakNet::BitStream*) const>:
+  90ce7c:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090d104 <ContainerSetDataPacket::getId() const>:
+  90d104:	202c      	movs	r0, #44	; 0x2c
+  90d106:	4770      	bx	lr
+
+0090d108 <ContainerSetDataPacket::write(RakNet::BitStream*) const>:
+  90d108:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090d238 <ContainerOpenPacket::getId() const>:
+  90d238:	2029      	movs	r0, #41	; 0x29
+  90d23a:	4770      	bx	lr
+
+0090d23c <ContainerOpenPacket::write(RakNet::BitStream*) const>:
+  90d23c:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090d544 <ItemFrameDropItemPacket::getId() const>:
+  90d544:	203e      	movs	r0, #62	; 0x3e
+  90d546:	4770      	bx	lr
+
+0090d548 <ItemFrameDropItemPacket::write(RakNet::BitStream*) const>:
+  90d548:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090d68c <SetHealthPacket::getId() const>:
+  90d68c:	2024      	movs	r0, #36	; 0x24
+  90d68e:	4770      	bx	lr
+
+0090d690 <SetHealthPacket::write(RakNet::BitStream*) const>:
+  90d690:	b570      	push	{r4, r5, r6, lr}
+--
+0090d788 <SetEntityMotionPacket::getId() const>:
+  90d788:	2022      	movs	r0, #34	; 0x22
+  90d78a:	4770      	bx	lr
+
+0090d78c <SetEntityMotionPacket::write(RakNet::BitStream*) const>:
+  90d78c:	e92d 4bf0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, fp, lr}
+--
+0090dc70 <SetEntityDataPacket::getId() const>:
+  90dc70:	2021      	movs	r0, #33	; 0x21
+  90dc72:	4770      	bx	lr
+
+0090dc74 <SetEntityDataPacket::write(RakNet::BitStream*) const>:
+  90dc74:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090de20 <HurtArmorPacket::getId() const>:
+  90de20:	2020      	movs	r0, #32
+  90de22:	4770      	bx	lr
+
+0090de24 <HurtArmorPacket::write(RakNet::BitStream*) const>:
+  90de24:	e92d 4830 	stmdb	sp!, {r4, r5, fp, lr}
+--
+0090ded4 <UseItemPacket::getId() const>:
+  90ded4:	201e      	movs	r0, #30
+  90ded6:	4770      	bx	lr
+
+0090ded8 <UseItemPacket::write(RakNet::BitStream*) const>:
+  90ded8:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090e368 <MobEffectPacket::getId() const>:
+  90e368:	2019      	movs	r0, #25
+  90e36a:	4770      	bx	lr
+
+0090e36c <MobEffectPacket::write(RakNet::BitStream*) const>:
+  90e36c:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090e53c <BlockEventPacket::getId() const>:
+  90e53c:	2017      	movs	r0, #23
+  90e53e:	4770      	bx	lr
+
+0090e540 <BlockEventPacket::write(RakNet::BitStream*) const>:
+  90e540:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090e760 <LevelEventPacket::getId() const>:
+  90e760:	2016      	movs	r0, #22
+  90e762:	4770      	bx	lr
+
+0090e764 <LevelEventPacket::write(RakNet::BitStream*) const>:
+  90e764:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090e9d8 <ExplodePacket::getId() const>:
+  90e9d8:	2015      	movs	r0, #21
+  90e9da:	4770      	bx	lr
+
+0090e9dc <ExplodePacket::write(RakNet::BitStream*) const>:
+  90e9dc:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+--
+0090ee70 <UpdateBlockPacket::getId() const>:
+  90ee70:	2013      	movs	r0, #19
+  90ee72:	4770      	bx	lr
+
+0090ee74 <UpdateBlockPacket::write(RakNet::BitStream*) const>:
+  90ee74:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+--
+0090f1d8 <RemoveBlockPacket::getId() const>:
+  90f1d8:	2012      	movs	r0, #18
+  90f1da:	4770      	bx	lr
+
+0090f1dc <RemoveBlockPacket::write(RakNet::BitStream*) const>:
+  90f1dc:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090f3c4 <RemoveEntityPacket::getId() const>:
+  90f3c4:	200d      	movs	r0, #13
+  90f3c6:	4770      	bx	lr
+
+0090f3c8 <RemoveEntityPacket::write(RakNet::BitStream*) const>:
+  90f3c8:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090f4bc <RespawnPacket::getId() const>:
+  90f4bc:	2027      	movs	r0, #39	; 0x27
+  90f4be:	4770      	bx	lr
+
+0090f4c0 <RespawnPacket::write(RakNet::BitStream*) const>:
+  90f4c0:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+0090f678 <MoveEntityPacket::getId() const>:
+  90f678:	2010      	movs	r0, #16
+  90f67a:	4770      	bx	lr
+
+0090f67c <MoveEntityPacket::write(RakNet::BitStream*) const>:
+  90f67c:	e92d 4bf0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, fp, lr}
+--
+0090fb78 <RemovePlayerPacket::getId() const>:
+  90fb78:	200b      	movs	r0, #11
+  90fb7a:	4770      	bx	lr
+
+0090fb7c <RemovePlayerPacket::write(RakNet::BitStream*) const>:
+  90fb7c:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0090fe2c <AddPlayerPacket::getId() const>:
+  90fe2c:	200a      	movs	r0, #10
+  90fe2e:	4770      	bx	lr
+
+0090fe30 <AddPlayerPacket::write(RakNet::BitStream*) const>:
+  90fe30:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+0091043c <TakeItemEntityPacket::getId() const>:
+  91043c:	200f      	movs	r0, #15
+  91043e:	4770      	bx	lr
+
+00910440 <TakeItemEntityPacket::write(RakNet::BitStream*) const>:
+  910440:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+009105f0 <AddItemEntityPacket::getId() const>:
+  9105f0:	200e      	movs	r0, #14
+  9105f2:	4770      	bx	lr
+
+009105f4 <AddItemEntityPacket::write(RakNet::BitStream*) const>:
+  9105f4:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+00910a80 <AddEntityPacket::getId() const>:
+  910a80:	200c      	movs	r0, #12
+  910a82:	4770      	bx	lr
+
+00910a84 <AddEntityPacket::write(RakNet::BitStream*) const>:
+  910a84:	e92d 4bf0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, fp, lr}
+--
+00911284 <StartGamePacket::getId() const>:
+  911284:	2009      	movs	r0, #9
+  911286:	4770      	bx	lr
+
+00911288 <StartGamePacket::write(RakNet::BitStream*) const>:
+  911288:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+009117e4 <SetTimePacket::getId() const>:
+  9117e4:	2008      	movs	r0, #8
+  9117e6:	4770      	bx	lr
+
+009117e8 <SetTimePacket::write(RakNet::BitStream*) const>:
+  9117e8:	e92d 48f0 	stmdb	sp!, {r4, r5, r6, r7, fp, lr}
+--
+00911974 <DisconnectPacket::getId() const>:
+  911974:	2005      	movs	r0, #5
+  911976:	4770      	bx	lr
+
+00911978 <DisconnectPacket::write(RakNet::BitStream*) const>:
+  911978:	b570      	push	{r4, r5, r6, lr}
+--
+00911b18 <ServerToClientHandshakePacket::getId() const>:
+  911b18:	2003      	movs	r0, #3
+  911b1a:	4770      	bx	lr
+
+00911b1c <ServerToClientHandshakePacket::write(RakNet::BitStream*) const>:
+  911b1c:	b570      	push	{r4, r5, r6, lr}
+--
+00911bf4 <PlayStatusPacket::getId() const>:
+  911bf4:	2002      	movs	r0, #2
+  911bf6:	4770      	bx	lr
+
+00911bf8 <PlayStatusPacket::write(RakNet::BitStream*) const>:
+  911bf8:	b570      	push	{r4, r5, r6, lr}
+--
+0091227c <BatchPacket::getId() const>:
+  91227c:	2006      	movs	r0, #6
+  91227e:	4770      	bx	lr
+
+00912280 <ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(EntityUniqueID, signed char, std::vector<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> >, std::allocator<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> > > > const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, int, int, int, int)>:
+  912280:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+--
+00913038 <ClientboundMapItemDataPacket::getId() const>:
+  913038:	203a      	movs	r0, #58	; 0x3a
+  91303a:	4770      	bx	lr
+
+0091303c <ClientboundMapItemDataPacket::write(RakNet::BitStream*) const>:
+  91303c:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+--
+00915850 <CraftingDataPacket::getId() const>:
+  915850:	202e      	movs	r0, #46	; 0x2e
+  915852:	4770      	bx	lr
+
+00915854 <CraftingDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const>:
+  915854:	4684      	mov	ip, r0
+--
+0091656c <TelemetryEventPacket::getId() const>:
+  91656c:	2038      	movs	r0, #56	; 0x38
+  91656e:	4770      	bx	lr
+
+00916570 <TelemetryEventPacket::write(RakNet::BitStream*) const>:
+  916570:	e92d 4bf0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, fp, lr}
+--
+00917338 <UpdateAttributesPacket::getId() const>:
+  917338:	201a      	movs	r0, #26
+  91733a:	4770      	bx	lr
+
+0091733c <UpdateAttributesPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const>:
+  91733c:	4684      	mov	ip, r0

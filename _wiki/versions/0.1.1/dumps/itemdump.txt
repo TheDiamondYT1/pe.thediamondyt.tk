@@ -1,0 +1,156 @@
+00110c34 W CameraItem::use(ItemInstance*, Level*, Player*)
+00110c00 W CameraItem::CameraItem(int)
+0011106c W TilePlanterItem::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+00111030 W TilePlanterItem::TilePlanterItem(int, Tile*)
+002fa700 B Item::apple_gold
+002fa6ec B Item::boots_gold
+002fa6cc B Item::boots_iron
+002fa774 B Item::dye_powder
+002fa760 B Item::fishingRod
+002fa664 B Item::sword_gold
+002fa624 B Item::sword_iron
+002fa628 B Item::sword_wood
+002fa768 B Item::yellowDust
+002fa6bc B Item::boots_chain
+002fa6ac B Item::boots_cloth
+002fa714 B Item::bucket_lava
+002fa770 B Item::fish_cooked
+002fa6e0 B Item::helmet_gold
+002fa6c0 B Item::helmet_iron
+002fa68c B Item::hoe_emerald
+002fa668 B Item::shovel_gold
+002fa5f8 B Item::shovel_iron
+002fa62c B Item::shovel_wood
+002fa638 B Item::sword_stone
+002fa70c B Item::bucket_empty
+002fa710 B Item::bucket_water
+00110914 W Item::getMaxDamage()
+0011096c W Item::handEquipped()
+002fa670 B Item::hatchet_gold
+002fa600 B Item::hatchet_iron
+002fa634 B Item::hatchet_wood
+002fa6b0 B Item::helmet_chain
+002fa6a0 B Item::helmet_cloth
+002fa660 B Item::mushroomStew
+002fa66c B Item::pickAxe_gold
+002fa5fc B Item::pickAxe_iron
+002fa630 B Item::pickAxe_wood
+002fa6f4 B Item::porkChop_raw
+002fa63c B Item::shovel_stone
+002fa6dc B Item::boots_diamond
+002fa604 B Item::flintAndSteel
+002fa644 B Item::hatchet_stone
+00110960 W Item::interactEnemy(ItemInstance*, Mob*)
+00110990 W Item::isMirroredArt()
+002fa6e8 B Item::leggings_gold
+002fa6c8 B Item::leggings_iron
+002fa640 B Item::pickAxe_stone
+002fa648 B Item::sword_emerald
+00111eb8 T Item::teardownItems()
+00110a5c W Item::getDescription(ItemInstance*)
+00110a00 W Item::getDescription()
+002fa6d0 B Item::helmet_diamond
+00110980 W Item::isHandEquipped()
+002fa6b8 B Item::leggings_chain
+002fa6a8 B Item::leggings_cloth
+002fa750 B Item::minecart_chest
+002fa64c B Item::shovel_emerald
+002fa6e4 B Item::chestplate_gold
+002fa6c4 B Item::chestplate_iron
+00110940 W Item::getAttackDamage(Entity*)
+001108b4 W Item::getDestroySpeed(ItemInstance*, Tile*)
+001108e4 W Item::getMaxStackSize()
+002fa654 B Item::hatchet_emerald
+00110904 W Item::isStackedByData()
+002fa650 B Item::pickAxe_emerald
+002fa6f8 B Item::porkChop_cooked
+00110848 W Item::setMaxStackSize(int)
+002fa6b4 B Item::chestplate_chain
+002fa6a4 B Item::chestplate_cloth
+00110adc W Item::getDescriptionId(ItemInstance*)
+00110abc W Item::getDescriptionId()
+002fa6d8 B Item::leggings_diamond
+002fa754 B Item::minecart_furnace
+001109a0 W Item::setDescriptionId(std::string const&)
+00110950 W Item::canDestroySpecial(Tile*)
+002fa6d4 B Item::chestplate_diamond
+002f9d90 B Item::ICON_DESCRIPTION_PREFIX
+001108f4 W Item::getLevelDataForAuxValue(int)
+00110b2c W Item::getCraftingRemainingItem()
+00110b3c W Item::hasCraftingRemainingItem()
+00110b00 W Item::setCraftingRemainingItem(Item*)
+002fa784 B Item::bed
+002fa60c B Item::bow
+002fa758 B Item::egg
+001108d0 W Item::use(ItemInstance*, Level*, Player*)
+002fa5e8 B Item::Tier::GOLD
+002fa5c8 B Item::Tier::IRON
+002fa5a8 B Item::Tier::WOOD
+002fa5b8 B Item::Tier::STONE
+002fa5d8 B Item::Tier::EMERALD
+001106a4 W Item::Tier::Tier(int, int, float, int)
+002fa72c B Item::boat
+002fa778 B Item::bone
+002fa748 B Item::book
+002fa65c B Item::bowl
+002fa780 B Item::cake
+002fa73c B Item::clay
+002fa614 B Item::coal
+002fa734 B Item::milk
+002fa704 B Item::sign
+002fa608 B Item::apple
+002fa610 B Item::arrow
+002fa69c B Item::bread
+002fa738 B Item::brick
+002fa764 B Item::clock
+002fa788 B Item::diode
+002fa6f0 B Item::flint
+002f9da8 B Item::items
+002fa744 B Item::paper
+002fa740 B Item::reeds
+002fa694 B Item::seeds
+002fa658 B Item::stick
+002fa77c B Item::sugar
+0011088c W Item::useOn(ItemInstance*, Level*, int, int, int, int)
+001108a0 W Item::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+002fa698 B Item::wheat
+002fa794 B Item::camera
+002fa71c B Item::saddle
+002fa674 B Item::string
+002fa75c B Item::compass
+002fa618 B Item::emerald
+002fa678 B Item::feather
+0011087c W Item::getIcon(ItemInstance*)
+00110b54 W Item::getName()
+002fa730 B Item::leather
+00110834 W Item::setIcon(int)
+0011085c W Item::setIcon(int, int)
+002fa67c B Item::sulphur
+002fa76c B Item::fish_raw
+002fa690 B Item::hoe_gold
+002fa688 B Item::hoe_iron
+002fa680 B Item::hoe_wood
+002fa718 B Item::minecart
+002fa6fc B Item::painting
+002fa724 B Item::redStone
+002fa728 B Item::snowBall
+002fa720 B Item::door_iron
+002fa708 B Item::door_wood
+002fa620 B Item::goldIngot
+002fa684 B Item::hoe_stone
+00110924 W Item::hurtEnemy(ItemInstance*, Mob*)
+001111e0 T Item::initItems()
+002fa61c B Item::ironIngot
+00110930 W Item::mineBlock(ItemInstance*, int, int, int, int)
+002fa78c B Item::record_01
+002fa790 B Item::record_02
+002fa74c B Item::slimeBall
+00110784 W Item::Item(int)
+001106d4 W Item::Item(int)
+00110bcc W Item::~Item()
+00110cd0 W DoorItem::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+00110c84 W DoorItem::DoorItem(int, Material const*)
+0013fc94 W TileItem::getDescriptionId(ItemInstance*)
+0013fcdc W TileItem::getDescriptionId()
+0013fa2c W TileItem::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+0013f9b4 W TileItem::TileItem(int)

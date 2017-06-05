@@ -1,0 +1,11 @@
+00e32926 T TextureAtlasTile::loadTexture(mce::TextureGroup&)
+00e32668 T TextureAtlasTile::TextureAtlasTile(Color, bool, ResourceLocation)
+00e32738 T TextureAtlasTile::TextureAtlasTile(TextureAtlasTile&&)
+00e32668 T TextureAtlasTile::TextureAtlasTile(Color, bool, ResourceLocation)
+00e32738 T TextureAtlasTile::TextureAtlasTile(TextureAtlasTile&&)
+00e32808 T TextureAtlasTile::operator=(TextureAtlasTile&&)
+00e32950 T TextureAtlasTile::getActualWidth() const
+00e32978 T TextureAtlasTile::getActualHeight() const
+00e329e0 T TextureAtlasTile::getArea() const
+00e329a0 T TextureAtlasTile::getWidth() const
+00e329c0 T TextureAtlasTile::getHeight() const

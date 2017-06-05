@@ -1,0 +1,413 @@
+00962334 W TextPacket::createTranslated(std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
+00a5b494 W TextPacket::createSystemMessage(std::string const&)
+006bdfe0 W TextPacket::read(RakNet::BitStream*)
+00754f4c W TextPacket::createRaw(std::string const&)
+006be13c W TextPacket::TextPacket(TextPacketType, std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
+006bdf1c W TextPacket::~TextPacket()
+006bce68 W TextPacket::~TextPacket()
+013cda68 B BatchPacket::mCompressor
+00911cfc T BatchPacket::add(Packet const*)
+00911f28 T BatchPacket::read(RakNet::BitStream*)
+00912108 T BatchPacket::compress()
+009121e8 W BatchPacket::~BatchPacket()
+00912158 W BatchPacket::~BatchPacket()
+0081ab1c W LoginPacket::read(RakNet::BitStream*)
+00816e48 W LoginPacket::LoginPacket(int, ConnectionRequest const&)
+0081a988 W LoginPacket::~LoginPacket()
+00816ef8 W LoginPacket::~LoginPacket()
+00832b68 W AnimatePacket::read(RakNet::BitStream*)
+00832a98 W AnimatePacket::~AnimatePacket()
+0090eb5c W ExplodePacket::read(RakNet::BitStream*)
+0090e9ac W ExplodePacket::~ExplodePacket()
+0090e984 W ExplodePacket::~ExplodePacket()
+0090f568 W RespawnPacket::read(RakNet::BitStream*)
+0090f4b8 W RespawnPacket::~RespawnPacket()
+00911850 W SetTimePacket::read(RakNet::BitStream*)
+009117e0 W SetTimePacket::~SetTimePacket()
+0090e098 W UseItemPacket::read(RakNet::BitStream*)
+0090dea8 W UseItemPacket::~UseItemPacket()
+0090de7c W UseItemPacket::~UseItemPacket()
+00816834 W DropItemPacket::read(RakNet::BitStream*)
+008167c0 W DropItemPacket::~DropItemPacket()
+00815db8 W DropItemPacket::~DropItemPacket()
+00639494 W InteractPacket::read(RakNet::BitStream*)
+00639400 W InteractPacket::~InteractPacket()
+00910d70 W AddEntityPacket::read(RakNet::BitStream*)
+00a14d4c W AddEntityPacket::AddEntityPacket(Entity&)
+009109f0 W AddEntityPacket::~AddEntityPacket()
+00910964 W AddEntityPacket::~AddEntityPacket()
+00910108 W AddPlayerPacket::read(RakNet::BitStream*)
+00a4e9dc W AddPlayerPacket::AddPlayerPacket(Player const&)
+0090fd90 W AddPlayerPacket::~AddPlayerPacket()
+0090fcf8 W AddPlayerPacket::~AddPlayerPacket()
+0090de5c W HurtArmorPacket::read(RakNet::BitStream*)
+0090de1c W HurtArmorPacket::~HurtArmorPacket()
+0090e450 W MobEffectPacket::read(RakNet::BitStream*)
+0090e364 W MobEffectPacket::~MobEffectPacket()
+0090d6dc W SetHealthPacket::read(RakNet::BitStream*)
+0090d688 W SetHealthPacket::~SetHealthPacket()
+009114fc W StartGamePacket::read(RakNet::BitStream*)
+00911224 W StartGamePacket::~StartGamePacket()
+009111c8 W StartGamePacket::~StartGamePacket()
+0090e63c W BlockEventPacket::read(RakNet::BitStream*)
+0090e538 W BlockEventPacket::~BlockEventPacket()
+009119dc W DisconnectPacket::read(RakNet::BitStream*)
+00911914 W DisconnectPacket::~DisconnectPacket()
+009118b8 W DisconnectPacket::~DisconnectPacket()
+0090e860 W LevelEventPacket::read(RakNet::BitStream*)
+0090e75c W LevelEventPacket::~LevelEventPacket()
+0090f838 W MoveEntityPacket::read(RakNet::BitStream*)
+0090f64c W MoveEntityPacket::~MoveEntityPacket()
+0090f624 W MoveEntityPacket::~MoveEntityPacket()
+008332d0 W MovePlayerPacket::read(RakNet::BitStream*)
+00833124 W MovePlayerPacket::~MovePlayerPacket()
+00911c44 W PlayStatusPacket::read(RakNet::BitStream*)
+00911bf0 W PlayStatusPacket::~PlayStatusPacket()
+0090b474 W PlayerListPacket::read(RakNet::BitStream*)
+00b5bdb0 W PlayerListPacket::PlayerListPacket(mce::UUID const&)
+0090b2d4 W PlayerListPacket::~PlayerListPacket()
+0090b29c W PlayerListPacket::~PlayerListPacket()
+0090cb3c W AddPaintingPacket::read(RakNet::BitStream*)
+00a452b4 W AddPaintingPacket::AddPaintingPacket(Painting*)
+0090ca88 W AddPaintingPacket::~AddPaintingPacket()
+0090ca2c W AddPaintingPacket::~AddPaintingPacket()
+00833548 W EntityEventPacket::read(RakNet::BitStream*)
+008334ac W EntityEventPacket::~EntityEventPacket()
+0083276c W PlayerInputPacket::read(RakNet::BitStream*)
+008326bc W PlayerInputPacket::~PlayerInputPacket()
+0090f2c8 W RemoveBlockPacket::read(RakNet::BitStream*)
+0090f1d4 W RemoveBlockPacket::~RemoveBlockPacket()
+0090ef80 W UpdateBlockPacket::read(RakNet::BitStream*)
+0090ee44 W UpdateBlockPacket::~UpdateBlockPacket()
+0090ee1c W UpdateBlockPacket::~UpdateBlockPacket()
+009155f8 T CraftingDataPacket::read(RakNet::BitStream*)
+009157c0 W CraftingDataPacket::~CraftingDataPacket()
+00915734 W CraftingDataPacket::~CraftingDataPacket()
+00833054 W MobEquipmentPacket::read(RakNet::BitStream*)
+00832f74 W MobEquipmentPacket::~MobEquipmentPacket()
+0082e740 W MobEquipmentPacket::~MobEquipmentPacket()
+00832d94 W PlayerActionPacket::read(RakNet::BitStream*)
+00832c38 W PlayerActionPacket::~PlayerActionPacket()
+0090f444 W RemoveEntityPacket::read(RakNet::BitStream*)
+0090f3c0 W RemoveEntityPacket::~RemoveEntityPacket()
+0090fc68 W RemovePlayerPacket::read(RakNet::BitStream*)
+0090fb74 W RemovePlayerPacket::~RemovePlayerPacket()
+00910780 W AddItemEntityPacket::read(RakNet::BitStream*)
+009105c4 W AddItemEntityPacket::~AddItemEntityPacket()
+00910598 W AddItemEntityPacket::~AddItemEntityPacket()
+0090d384 W ContainerOpenPacket::read(RakNet::BitStream*)
+0090d234 W ContainerOpenPacket::~ContainerOpenPacket()
+006b4c04 W CraftingEventPacket::read(RakNet::BitStream*)
+006b4a80 W CraftingEventPacket::~CraftingEventPacket()
+006b2110 W CraftingEventPacket::~CraftingEventPacket()
+0081a1e8 W FullChunkDataPacket::read(RakNet::BitStream*)
+0081a0ec W FullChunkDataPacket::~FullChunkDataPacket()
+0081a090 W FullChunkDataPacket::~FullChunkDataPacket()
+0090c4c4 W SetDifficultyPacket::read(RakNet::BitStream*)
+0090c468 W SetDifficultyPacket::~SetDifficultyPacket()
+0090dd18 W SetEntityDataPacket::read(RakNet::BitStream*)
+0090dbf4 W SetEntityDataPacket::~SetEntityDataPacket()
+0090db7c W SetEntityDataPacket::~SetEntityDataPacket()
+0081a7f0 W SetEntityLinkPacket::read(RakNet::BitStream*)
+0081a82c W SetEntityLinkPacket::readLink(RakNet::BitStream*)
+0081a8e8 W SetEntityLinkPacket::writeLink(EntityLink const&, RakNet::BitStream*)
+0081a7b4 W SetEntityLinkPacket::~SetEntityLinkPacket()
+00832f54 W ContainerClosePacket::read(RakNet::BitStream*)
+00832f14 W ContainerClosePacket::~ContainerClosePacket()
+0090afb4 W MapInfoRequestPacket::read(RakNet::BitStream*)
+0090af30 W MapInfoRequestPacket::~MapInfoRequestPacket()
+009104ec W TakeItemEntityPacket::read(RakNet::BitStream*)
+00910438 W TakeItemEntityPacket::~TakeItemEntityPacket()
+009167b8 T TelemetryEventPacket::read(RakNet::BitStream*)
+009163d4 T TelemetryEventPacket::TelemetryEventPacket(Player const*, DimensionId)
+00916418 T TelemetryEventPacket::TelemetryEventPacket(Player const*, DimensionId, DimensionId)
+00916378 T TelemetryEventPacket::TelemetryEventPacket(Player const*, MinecraftTelemetry::AchievementIds, bool)
+00916460 T TelemetryEventPacket::TelemetryEventPacket(Player const*, Entity const*, MinecraftTelemetry::InteractionType)
+009164b8 T TelemetryEventPacket::TelemetryEventPacket(Player const*, Entity const*, Mob const*, EntityDamageCause)
+009162f4 T TelemetryEventPacket::TelemetryEventPacket(Player const*, TelemetryEventPacket::Data const&)
+00916520 T TelemetryEventPacket::TelemetryEventPacket(Player const*, short, unsigned int, short)
+0091634c T TelemetryEventPacket::TelemetryEventPacket()
+009163d4 T TelemetryEventPacket::TelemetryEventPacket(Player const*, DimensionId)
+00916418 T TelemetryEventPacket::TelemetryEventPacket(Player const*, DimensionId, DimensionId)
+00916378 T TelemetryEventPacket::TelemetryEventPacket(Player const*, MinecraftTelemetry::AchievementIds, bool)
+00916460 T TelemetryEventPacket::TelemetryEventPacket(Player const*, Entity const*, MinecraftTelemetry::InteractionType)
+009164b8 T TelemetryEventPacket::TelemetryEventPacket(Player const*, Entity const*, Mob const*, EntityDamageCause)
+009162f4 T TelemetryEventPacket::TelemetryEventPacket(Player const*, TelemetryEventPacket::Data const&)
+00916520 T TelemetryEventPacket::TelemetryEventPacket(Player const*, short, unsigned int, short)
+0091634c T TelemetryEventPacket::TelemetryEventPacket()
+00916a80 W TelemetryEventPacket::~TelemetryEventPacket()
+0090c6d0 W BlockEntityDataPacket::read(RakNet::BitStream*)
+0090c544 W BlockEntityDataPacket::~BlockEntityDataPacket()
+0090c51c W BlockEntityDataPacket::~BlockEntityDataPacket()
+0090c388 W ChangeDimensionPacket::read(RakNet::BitStream*)
+0090c2b4 W ChangeDimensionPacket::~ChangeDimensionPacket()
+0090d8d0 W SetEntityMotionPacket::read(RakNet::BitStream*)
+0090d75c W SetEntityMotionPacket::~SetEntityMotionPacket()
+0090d734 W SetEntityMotionPacket::~SetEntityMotionPacket()
+0090cb64 W AddHangingEntityPacket::read(RakNet::BitStream*)
+00a45404 W AddHangingEntityPacket::~AddHangingEntityPacket()
+0090d198 W ContainerSetDataPacket::read(RakNet::BitStream*)
+0090d100 W ContainerSetDataPacket::~ContainerSetDataPacket()
+006b5014 W ContainerSetSlotPacket::read(RakNet::BitStream*)
+006b4f48 W ContainerSetSlotPacket::~ContainerSetSlotPacket()
+006b1a34 W ContainerSetSlotPacket::~ContainerSetSlotPacket()
+006395cc W SetSpawnPositionPacket::read(RakNet::BitStream*)
+0063951c W SetSpawnPositionPacket::~SetSpawnPositionPacket()
+00917084 T UpdateAttributesPacket::AttributeData::read(RakNet::BitStream*)
+00917140 T UpdateAttributesPacket::AttributeData::AttributeData(AttributeInstance const&)
+009171e8 T UpdateAttributesPacket::AttributeData::AttributeData()
+00917140 T UpdateAttributesPacket::AttributeData::AttributeData(AttributeInstance const&)
+009171e8 T UpdateAttributesPacket::AttributeData::AttributeData()
+00916db4 T UpdateAttributesPacket::read(RakNet::BitStream*)
+00916ab8 T UpdateAttributesPacket::UpdateAttributesPacket(Mob const&, std::vector<AttributeInstanceHandle, std::allocator<AttributeInstanceHandle> > const&)
+00916a84 T UpdateAttributesPacket::UpdateAttributesPacket()
+00916ab8 T UpdateAttributesPacket::UpdateAttributesPacket(Mob const&, std::vector<AttributeInstanceHandle, std::allocator<AttributeInstanceHandle> > const&)
+00916a84 T UpdateAttributesPacket::UpdateAttributesPacket()
+009172a8 W UpdateAttributesPacket::~UpdateAttributesPacket()
+0091721c W UpdateAttributesPacket::~UpdateAttributesPacket()
+0090c970 W AdventureSettingsPacket::read(RakNet::BitStream*)
+0090c8c0 W AdventureSettingsPacket::~AdventureSettingsPacket()
+0090d5d8 W ItemFrameDropItemPacket::read(RakNet::BitStream*)
+0090d518 W ItemFrameDropItemPacket::~ItemFrameDropItemPacket()
+0090d4ec W ItemFrameDropItemPacket::~ItemFrameDropItemPacket()
+0083293c W MobArmorEquipmentPacket::read(RakNet::BitStream*)
+00818168 W MobArmorEquipmentPacket::fillIn(Mob&)
+00830ef0 W MobArmorEquipmentPacket::MobArmorEquipmentPacket(Mob const&)
+0090e2c8 W MobArmorEquipmentPacket::MobArmorEquipmentPacket()
+00832824 W MobArmorEquipmentPacket::~MobArmorEquipmentPacket()
+00831068 W MobArmorEquipmentPacket::~MobArmorEquipmentPacket()
+0090c260 W SetPlayerGameTypePacket::read(RakNet::BitStream*)
+0090c20c W SetPlayerGameTypePacket::~SetPlayerGameTypePacket()
+0090b080 W ChunkRadiusUpdatedPacket::read(RakNet::BitStream*)
+0090b02c W ChunkRadiusUpdatedPacket::~ChunkRadiusUpdatedPacket()
+00833624 W RequestChunkRadiusPacket::read(RakNet::BitStream*)
+008335d0 W RequestChunkRadiusPacket::~RequestChunkRadiusPacket()
+0090b1b8 W SpawnExperienceOrbPacket::read(RakNet::BitStream*)
+0090b0d8 W SpawnExperienceOrbPacket::~SpawnExperienceOrbPacket()
+0090cf8c W ContainerSetContentPacket::read(RakNet::BitStream*)
+0090ce20 W ContainerSetContentPacket::~ContainerSetContentPacket()
+0090cdcc W ContainerSetContentPacket::~ContainerSetContentPacket()
+0090aee4 W ReplaceSelectedItemPacket::read(RakNet::BitStream*)
+0090ae80 W ReplaceSelectedItemPacket::~ReplaceSelectedItemPacket()
+0090ae54 W ReplaceSelectedItemPacket::~ReplaceSelectedItemPacket()
+00912e50 T ClientboundMapItemDataPacket::applyToMap(MapItemSavedData&)
+009128bc T ClientboundMapItemDataPacket::read(RakNet::BitStream*)
+00912e40 T ClientboundMapItemDataPacket::getMapId()
+00913030 T ClientboundMapItemDataPacket::getScale()
+00912280 T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(EntityUniqueID, signed char, std::vector<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> >, std::allocator<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> > > > const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, int, int, int, int)
+0091272c T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(MapItemSavedData&, Level&)
+0091264c T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket()
+00912280 T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(EntityUniqueID, signed char, std::vector<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> >, std::allocator<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> > > > const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, int, int, int, int)
+0091272c T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(MapItemSavedData&, Level&)
+0091264c T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket()
+00913408 W ClientboundMapItemDataPacket::~ClientboundMapItemDataPacket()
+00913360 W ClientboundMapItemDataPacket::~ClientboundMapItemDataPacket()
+00816914 W ClientToServerHandshakePacket::read(RakNet::BitStream*)
+00816890 W ClientToServerHandshakePacket::~ClientToServerHandshakePacket()
+00911bc4 W ServerToClientHandshakePacket::read(RakNet::BitStream*)
+00911a84 W ServerToClientHandshakePacket::~ServerToClientHandshakePacket()
+009119f4 W ServerToClientHandshakePacket::~ServerToClientHandshakePacket()
+0062592c W Packet::~Packet()
+006bdf2c W TextPacket::getId() const
+006bdf30 W TextPacket::write(RakNet::BitStream*) const
+006be130 W TextPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0091227c W BatchPacket::getId() const
+00911ef4 T BatchPacket::write(RakNet::BitStream*) const
+00911f34 T BatchPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0081aa00 W LoginPacket::getId() const
+0081aa04 W LoginPacket::write(RakNet::BitStream*) const
+0081ac94 W LoginPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00832a9c W AnimatePacket::getId() const
+00832aa0 W AnimatePacket::write(RakNet::BitStream*) const
+00832c28 W AnimatePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090e9d8 W ExplodePacket::getId() const
+0090e9dc W ExplodePacket::write(RakNet::BitStream*) const
+0090ed10 W ExplodePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090f4bc W RespawnPacket::getId() const
+0090f4c0 W RespawnPacket::write(RakNet::BitStream*) const
+0090f614 W RespawnPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+009117e4 W SetTimePacket::getId() const
+009117e8 W SetTimePacket::write(RakNet::BitStream*) const
+009118ac W SetTimePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090ded4 W UseItemPacket::getId() const
+0090ded8 W UseItemPacket::write(RakNet::BitStream*) const
+0090e2b8 W UseItemPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+008167ec W DropItemPacket::getId() const
+008167f0 W DropItemPacket::write(RakNet::BitStream*) const
+00816880 W DropItemPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00639404 W InteractPacket::getId() const
+00639408 W InteractPacket::write(RakNet::BitStream*) const
+0063950c W InteractPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00910a80 W AddEntityPacket::getId() const
+00910a84 W AddEntityPacket::write(RakNet::BitStream*) const
+009110d0 W AddEntityPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090fe2c W AddPlayerPacket::getId() const
+0090fe30 W AddPlayerPacket::write(RakNet::BitStream*) const
+0091042c W AddPlayerPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090de20 W HurtArmorPacket::getId() const
+0090de24 W HurtArmorPacket::write(RakNet::BitStream*) const
+0090de6c W HurtArmorPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090e368 W MobEffectPacket::getId() const
+0090e36c W MobEffectPacket::write(RakNet::BitStream*) const
+0090e528 W MobEffectPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090d68c W SetHealthPacket::getId() const
+0090d690 W SetHealthPacket::write(RakNet::BitStream*) const
+0090d724 W SetHealthPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00911284 W StartGamePacket::getId() const
+00911288 W StartGamePacket::write(RakNet::BitStream*) const
+009117d4 W StartGamePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090e53c W BlockEventPacket::getId() const
+0090e540 W BlockEventPacket::write(RakNet::BitStream*) const
+0090e750 W BlockEventPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00911974 W DisconnectPacket::getId() const
+00911978 W DisconnectPacket::write(RakNet::BitStream*) const
+009119e8 W DisconnectPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090e760 W LevelEventPacket::getId() const
+0090e764 W LevelEventPacket::write(RakNet::BitStream*) const
+0090e978 W LevelEventPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090f678 W MoveEntityPacket::getId() const
+0090f67c W MoveEntityPacket::write(RakNet::BitStream*) const
+0090fa98 W MoveEntityPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00833128 W MovePlayerPacket::getId() const
+0083312c W MovePlayerPacket::write(RakNet::BitStream*) const
+008334a0 W MovePlayerPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00911bf4 W PlayStatusPacket::getId() const
+00911bf8 W PlayStatusPacket::write(RakNet::BitStream*) const
+00911c8c W PlayStatusPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090b3c4 W PlayerListPacket::getId() const
+0090b3c8 W PlayerListPacket::write(RakNet::BitStream*) const
+0090b9f4 W PlayerListPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090cae8 W AddPaintingPacket::getId() const
+0090caec W AddPaintingPacket::write(RakNet::BitStream*) const
+0090cb58 W AddPaintingPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+008334b0 W EntityEventPacket::getId() const
+008334b4 W EntityEventPacket::write(RakNet::BitStream*) const
+008335c4 W EntityEventPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+008326c0 W PlayerInputPacket::getId() const
+008326c4 W PlayerInputPacket::write(RakNet::BitStream*) const
+00832814 W PlayerInputPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090f1d8 W RemoveBlockPacket::getId() const
+0090f1dc W RemoveBlockPacket::write(RakNet::BitStream*) const
+0090f3b4 W RemoveBlockPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090ee70 W UpdateBlockPacket::getId() const
+0090ee74 W UpdateBlockPacket::write(RakNet::BitStream*) const
+0090f0ec W UpdateBlockPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00915850 W CraftingDataPacket::getId() const
+00915574 T CraftingDataPacket::write(RakNet::BitStream*) const
+00915854 W CraftingDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00832fa0 W MobEquipmentPacket::getId() const
+00832fa4 W MobEquipmentPacket::write(RakNet::BitStream*) const
+00833114 W MobEquipmentPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00832c3c W PlayerActionPacket::getId() const
+00832c40 W PlayerActionPacket::write(RakNet::BitStream*) const
+00832f04 W PlayerActionPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090f3c4 W RemoveEntityPacket::getId() const
+0090f3c8 W RemoveEntityPacket::write(RakNet::BitStream*) const
+0090f4ac W RemoveEntityPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090fb78 W RemovePlayerPacket::getId() const
+0090fb7c W RemovePlayerPacket::write(RakNet::BitStream*) const
+0090fcec W RemovePlayerPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+009105f0 W AddItemEntityPacket::getId() const
+009105f4 W AddItemEntityPacket::write(RakNet::BitStream*) const
+00910958 W AddItemEntityPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090d238 W ContainerOpenPacket::getId() const
+0090d23c W ContainerOpenPacket::write(RakNet::BitStream*) const
+0090d4dc W ContainerOpenPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+006b4af4 W CraftingEventPacket::getId() const
+006b4af8 W CraftingEventPacket::write(RakNet::BitStream*) const
+006b4da0 W CraftingEventPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0081a14c W FullChunkDataPacket::getId() const
+0081a150 W FullChunkDataPacket::write(RakNet::BitStream*) const
+0081a274 W FullChunkDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090c46c W SetDifficultyPacket::getId() const
+0090c470 W SetDifficultyPacket::write(RakNet::BitStream*) const
+0090c50c W SetDifficultyPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090dc70 W SetEntityDataPacket::getId() const
+0090dc74 W SetEntityDataPacket::write(RakNet::BitStream*) const
+0090de0c W SetEntityDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0081a7b8 W SetEntityLinkPacket::getId() const
+0081a7bc W SetEntityLinkPacket::write(RakNet::BitStream*) const
+0081a81c W SetEntityLinkPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00832f18 W ContainerClosePacket::getId() const
+00832f1c W ContainerClosePacket::write(RakNet::BitStream*) const
+00832f64 W ContainerClosePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090af34 W MapInfoRequestPacket::getId() const
+0090af38 W MapInfoRequestPacket::write(RakNet::BitStream*) const
+0090b01c W MapInfoRequestPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0091043c W TakeItemEntityPacket::getId() const
+00910440 W TakeItemEntityPacket::write(RakNet::BitStream*) const
+0091058c W TakeItemEntityPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00916a74 T TelemetryEventPacket::usePlayerID() const
+00916a64 T TelemetryEventPacket::getTelemetryData() const
+00916a68 T TelemetryEventPacket::getPlayerUniqueId() const
+0091656c T TelemetryEventPacket::getId() const
+00916570 T TelemetryEventPacket::write(RakNet::BitStream*) const
+00916a54 T TelemetryEventPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090c570 W BlockEntityDataPacket::getId() const
+0090c574 W BlockEntityDataPacket::write(RakNet::BitStream*) const
+0090c7c8 W BlockEntityDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090c2b8 W ChangeDimensionPacket::getId() const
+0090c2bc W ChangeDimensionPacket::write(RakNet::BitStream*) const
+0090c458 W ChangeDimensionPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090d788 W SetEntityMotionPacket::getId() const
+0090d78c W SetEntityMotionPacket::write(RakNet::BitStream*) const
+0090da80 W SetEntityMotionPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090cca0 W AddHangingEntityPacket::write(RakNet::BitStream*) const
+0090d104 W ContainerSetDataPacket::getId() const
+0090d108 W ContainerSetDataPacket::write(RakNet::BitStream*) const
+0090d224 W ContainerSetDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+006b4f74 W ContainerSetSlotPacket::getId() const
+006b4f78 W ContainerSetSlotPacket::write(RakNet::BitStream*) const
+006b50d0 W ContainerSetSlotPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00639520 W SetSpawnPositionPacket::getId() const
+00639524 W SetSpawnPositionPacket::write(RakNet::BitStream*) const
+00639678 W SetSpawnPositionPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00917130 T UpdateAttributesPacket::getEntityId() const
+00916d20 T UpdateAttributesPacket::AttributeData::write(RakNet::BitStream*) const
+0091713c T UpdateAttributesPacket::getAttributeData() const
+00917338 W UpdateAttributesPacket::getId() const
+00916c54 T UpdateAttributesPacket::write(RakNet::BitStream*) const
+0091733c W UpdateAttributesPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090c8c4 W AdventureSettingsPacket::getId() const
+0090c8c8 W AdventureSettingsPacket::write(RakNet::BitStream*) const
+008193d4 W AdventureSettingsPacket::fillIn(AdventureSettings&, Abilities&) const
+0090ca1c W AdventureSettingsPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090d544 W ItemFrameDropItemPacket::getId() const
+0090d548 W ItemFrameDropItemPacket::write(RakNet::BitStream*) const
+0090d678 W ItemFrameDropItemPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0083287c W MobArmorEquipmentPacket::getId() const
+00832880 W MobArmorEquipmentPacket::write(RakNet::BitStream*) const
+00832a88 W MobArmorEquipmentPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090c210 W SetPlayerGameTypePacket::getId() const
+0090c214 W SetPlayerGameTypePacket::write(RakNet::BitStream*) const
+0090c2a8 W SetPlayerGameTypePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090b030 W ChunkRadiusUpdatedPacket::getId() const
+0090b034 W ChunkRadiusUpdatedPacket::write(RakNet::BitStream*) const
+0090b0c8 W ChunkRadiusUpdatedPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+008335d4 W RequestChunkRadiusPacket::getId() const
+008335d8 W RequestChunkRadiusPacket::write(RakNet::BitStream*) const
+0083366c W RequestChunkRadiusPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090b0dc W SpawnExperienceOrbPacket::getId() const
+0090b0e0 W SpawnExperienceOrbPacket::write(RakNet::BitStream*) const
+0090b28c W SpawnExperienceOrbPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090ce78 W ContainerSetContentPacket::getId() const
+0090ce7c W ContainerSetContentPacket::write(RakNet::BitStream*) const
+0090d0f0 W ContainerSetContentPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0090aeac W ReplaceSelectedItemPacket::getId() const
+0090aeb0 W ReplaceSelectedItemPacket::write(RakNet::BitStream*) const
+0090af20 W ReplaceSelectedItemPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00913024 T ClientboundMapItemDataPacket::isTextureUpdate() const
+00913038 T ClientboundMapItemDataPacket::getId() const
+0091303c T ClientboundMapItemDataPacket::write(RakNet::BitStream*) const
+00913350 T ClientboundMapItemDataPacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00912e34 T ClientboundMapItemDataPacket::isOfType(ClientboundMapItemDataPacket::Type) const
+00912e4c T ClientboundMapItemDataPacket::getMapIds() const
+00816894 W ClientToServerHandshakePacket::getId() const
+00816898 W ClientToServerHandshakePacket::write(RakNet::BitStream*) const
+0081699c W ClientToServerHandshakePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+00911b18 W ServerToClientHandshakePacket::getId() const
+00911b1c W ServerToClientHandshakePacket::write(RakNet::BitStream*) const
+00911be4 W ServerToClientHandshakePacket::handle(RakNet::RakNetGUID const&, NetEventCallback*) const
+0091734c W void std::vector<UpdateAttributesPacket::AttributeData, std::allocator<UpdateAttributesPacket::AttributeData> >::_M_emplace_back_aux<UpdateAttributesPacket::AttributeData const&>(UpdateAttributesPacket::AttributeData const&)
+009174d4 W void std::vector<UpdateAttributesPacket::AttributeData, std::allocator<UpdateAttributesPacket::AttributeData> >::_M_emplace_back_aux<UpdateAttributesPacket::AttributeData>(UpdateAttributesPacket::AttributeData&&)
+00916f7c W std::vector<UpdateAttributesPacket::AttributeData, std::allocator<UpdateAttributesPacket::AttributeData> >::reserve(unsigned int)

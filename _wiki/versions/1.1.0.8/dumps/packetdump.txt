@@ -1,0 +1,746 @@
+01345e40 W TextPacket::createTranslated(std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
+017ab8f8 W TextPacket::createSystemMessage(std::string const&)
+00be4a14 W TextPacket::read(BinaryStream&)
+00bd6f34 W TextPacket::createRaw(std::string const&)
+00be4884 W TextPacket::TextPacket(TextPacketType, std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&)
+00be4978 W TextPacket::~TextPacket()
+00bd7010 W TextPacket::~TextPacket()
+012cc598 T EventPacket::EventDetails::EventDetails(std::string const&, std::string const&)
+012cc584 T EventPacket::EventDetails::EventDetails()
+012cb880 W EventPacket::EventDetails::EventDetails(EventPacket::EventDetails const&)
+012cc598 T EventPacket::EventDetails::EventDetails(std::string const&, std::string const&)
+012cc584 T EventPacket::EventDetails::EventDetails()
+012cc2a8 T EventPacket::read(BinaryStream&)
+012cb9dc T EventPacket::EventPacket(Player const*, DimensionId)
+012cba28 T EventPacket::EventPacket(Player const*, DimensionId, DimensionId)
+012cb984 T EventPacket::EventPacket(Player const*, MinecraftEventing::AchievementIds, bool)
+012cbf44 T EventPacket::EventPacket(Player const*, EventPacket::AgentResult, std::string const&, std::string const&, std::string const&)
+012cc0fc T EventPacket::EventPacket(Player const*, EventPacket::AgentResult, std::string const&, std::string const&, int)
+012cba7c T EventPacket::EventPacket(Player const*, Entity const*, MinecraftEventing::InteractionType)
+012cbbd0 T EventPacket::EventPacket(Player const*, Entity const*, Mob const*, EntityDamageCause)
+012cb7e0 T EventPacket::EventPacket(Player const*, EventPacket::Data const&)
+012cb834 T EventPacket::EventPacket(Player const*, EventPacket::Data const&, EventPacket::EventDetails const&)
+012cbd8c T EventPacket::EventPacket(Player const*, int, EntityDamageCause)
+012cbde0 T EventPacket::EventPacket(Player const*, int, Entity const*)
+012cbd34 T EventPacket::EventPacket(Player const*, short, unsigned int, short)
+012cb94c T EventPacket::EventPacket()
+012cb9dc T EventPacket::EventPacket(Player const*, DimensionId)
+012cba28 T EventPacket::EventPacket(Player const*, DimensionId, DimensionId)
+012cb984 T EventPacket::EventPacket(Player const*, MinecraftEventing::AchievementIds, bool)
+012cbf44 T EventPacket::EventPacket(Player const*, EventPacket::AgentResult, std::string const&, std::string const&, std::string const&)
+012cc0fc T EventPacket::EventPacket(Player const*, EventPacket::AgentResult, std::string const&, std::string const&, int)
+012cba7c T EventPacket::EventPacket(Player const*, Entity const*, MinecraftEventing::InteractionType)
+012cbbd0 T EventPacket::EventPacket(Player const*, Entity const*, Mob const*, EntityDamageCause)
+012cb7e0 T EventPacket::EventPacket(Player const*, EventPacket::Data const&)
+012cb834 T EventPacket::EventPacket(Player const*, EventPacket::Data const&, EventPacket::EventDetails const&)
+012cbd8c T EventPacket::EventPacket(Player const*, int, EntityDamageCause)
+012cbde0 T EventPacket::EventPacket(Player const*, int, Entity const*)
+012cbd34 T EventPacket::EventPacket(Player const*, short, unsigned int, short)
+012cb94c T EventPacket::EventPacket()
+012cc718 W EventPacket::~EventPacket()
+012cc614 W EventPacket::~EventPacket()
+00cf8ca8 W LoginPacket::read(BinaryStream&)
+00cf8b94 W LoginPacket::~LoginPacket()
+00cf58dc W LoginPacket::~LoginPacket()
+012c6a2a W CameraPacket::read(BinaryStream&)
+012c69ea W CameraPacket::~CameraPacket()
+012c5f48 W AddItemPacket::read(BinaryStream&)
+012c5ee4 W AddItemPacket::~AddItemPacket()
+012c5ea8 W AddItemPacket::~AddItemPacket()
+00d2d0d2 W AnimatePacket::read(BinaryStream&)
+00d2d082 W AnimatePacket::~AnimatePacket()
+012c3748 W ExplodePacket::read(BinaryStream&)
+012c3630 W ExplodePacket::~ExplodePacket()
+012c3610 W ExplodePacket::~ExplodePacket()
+012c34b0 W RespawnPacket::read(BinaryStream&)
+012c3484 W RespawnPacket::~RespawnPacket()
+012c1a3a W SetTimePacket::read(BinaryStream&)
+012c1a10 W SetTimePacket::~SetTimePacket()
+012c3dd0 W UseItemPacket::read(BinaryStream&)
+012c3d2c W UseItemPacket::~UseItemPacket()
+012c3cf0 W UseItemPacket::~UseItemPacket()
+00d2d188 W DropItemPacket::read(BinaryStream&)
+00d2d114 W DropItemPacket::~DropItemPacket()
+00d29e5c W DropItemPacket::~DropItemPacket()
+00cbf1e0 W InteractPacket::read(BinaryStream&)
+00cbf1a2 W InteractPacket::~InteractPacket()
+012c747c W SetTitlePacket::read(BinaryStream&)
+012c73b8 W SetTitlePacket::~SetTitlePacket()
+012c7348 W SetTitlePacket::~SetTitlePacket()
+012c7270 W TransferPacket::read(BinaryStream&)
+012c71c4 W TransferPacket::~TransferPacket()
+012c7154 W TransferPacket::~TransferPacket()
+012c2488 W AddEntityPacket::read(BinaryStream&)
+014d2500 W AddEntityPacket::AddEntityPacket(Entity&)
+012c22a8 W AddEntityPacket::~AddEntityPacket()
+012c213c W AddEntityPacket::~AddEntityPacket()
+012c32c8 W AddPlayerPacket::read(BinaryStream&)
+0153ded4 W AddPlayerPacket::AddPlayerPacket(Player&)
+012c3170 W AddPlayerPacket::~AddPlayerPacket()
+012c30b8 W AddPlayerPacket::~AddPlayerPacket()
+00cf42e4 W BossEventPacket::read(BinaryStream&)
+00cf41b0 W BossEventPacket::~BossEventPacket()
+00cf36ec W BossEventPacket::~BossEventPacket()
+012c3e72 W HurtArmorPacket::read(BinaryStream&)
+012c3e46 W HurtArmorPacket::~HurtArmorPacket()
+012c3bd2 W MobEffectPacket::read(BinaryStream&)
+012c3b74 W MobEffectPacket::~MobEffectPacket()
+012c76a0 W PlaySoundPacket::read(BinaryStream&)
+012c75e0 W PlaySoundPacket::~PlaySoundPacket()
+012c7570 W PlaySoundPacket::~PlaySoundPacket()
+00d2d022 W RiderJumpPacket::read(BinaryStream&)
+00d2cff6 W RiderJumpPacket::~RiderJumpPacket()
+012c408e W SetHealthPacket::read(BinaryStream&)
+012c4062 W SetHealthPacket::~SetHealthPacket()
+012c1c90 W StartGamePacket::read(BinaryStream&)
+0134bc04 W StartGamePacket::StartGamePacket(LevelSettings const&, EntityUniqueID, EntityRuntimeID, GameType, Vec3 const&, Vec2 const&, std::string const&, std::string const&, std::string)
+012c1c00 W StartGamePacket::~StartGamePacket()
+012c1a54 W StartGamePacket::~StartGamePacket()
+012c78b0 W StopSoundPacket::read(BinaryStream&)
+012c7804 W StopSoundPacket::~StopSoundPacket()
+012c7794 W StopSoundPacket::~StopSoundPacket()
+012c3b38 W BlockEventPacket::read(BinaryStream&)
+012c3af2 W BlockEventPacket::~BlockEventPacket()
+012c1938 W DisconnectPacket::read(BinaryStream&)
+012c1884 W DisconnectPacket::~DisconnectPacket()
+012c1814 W DisconnectPacket::~DisconnectPacket()
+00d2d560 W EntityFallPacket::read(BinaryStream&)
+00d2d51c W EntityFallPacket::~EntityFallPacket()
+012c3ab4 W LevelEventPacket::read(BinaryStream&)
+012c3a6e W LevelEventPacket::~LevelEventPacket()
+012c3448 W MoveEntityPacket::read(BinaryStream&)
+012c341c W MoveEntityPacket::~MoveEntityPacket()
+00d2cbfa W MovePlayerPacket::read(BinaryStream&)
+00d2cb8c W MovePlayerPacket::~MovePlayerPacket()
+012bf04e W PlayStatusPacket::read(BinaryStream&)
+012bf024 W PlayStatusPacket::~PlayStatusPacket()
+012c50bc W PlayerListPacket::read(BinaryStream&)
+01691f64 W PlayerListPacket::PlayerListPacket(mce::UUID const&)
+012c4f58 W PlayerListPacket::~PlayerListPacket()
+012c4f28 W PlayerListPacket::~PlayerListPacket()
+012c4844 W AddPaintingPacket::read(BinaryStream&)
+01530fa0 W AddPaintingPacket::AddPaintingPacket(Painting const&)
+012c4778 W AddPaintingPacket::~AddPaintingPacket()
+012c4708 W AddPaintingPacket::~AddPaintingPacket()
+012c9f84 T CommandStepPacket::read(BinaryStream&)
+012c9b94 T CommandStepPacket::CommandStepPacket(CommandContext&)
+012c9a80 T CommandStepPacket::CommandStepPacket()
+012c9b94 T CommandStepPacket::CommandStepPacket(CommandContext&)
+012c9a80 T CommandStepPacket::CommandStepPacket()
+012ca568 W CommandStepPacket::~CommandStepPacket()
+012ca40c W CommandStepPacket::~CommandStepPacket()
+00d2cb54 W EntityEventPacket::read(BinaryStream&)
+00d2cb0e W EntityEventPacket::~EntityEventPacket()
+00d2d4a0 W PlayerInputPacket::read(BinaryStream&)
+00d2d45a W PlayerInputPacket::~PlayerInputPacket()
+012c3558 W RemoveBlockPacket::read(BinaryStream&)
+012c352c W RemoveBlockPacket::~RemoveBlockPacket()
+00cf4fdc W ShowCreditsPacket::read(BinaryStream&)
+00cf4f9e W ShowCreditsPacket::~ShowCreditsPacket()
+0110fe66 W SimpleEventPacket::read(BinaryStream&)
+0110fe3c W SimpleEventPacket::~SimpleEventPacket()
+012c35ca W UpdateBlockPacket::read(BinaryStream&)
+012c3580 W UpdateBlockPacket::~UpdateBlockPacket()
+012c6460 W UpdateEquipPacket::read(BinaryStream&)
+012c631c W UpdateEquipPacket::~UpdateEquipPacket()
+012c62fc W UpdateEquipPacket::~UpdateEquipPacket()
+012c6198 W UpdateTradePacket::read(BinaryStream&)
+012c5fdc W UpdateTradePacket::~UpdateTradePacket()
+012c5f64 W UpdateTradePacket::~UpdateTradePacket()
+012cb100 T CraftingDataPacket::read(BinaryStream&)
+012cb324 W CraftingDataPacket::~CraftingDataPacket()
+012cb2bc W CraftingDataPacket::~CraftingDataPacket()
+00d2ce9a W MobEquipmentPacket::read(BinaryStream&)
+00d2cda4 W MobEquipmentPacket::~MobEquipmentPacket()
+00d26d0c W MobEquipmentPacket::~MobEquipmentPacket()
+00d2cfaa W PlayerActionPacket::read(BinaryStream&)
+00d2cf5c W PlayerActionPacket::~PlayerActionPacket()
+012c3508 W RemoveEntityPacket::read(BinaryStream&)
+012c34da W RemoveEntityPacket::~RemoveEntityPacket()
+012c2fd0 W AddItemEntityPacket::read(BinaryStream&)
+0150bd9c W AddItemEntityPacket::AddItemEntityPacket(ItemEntity&)
+012c2ef8 W AddItemEntityPacket::~AddItemEntityPacket()
+012c2e6c W AddItemEntityPacket::~AddItemEntityPacket()
+012c4152 W ContainerOpenPacket::read(BinaryStream&)
+012c4102 W ContainerOpenPacket::~ContainerOpenPacket()
+00bc8e00 W CraftingEventPacket::read(BinaryStream&)
+00bc8c9e W CraftingEventPacket::~CraftingEventPacket()
+00bc443c W CraftingEventPacket::~CraftingEventPacket()
+012c4d34 W FullChunkDataPacket::read(BinaryStream&)
+012c4c84 W FullChunkDataPacket::~FullChunkDataPacket()
+012c4c14 W FullChunkDataPacket::~FullChunkDataPacket()
+012c4e86 W SetDifficultyPacket::read(BinaryStream&)
+012c4e5a W SetDifficultyPacket::~SetDifficultyPacket()
+012c3fb6 W SetEntityDataPacket::read(BinaryStream&)
+012c3f04 W SetEntityDataPacket::~SetEntityDataPacket()
+012c3e90 W SetEntityDataPacket::~SetEntityDataPacket()
+00cf8e0c W SetEntityLinkPacket::read(BinaryStream&)
+00cf8de0 W SetEntityLinkPacket::~SetEntityLinkPacket()
+00d2d066 W ContainerClosePacket::read(BinaryStream&)
+00d2d03c W ContainerClosePacket::~ContainerClosePacket()
+012c5da8 W MapInfoRequestPacket::read(BinaryStream&)
+012c5d7a W MapInfoRequestPacket::~MapInfoRequestPacket()
+012cd55c W void ReadOnlyBinaryStream::readVectorList<UpdateAttributesPacket::AttributeData>(std::vector<UpdateAttributesPacket::AttributeData, std::allocator<UpdateAttributesPacket::AttributeData> >&, std::function<UpdateAttributesPacket::AttributeData (ReadOnlyBinaryStream&)>&&)
+012c7a94 W ShowStoreOfferPacket::read(BinaryStream&)
+012c79f8 W ShowStoreOfferPacket::~ShowStoreOfferPacket()
+012c7988 W ShowStoreOfferPacket::~ShowStoreOfferPacket()
+012c3082 W TakeItemEntityPacket::read(BinaryStream&)
+012c3042 W TakeItemEntityPacket::~TakeItemEntityPacket()
+012c7b70 T AddBehaviorTreePacket::read(BinaryStream&)
+012c7cb0 W AddBehaviorTreePacket::~AddBehaviorTreePacket()
+012c7c40 W AddBehaviorTreePacket::~AddBehaviorTreePacket()
+012c4a98 W BlockEntityDataPacket::read(BinaryStream&)
+012c496c W BlockEntityDataPacket::~BlockEntityDataPacket()
+012c494c W BlockEntityDataPacket::~BlockEntityDataPacket()
+012c4ee8 W ChangeDimensionPacket::read(BinaryStream&)
+012c4ea2 W ChangeDimensionPacket::~ChangeDimensionPacket()
+012cc926 T InventoryActionPacket::read(BinaryStream&)
+012cc860 T InventoryActionPacket::InventoryActionPacket(InventoryAction)
+012cc88c T InventoryActionPacket::InventoryActionPacket(InventoryAction, ItemInstance const&)
+012cc8bc T InventoryActionPacket::InventoryActionPacket(ItemInstance const&, int, int)
+012cc838 T InventoryActionPacket::InventoryActionPacket()
+012cc860 T InventoryActionPacket::InventoryActionPacket(InventoryAction)
+012cc88c T InventoryActionPacket::InventoryActionPacket(InventoryAction, ItemInstance const&)
+012cc8bc T InventoryActionPacket::InventoryActionPacket(ItemInstance const&, int, int)
+012cc838 T InventoryActionPacket::InventoryActionPacket()
+012cc99c W InventoryActionPacket::~InventoryActionPacket()
+012cc960 W InventoryActionPacket::~InventoryActionPacket()
+00d2d668 W LevelSoundEventPacket::read(BinaryStream&)
+00d2d608 W LevelSoundEventPacket::~LevelSoundEventPacket()
+00be5860 W PurchaseReceiptPacket::read(BinaryStream&)
+00be577c W PurchaseReceiptPacket::~PurchaseReceiptPacket()
+00bdd434 W PurchaseReceiptPacket::~PurchaseReceiptPacket()
+012c4026 W SetEntityMotionPacket::read(BinaryStream&)
+012c3fe8 W SetEntityMotionPacket::~SetEntityMotionPacket()
+01531170 W AddHangingEntityPacket::read(BinaryStream&)
+01531120 W AddHangingEntityPacket::~AddHangingEntityPacket()
+00d2d5d4 W BlockPickRequestPacket::read(BinaryStream&)
+00d2d598 W BlockPickRequestPacket::~BlockPickRequestPacket()
+012c41e2 W ContainerSetDataPacket::read(BinaryStream&)
+012c41a0 W ContainerSetDataPacket::~ContainerSetDataPacket()
+00d2ccfe W ContainerSetSlotPacket::read(BinaryStream&)
+00d2cc70 W ContainerSetSlotPacket::~ContainerSetSlotPacket()
+00d26cd0 W ContainerSetSlotPacket::~ContainerSetSlotPacket()
+012c6bb8 W GameRulesChangedPacket::read(BinaryStream&)
+012c6af8 W GameRulesChangedPacket::~GameRulesChangedPacket()
+012c6a64 W GameRulesChangedPacket::~GameRulesChangedPacket()
+00f6268c W SetSpawnPositionPacket::read(BinaryStream&)
+00f62646 W SetSpawnPositionPacket::~SetSpawnPositionPacket()
+012cd844 T UpdateAttributesPacket::AttributeData::read(ReadOnlyBinaryStream&)
+012cd728 T UpdateAttributesPacket::AttributeData::AttributeData(AttributeInstance const&)
+012cd7e8 T UpdateAttributesPacket::AttributeData::AttributeData()
+012cd728 T UpdateAttributesPacket::AttributeData::AttributeData(AttributeInstance const&)
+012cd7e8 T UpdateAttributesPacket::AttributeData::AttributeData()
+012cd4f0 T UpdateAttributesPacket::read(BinaryStream&)
+012cd29c T UpdateAttributesPacket::UpdateAttributesPacket(Mob const&, std::vector<AttributeInstanceHandle, std::allocator<AttributeInstanceHandle> > const&)
+012cd278 T UpdateAttributesPacket::UpdateAttributesPacket()
+012cd29c T UpdateAttributesPacket::UpdateAttributesPacket(Mob const&, std::vector<AttributeInstanceHandle, std::allocator<AttributeInstanceHandle> > const&)
+012cd278 T UpdateAttributesPacket::UpdateAttributesPacket()
+012cd9bc W UpdateAttributesPacket::~UpdateAttributesPacket()
+012cd928 W UpdateAttributesPacket::~UpdateAttributesPacket()
+00d2cf36 W AdventureSettingsPacket::read(BinaryStream&)
+00d2cefc W AdventureSettingsPacket::~AdventureSettingsPacket()
+012c7d60 T AvailableCommandsPacket::read(BinaryStream&)
+012c7f90 W AvailableCommandsPacket::~AvailableCommandsPacket()
+012c7edc W AvailableCommandsPacket::~AvailableCommandsPacket()
+012c40d8 W ItemFrameDropItemPacket::read(BinaryStream&)
+012c40aa W ItemFrameDropItemPacket::~ItemFrameDropItemPacket()
+00d2d1b2 W MobArmorEquipmentPacket::get(ItemInstance&, ItemInstance const&)
+00d2d40a W MobArmorEquipmentPacket::read(BinaryStream&)
+00d2a084 W MobArmorEquipmentPacket::MobArmorEquipmentPacket(Mob const&)
+01349cec W MobArmorEquipmentPacket::MobArmorEquipmentPacket(MobArmorEquipmentPacket const&)
+012c3c24 W MobArmorEquipmentPacket::MobArmorEquipmentPacket()
+00d2d214 W MobArmorEquipmentPacket::~MobArmorEquipmentPacket()
+00d2a1ec W MobArmorEquipmentPacket::~MobArmorEquipmentPacket()
+012c5e80 W ReplaceItemInSlotPacket::read(BinaryStream&)
+012c5e0c W ReplaceItemInSlotPacket::~ReplaceItemInSlotPacket()
+012c5dd0 W ReplaceItemInSlotPacket::~ReplaceItemInSlotPacket()
+012c0704 W ResourcePackStackPacket::read(BinaryStream&)
+012c0594 W ResourcePackStackPacket::~ResourcePackStackPacket()
+012c056c W ResourcePackStackPacket::~ResourcePackStackPacket()
+012bf66c W ResourcePacksInfoPacket::read(BinaryStream&)
+012bf3d8 W ResourcePacksInfoPacket::~ResourcePacksInfoPacket()
+012bf388 W ResourcePacksInfoPacket::~ResourcePacksInfoPacket()
+00d2d502 W SetPlayerGameTypePacket::read(BinaryStream&)
+00d2d4d8 W SetPlayerGameTypePacket::~SetPlayerGameTypePacket()
+012c5d5e W ChunkRadiusUpdatedPacket::read(BinaryStream&)
+012c5d34 W ChunkRadiusUpdatedPacket::~ChunkRadiusUpdatedPacket()
+012c6788 W CommandBlockUpdatePacket::read(BinaryStream&)
+012c98fc T CommandBlockUpdatePacket::CommandBlockUpdatePacket(EntityRuntimeID, BaseCommandBlock const&)
+012c9754 T CommandBlockUpdatePacket::CommandBlockUpdatePacket(BlockSource&, CommandBlockEntity const&)
+012c98fc T CommandBlockUpdatePacket::CommandBlockUpdatePacket(EntityRuntimeID, BaseCommandBlock const&)
+012c9754 T CommandBlockUpdatePacket::CommandBlockUpdatePacket(BlockSource&, CommandBlockEntity const&)
+012c65f4 W CommandBlockUpdatePacket::~CommandBlockUpdatePacket()
+012c64f0 W CommandBlockUpdatePacket::~CommandBlockUpdatePacket()
+00d2caf2 W RequestChunkRadiusPacket::read(BinaryStream&)
+00d2cac6 W RequestChunkRadiusPacket::~RequestChunkRadiusPacket()
+012c4e3e W SetCommandsEnabledPacket::read(BinaryStream&)
+012c4e12 W SetCommandsEnabledPacket::~SetCommandsEnabledPacket()
+012c5d00 W SpawnExperienceOrbPacket::read(BinaryStream&)
+012c5cc4 W SpawnExperienceOrbPacket::~SpawnExperienceOrbPacket()
+012c4420 W ContainerSetContentPacket::read(BinaryStream&)
+012c4274 W ContainerSetContentPacket::~ContainerSetContentPacket()
+012c4210 W ContainerSetContentPacket::~ContainerSetContentPacket()
+00cf401c W ResourcePackDataInfoPacket::read(BinaryStream&)
+00cf3f10 W ResourcePackDataInfoPacket::~ResourcePackDataInfoPacket()
+00cf3e5c W ResourcePackDataInfoPacket::~ResourcePackDataInfoPacket()
+00be4ecc W StructureBlockUpdatePacket::read(BinaryStream&)
+00be4dbc W StructureBlockUpdatePacket::~StructureBlockUpdatePacket()
+00bd8598 W StructureBlockUpdatePacket::~StructureBlockUpdatePacket()
+012c6e40 W ResourcePackChunkDataPacket::read(BinaryStream&)
+014426e0 W ResourcePackChunkDataPacket::ResourcePackChunkDataPacket(std::string const&, int, unsigned long long, std::vector<unsigned char, std::allocator<unsigned char> > const&)
+012c6d5c W ResourcePackChunkDataPacket::~ResourcePackChunkDataPacket()
+012c6ce4 W ResourcePackChunkDataPacket::~ResourcePackChunkDataPacket()
+012c8674 T ClientboundMapItemDataPacket::read(BinaryStream&)
+012c8064 T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(EntityUniqueID, signed char, std::vector<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> >, std::allocator<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> > > > const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, int, int, int, int)
+012c8508 T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(MapItemSavedData&, Level&)
+012c840c T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket()
+012c8064 T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(EntityUniqueID, signed char, std::vector<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> >, std::allocator<std::pair<MapItemSavedData::TrackedMapEntity::UniqueId, std::shared_ptr<MapDecoration> > > > const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, int, int, int, int)
+012c8508 T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket(MapItemSavedData&, Level&)
+012c840c T ClientboundMapItemDataPacket::ClientboundMapItemDataPacket()
+012c8f70 W ClientboundMapItemDataPacket::~ClientboundMapItemDataPacket()
+012c8ea4 W ClientboundMapItemDataPacket::~ClientboundMapItemDataPacket()
+00cf3e4e W ClientToServerHandshakePacket::read(BinaryStream&)
+00cf3e2c W ClientToServerHandshakePacket::~ClientToServerHandshakePacket()
+012bf210 W ServerToClientHandshakePacket::read(BinaryStream&)
+012bf11c W ServerToClientHandshakePacket::~ServerToClientHandshakePacket()
+012bf068 W ServerToClientHandshakePacket::~ServerToClientHandshakePacket()
+012c707c W ResourcePackChunkRequestPacket::read(BinaryStream&)
+012c6fd0 W ResourcePackChunkRequestPacket::~ResourcePackChunkRequestPacket()
+012c6f60 W ResourcePackChunkRequestPacket::~ResourcePackChunkRequestPacket()
+00b818a8 W ResourcePackClientResponsePacket::read(BinaryStream&)
+00b81824 W ResourcePackClientResponsePacket::~ResourcePackClientResponsePacket()
+00b787a0 W ResourcePackClientResponsePacket::~ResourcePackClientResponsePacket()
+00cf3d7e W Packet::~Packet()
+00ca64d4 W Packet::~Packet()
+00be4986 W TextPacket::getId() const
+00be49a4 W TextPacket::write(BinaryStream&) const
+00be4db0 W TextPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00be498c W TextPacket::getName() const
+012cc578 T EventPacket::usePlayerID() const
+012cc56a T EventPacket::getEventData() const
+012cc566 T EventPacket::getEventDetails() const
+012cc56e T EventPacket::getPlayerUniqueId() const
+012cc1bc T EventPacket::getId() const
+012cc1c0 T EventPacket::write(BinaryStream&) const
+012cc558 T EventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012cc820 W EventPacket::getName() const
+00cf8ddc W LoginPacket::disallowBatching() const
+00cf8bbc W LoginPacket::getId() const
+00cf8bd8 W LoginPacket::write(BinaryStream&) const
+00cf8dd0 W LoginPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cf8bc0 W LoginPacket::getName() const
+012c69ee W CameraPacket::getId() const
+012c6a0c W CameraPacket::write(BinaryStream&) const
+012c6a54 W CameraPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c69f4 W CameraPacket::getName() const
+012c5f20 W AddItemPacket::getId() const
+012c5f3c W AddItemPacket::write(BinaryStream&) const
+012c5f54 W AddItemPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c5f24 W AddItemPacket::getName() const
+00d2d086 W AnimatePacket::getId() const
+00d2d0a4 W AnimatePacket::write(BinaryStream&) const
+00d2d106 W AnimatePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d08c W AnimatePacket::getName() const
+012c3658 W ExplodePacket::getId() const
+012c3678 W ExplodePacket::write(BinaryStream&) const
+012c37f0 W ExplodePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c365c W ExplodePacket::getName() const
+012c3488 W RespawnPacket::getId() const
+012c34a4 W RespawnPacket::write(BinaryStream&) const
+012c34cc W RespawnPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c348c W RespawnPacket::getName() const
+012c1a14 W SetTimePacket::getId() const
+012c1a30 W SetTimePacket::write(BinaryStream&) const
+012c1a48 W SetTimePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c1a18 W SetTimePacket::getName() const
+012c3d68 W UseItemPacket::getId() const
+012c3d84 W UseItemPacket::write(BinaryStream&) const
+012c3e38 W UseItemPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3d6c W UseItemPacket::getName() const
+00d2d150 W DropItemPacket::getId() const
+00d2d16c W DropItemPacket::write(BinaryStream&) const
+00d2d1a4 W DropItemPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d154 W DropItemPacket::getName() const
+00cbf1a6 W InteractPacket::getId() const
+00cbf1c4 W InteractPacket::write(BinaryStream&) const
+00cbf204 W InteractPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cbf1ac W InteractPacket::getName() const
+012c742c W SetTitlePacket::getId() const
+012c7448 W SetTitlePacket::write(BinaryStream&) const
+012c7560 W SetTitlePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c7430 W SetTitlePacket::getName() const
+012c7238 W TransferPacket::getId() const
+012c7254 W TransferPacket::write(BinaryStream&) const
+012c7338 W TransferPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c723c W TransferPacket::getName() const
+012c22b6 W AddEntityPacket::getId() const
+012c22d4 W AddEntityPacket::write(BinaryStream&) const
+012c25a0 W AddEntityPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c22bc W AddEntityPacket::getName() const
+012c317e W AddPlayerPacket::getId() const
+012c319c W AddPlayerPacket::write(BinaryStream&) const
+012c3410 W AddPlayerPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3184 W AddPlayerPacket::getName() const
+00cf4224 W BossEventPacket::getId() const
+00cf4240 W BossEventPacket::write(BinaryStream&) const
+00cf44b0 W BossEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cf4228 W BossEventPacket::getName() const
+012c3e4a W HurtArmorPacket::getId() const
+012c3e68 W HurtArmorPacket::write(BinaryStream&) const
+012c3e80 W HurtArmorPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3e50 W HurtArmorPacket::getName() const
+012c3b78 W MobEffectPacket::getId() const
+012c3b94 W MobEffectPacket::write(BinaryStream&) const
+012c3c16 W MobEffectPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3b7c W MobEffectPacket::getName() const
+012c7654 W PlaySoundPacket::getId() const
+012c7670 W PlaySoundPacket::write(BinaryStream&) const
+012c7784 W PlaySoundPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c7658 W PlaySoundPacket::getName() const
+00d2cffa W RiderJumpPacket::getId() const
+00d2d018 W RiderJumpPacket::write(BinaryStream&) const
+00d2d030 W RiderJumpPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d000 W RiderJumpPacket::getName() const
+012c4066 W SetHealthPacket::getId() const
+012c4084 W SetHealthPacket::write(BinaryStream&) const
+012c409c W SetHealthPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c406c W SetHealthPacket::getName() const
+012c1c0e W StartGamePacket::getId() const
+012c1c2c W StartGamePacket::write(BinaryStream&) const
+012c1eec W StartGamePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c1c14 W StartGamePacket::getName() const
+012c7878 W StopSoundPacket::getId() const
+012c7894 W StopSoundPacket::write(BinaryStream&) const
+012c7978 W StopSoundPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c787c W StopSoundPacket::getName() const
+012c3af6 W BlockEventPacket::getId() const
+012c3b14 W BlockEventPacket::write(BinaryStream&) const
+012c3b66 W BlockEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3afc W BlockEventPacket::getName() const
+012c18f8 W DisconnectPacket::getId() const
+012c1914 W DisconnectPacket::write(BinaryStream&) const
+012c1a04 W DisconnectPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c18fc W DisconnectPacket::getName() const
+00d2d520 W EntityFallPacket::getId() const
+00d2d53c W EntityFallPacket::write(BinaryStream&) const
+00d2d58a W EntityFallPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d524 W EntityFallPacket::getName() const
+012c3a72 W LevelEventPacket::getId() const
+012c3a90 W LevelEventPacket::write(BinaryStream&) const
+012c3ae4 W LevelEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3a78 W LevelEventPacket::getName() const
+012c3420 W MoveEntityPacket::getId() const
+012c343c W MoveEntityPacket::write(BinaryStream&) const
+012c3478 W MoveEntityPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3424 W MoveEntityPacket::getName() const
+00d2cb90 W MovePlayerPacket::getId() const
+00d2cbac W MovePlayerPacket::write(BinaryStream&) const
+00d2cc64 W MovePlayerPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2cb94 W MovePlayerPacket::getName() const
+012bf028 W PlayStatusPacket::getId() const
+012bf044 W PlayStatusPacket::write(BinaryStream&) const
+012bf05c W PlayStatusPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012bf02c W PlayStatusPacket::getName() const
+012c503c W PlayerListPacket::getId() const
+012c5058 W PlayerListPacket::write(BinaryStream&) const
+012c5440 W PlayerListPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c5040 W PlayerListPacket::getName() const
+012c47ec W AddPaintingPacket::getId() const
+012c4808 W AddPaintingPacket::write(BinaryStream&) const
+012c4940 W AddPaintingPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c47f0 W AddPaintingPacket::getName() const
+012ca2ce T CommandStepPacket::createCommandContext(CommandContextType, Level&) const
+012ca576 W CommandStepPacket::getId() const
+012c9d2c T CommandStepPacket::write(BinaryStream&) const
+012ca2c0 T CommandStepPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012ca57c W CommandStepPacket::getName() const
+00d2cb12 W EntityEventPacket::getId() const
+00d2cb30 W EntityEventPacket::write(BinaryStream&) const
+00d2cb7e W EntityEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2cb18 W EntityEventPacket::getName() const
+00d2d45e W PlayerInputPacket::getId() const
+00d2d47c W PlayerInputPacket::write(BinaryStream&) const
+00d2d4ca W PlayerInputPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d464 W PlayerInputPacket::getName() const
+012c3530 W RemoveBlockPacket::getId() const
+012c354c W RemoveBlockPacket::write(BinaryStream&) const
+012c3574 W RemoveBlockPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3534 W RemoveBlockPacket::getName() const
+00cf4fa2 W ShowCreditsPacket::getId() const
+00cf4fc0 W ShowCreditsPacket::write(BinaryStream&) const
+00cf4ffe W ShowCreditsPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cf4fa8 W ShowCreditsPacket::getName() const
+0110fe40 W SimpleEventPacket::getId() const
+0110fe5c W SimpleEventPacket::write(BinaryStream&) const
+0110fe74 W SimpleEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+0110fe44 W SimpleEventPacket::getName() const
+012c3584 W UpdateBlockPacket::getId() const
+012c35a0 W UpdateBlockPacket::write(BinaryStream&) const
+012c3600 W UpdateBlockPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3588 W UpdateBlockPacket::getName() const
+012c6344 W UpdateEquipPacket::getId() const
+012c6360 W UpdateEquipPacket::write(BinaryStream&) const
+012c64e0 W UpdateEquipPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c6348 W UpdateEquipPacket::getName() const
+012c6058 W UpdateTradePacket::getId() const
+012c6074 W UpdateTradePacket::write(BinaryStream&) const
+012c62ec W UpdateTradePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c605c W UpdateTradePacket::getName() const
+012cb390 W CraftingDataPacket::getId() const
+012cb060 T CraftingDataPacket::write(BinaryStream&) const
+012cb3ac W CraftingDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012cb394 W CraftingDataPacket::getName() const
+00d2cde0 W MobEquipmentPacket::getId() const
+00d2cdfc W MobEquipmentPacket::write(BinaryStream&) const
+00d2ceee W MobEquipmentPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2cde4 W MobEquipmentPacket::getName() const
+00d2cf60 W PlayerActionPacket::getId() const
+00d2cf7c W PlayerActionPacket::write(BinaryStream&) const
+00d2cfe8 W PlayerActionPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2cf64 W PlayerActionPacket::getName() const
+012c34de W RemoveEntityPacket::getId() const
+012c34fc W RemoveEntityPacket::write(BinaryStream&) const
+012c3520 W RemoveEntityPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c34e4 W RemoveEntityPacket::getName() const
+012c2f06 W AddItemEntityPacket::getId() const
+012c2f24 W AddItemEntityPacket::write(BinaryStream&) const
+012c3036 W AddItemEntityPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c2f0c W AddItemEntityPacket::getName() const
+012c4106 W ContainerOpenPacket::getId() const
+012c4124 W ContainerOpenPacket::write(BinaryStream&) const
+012c4192 W ContainerOpenPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c410c W ContainerOpenPacket::getName() const
+00bc8cac W CraftingEventPacket::getId() const
+00bc8cc8 W CraftingEventPacket::write(BinaryStream&) const
+00bc8ed4 W CraftingEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00bc8cb0 W CraftingEventPacket::getName() const
+012c4cf8 W FullChunkDataPacket::getId() const
+012c4d14 W FullChunkDataPacket::write(BinaryStream&) const
+012c4e04 W FullChunkDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c4cfc W FullChunkDataPacket::getName() const
+012c4e5e W SetDifficultyPacket::getId() const
+012c4e7c W SetDifficultyPacket::write(BinaryStream&) const
+012c4e94 W SetDifficultyPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c4e64 W SetDifficultyPacket::getName() const
+012c3f7c W SetEntityDataPacket::getId() const
+012c3f98 W SetEntityDataPacket::write(BinaryStream&) const
+012c3fda W SetEntityDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3f80 W SetEntityDataPacket::getName() const
+00cf8de4 W SetEntityLinkPacket::getId() const
+00cf8e00 W SetEntityLinkPacket::write(BinaryStream&) const
+00cf8e2e W SetEntityLinkPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cf8de8 W SetEntityLinkPacket::getName() const
+00d2d040 W ContainerClosePacket::getId() const
+00d2d05c W ContainerClosePacket::write(BinaryStream&) const
+00d2d074 W ContainerClosePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d044 W ContainerClosePacket::getName() const
+012c5d7e W MapInfoRequestPacket::getId() const
+012c5d9c W MapInfoRequestPacket::write(BinaryStream&) const
+012c5dc0 W MapInfoRequestPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c5d84 W MapInfoRequestPacket::getName() const
+012c7a6c W ShowStoreOfferPacket::getId() const
+012c7a88 W ShowStoreOfferPacket::write(BinaryStream&) const
+012c7b54 W ShowStoreOfferPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c7a70 W ShowStoreOfferPacket::getName() const
+012c3046 W TakeItemEntityPacket::getId() const
+012c3064 W TakeItemEntityPacket::write(BinaryStream&) const
+012c30ac W TakeItemEntityPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c304c W TakeItemEntityPacket::getName() const
+012c7d24 W AddBehaviorTreePacket::getId() const
+012c7b64 T AddBehaviorTreePacket::write(BinaryStream&) const
+012c7c30 T AddBehaviorTreePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c7d28 W AddBehaviorTreePacket::getName() const
+012c4994 W BlockEntityDataPacket::getId() const
+012c49b0 W BlockEntityDataPacket::write(BinaryStream&) const
+012c4b00 W BlockEntityDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c4998 W BlockEntityDataPacket::getName() const
+012c4ea6 W ChangeDimensionPacket::getId() const
+012c4ec4 W ChangeDimensionPacket::write(BinaryStream&) const
+012c4f18 W ChangeDimensionPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c4eac W ChangeDimensionPacket::getName() const
+012cc8f4 T InventoryActionPacket::getId() const
+012cc8f8 T InventoryActionPacket::write(BinaryStream&) const
+012cc952 T InventoryActionPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012cc9d8 W InventoryActionPacket::getName() const
+00d2d60c W LevelSoundEventPacket::getId() const
+00d2d628 W LevelSoundEventPacket::write(BinaryStream&) const
+00d2d6b4 W LevelSoundEventPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d610 W LevelSoundEventPacket::getName() const
+00be5814 W PurchaseReceiptPacket::getId() const
+00be5830 W PurchaseReceiptPacket::write(BinaryStream&) const
+00be59e0 W PurchaseReceiptPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00be5818 W PurchaseReceiptPacket::getName() const
+012c3fec W SetEntityMotionPacket::getId() const
+012c4008 W SetEntityMotionPacket::write(BinaryStream&) const
+012c4054 W SetEntityMotionPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c3ff0 W SetEntityMotionPacket::getName() const
+01531124 W AddHangingEntityPacket::getId() const
+01531140 W AddHangingEntityPacket::write(BinaryStream&) const
+01531128 W AddHangingEntityPacket::getName() const
+00d2d59c W BlockPickRequestPacket::getId() const
+00d2d5b8 W BlockPickRequestPacket::write(BinaryStream&) const
+00d2d5fa W BlockPickRequestPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d5a0 W BlockPickRequestPacket::getName() const
+012c41a4 W ContainerSetDataPacket::getId() const
+012c41c0 W ContainerSetDataPacket::write(BinaryStream&) const
+012c4202 W ContainerSetDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c41a8 W ContainerSetDataPacket::getName() const
+00d2ccac W ContainerSetSlotPacket::getId() const
+00d2ccc8 W ContainerSetSlotPacket::write(BinaryStream&) const
+00d2cd32 W ContainerSetSlotPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2ccb0 W ContainerSetSlotPacket::getName() const
+012c6b90 W GameRulesChangedPacket::getId() const
+012c6bac W GameRulesChangedPacket::write(BinaryStream&) const
+012c6bc4 W GameRulesChangedPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c6b94 W GameRulesChangedPacket::getName() const
+00f6264a W SetSpawnPositionPacket::getId() const
+00f62668 W SetSpawnPositionPacket::write(BinaryStream&) const
+00f626bc W SetSpawnPositionPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00f62650 W SetSpawnPositionPacket::getName() const
+012cd718 T UpdateAttributesPacket::getRuntimeId() const
+012cd810 T UpdateAttributesPacket::AttributeData::write(BinaryStream&) const
+012cd722 T UpdateAttributesPacket::getAttributeData() const
+012cda54 W UpdateAttributesPacket::getId() const
+012cd454 T UpdateAttributesPacket::write(BinaryStream&) const
+012cda70 W UpdateAttributesPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012cda58 W UpdateAttributesPacket::getName() const
+00d2cf00 W AdventureSettingsPacket::getId() const
+00d2cf1c W AdventureSettingsPacket::write(BinaryStream&) const
+00cf84bc W AdventureSettingsPacket::fillIn(AdventureSettings&, Abilities&) const
+00d2cf4e W AdventureSettingsPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2cf04 W AdventureSettingsPacket::getName() const
+012c8048 W AvailableCommandsPacket::getId() const
+012c7d40 T AvailableCommandsPacket::write(BinaryStream&) const
+012c7ecc T AvailableCommandsPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c804c W AvailableCommandsPacket::getName() const
+012c40ae W ItemFrameDropItemPacket::getId() const
+012c40cc W ItemFrameDropItemPacket::write(BinaryStream&) const
+012c40f4 W ItemFrameDropItemPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c40b4 W ItemFrameDropItemPacket::getName() const
+00d2d222 W MobArmorEquipmentPacket::getId() const
+00d2d240 W MobArmorEquipmentPacket::write(BinaryStream&) const
+00d2d44c W MobArmorEquipmentPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d228 W MobArmorEquipmentPacket::getName() const
+012c5e48 W ReplaceItemInSlotPacket::getId() const
+012c5e64 W ReplaceItemInSlotPacket::write(BinaryStream&) const
+012c5e9a W ReplaceItemInSlotPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c5e4c W ReplaceItemInSlotPacket::getName() const
+012c05c4 W ResourcePackStackPacket::getId() const
+012c05e0 W ResourcePackStackPacket::write(BinaryStream&) const
+012c07c0 W ResourcePackStackPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c05c8 W ResourcePackStackPacket::getName() const
+012bf42c W ResourcePacksInfoPacket::getId() const
+012bf448 W ResourcePacksInfoPacket::write(BinaryStream&) const
+012c0260 W ResourcePacksInfoPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012bf430 W ResourcePacksInfoPacket::getName() const
+00d2d4dc W SetPlayerGameTypePacket::getId() const
+00d2d4f8 W SetPlayerGameTypePacket::write(BinaryStream&) const
+00d2d510 W SetPlayerGameTypePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2d4e0 W SetPlayerGameTypePacket::getName() const
+012c5d38 W ChunkRadiusUpdatedPacket::getId() const
+012c5d54 W ChunkRadiusUpdatedPacket::write(BinaryStream&) const
+012c5d6c W ChunkRadiusUpdatedPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c5d3c W ChunkRadiusUpdatedPacket::getName() const
+012c66fc W CommandBlockUpdatePacket::getId() const
+012c6718 W CommandBlockUpdatePacket::write(BinaryStream&) const
+012c69dc W CommandBlockUpdatePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c6700 W CommandBlockUpdatePacket::getName() const
+00d2caca W RequestChunkRadiusPacket::getId() const
+00d2cae8 W RequestChunkRadiusPacket::write(BinaryStream&) const
+00d2cb00 W RequestChunkRadiusPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00d2cad0 W RequestChunkRadiusPacket::getName() const
+012c4e16 W SetCommandsEnabledPacket::getId() const
+012c4e34 W SetCommandsEnabledPacket::write(BinaryStream&) const
+012c4e4c W SetCommandsEnabledPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c4e1c W SetCommandsEnabledPacket::getName() const
+012c5cc8 W SpawnExperienceOrbPacket::getId() const
+012c5ce4 W SpawnExperienceOrbPacket::write(BinaryStream&) const
+012c5d26 W SpawnExperienceOrbPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c5ccc W SpawnExperienceOrbPacket::getName() const
+012c42dc W ContainerSetContentPacket::getId() const
+012c42f8 W ContainerSetContentPacket::write(BinaryStream&) const
+012c44e8 W ContainerSetContentPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c42e0 W ContainerSetContentPacket::getName() const
+00cf3fc8 W ResourcePackDataInfoPacket::getId() const
+00cf3fe4 W ResourcePackDataInfoPacket::write(BinaryStream&) const
+00cf41a0 W ResourcePackDataInfoPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cf3fcc W ResourcePackDataInfoPacket::getName() const
+00be4e74 W StructureBlockUpdatePacket::getId() const
+00be4e90 W StructureBlockUpdatePacket::write(BinaryStream&) const
+00be5058 W StructureBlockUpdatePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00be4e78 W StructureBlockUpdatePacket::getName() const
+012c6dd8 W ResourcePackChunkDataPacket::getId() const
+012c6df4 W ResourcePackChunkDataPacket::write(BinaryStream&) const
+012c6f50 W ResourcePackChunkDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c6ddc W ResourcePackChunkDataPacket::getName() const
+012c8ae8 T ClientboundMapItemDataPacket::applyToMap(MapItemSavedData&) const
+012c8d50 T ClientboundMapItemDataPacket::isTextureUpdate() const
+012c8d60 T ClientboundMapItemDataPacket::getId() const
+012c8d64 T ClientboundMapItemDataPacket::write(BinaryStream&) const
+012c8e94 T ClientboundMapItemDataPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c9040 W ClientboundMapItemDataPacket::getName() const
+012c8ad6 T ClientboundMapItemDataPacket::getMapId() const
+012c8d5a T ClientboundMapItemDataPacket::getScale() const
+012c8acc T ClientboundMapItemDataPacket::isOfType(ClientboundMapItemDataPacket::Type) const
+012c8ae2 T ClientboundMapItemDataPacket::getMapIds() const
+00cf3e30 W ClientToServerHandshakePacket::getId() const
+00cf3e4c W ClientToServerHandshakePacket::write(BinaryStream&) const
+00cf3e50 W ClientToServerHandshakePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00cf3e34 W ClientToServerHandshakePacket::getName() const
+012bf1d4 W ServerToClientHandshakePacket::getId() const
+012bf1f0 W ServerToClientHandshakePacket::write(BinaryStream&) const
+012bf37c W ServerToClientHandshakePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012bf1d8 W ServerToClientHandshakePacket::getName() const
+012c7044 W ResourcePackChunkRequestPacket::getId() const
+012c7060 W ResourcePackChunkRequestPacket::write(BinaryStream&) const
+012c7144 W ResourcePackChunkRequestPacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+012c7048 W ResourcePackChunkRequestPacket::getName() const
+00b8184c W ResourcePackClientResponsePacket::getId() const
+00b81868 W ResourcePackClientResponsePacket::write(BinaryStream&) const
+00b819b0 W ResourcePackClientResponsePacket::handle(NetworkIdentifier const&, NetEventCallback&) const
+00b81850 W ResourcePackClientResponsePacket::getName() const
+00b819bc W Packet::disallowBatching() const
+012c3a30 W std::_Function_base::_Base_manager<ExplodePacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ExplodePacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}> const&, std::_Manager_operation)
+012c2e3e W std::_Function_base::_Base_manager<AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}> const&, std::_Manager_operation)
+012c2c02 W std::_Function_base::_Base_manager<AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}> const&, std::_Manager_operation)
+00bc9204 W std::_Function_base::_Base_manager<CraftingEventPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CraftingEventPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}> const&, std::_Manager_operation)
+00bc91cc W std::_Function_base::_Base_manager<CraftingEventPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CraftingEventPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}> const&, std::_Manager_operation)
+012c158a W std::_Function_base::_Base_manager<ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}> const&, std::_Manager_operation)
+012c12f6 W std::_Function_base::_Base_manager<ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}> const&, std::_Manager_operation)
+012c46d8 W std::_Function_base::_Base_manager<ContainerSetContentPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ContainerSetContentPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}> const&, std::_Manager_operation)
+012c46a4 W std::_Function_base::_Base_manager<ContainerSetContentPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ContainerSetContentPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}> const&, std::_Manager_operation)
+012c382c W std::_Function_base::_Base_manager<ExplodePacket::write(BinaryStream&) const::{lambda(BinaryStream&, BlockPos const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ExplodePacket::write(BinaryStream&) const::{lambda(BinaryStream&, BlockPos const&)#1}> const&, std::_Manager_operation)
+012c262c W std::_Function_base::_Base_manager<AddEntityPacket::write(BinaryStream&) const::{lambda(BinaryStream&, EntityLink const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<AddEntityPacket::write(BinaryStream&) const::{lambda(BinaryStream&, EntityLink const&)#1}> const&, std::_Manager_operation)
+012c25f6 W std::_Function_base::_Base_manager<AddEntityPacket::write(BinaryStream&) const::{lambda(BinaryStream&, AttributeInstanceHandle const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<AddEntityPacket::write(BinaryStream&) const::{lambda(BinaryStream&, AttributeInstanceHandle const&)#1}> const&, std::_Manager_operation)
+00bc8f20 W std::_Function_base::_Base_manager<CraftingEventPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CraftingEventPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#2}> const&, std::_Manager_operation)
+00bc8eea W std::_Function_base::_Base_manager<CraftingEventPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<CraftingEventPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#1}> const&, std::_Manager_operation)
+012c08d6 W std::_Function_base::_Base_manager<ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#2}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#2}> const&, std::_Manager_operation)
+012c07d2 W std::_Function_base::_Base_manager<ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#1}> const&, std::_Manager_operation)
+012c44fe W std::_Function_base::_Base_manager<ContainerSetContentPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ContainerSetContentPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#1}> const&, std::_Manager_operation)
+012c4536 W std::_Function_base::_Base_manager<ContainerSetContentPacket::write(BinaryStream&) const::{lambda(BinaryStream&, int const&)#1}>::_M_manager(std::_Any_data&, std::_Function_base::_Base_manager<ContainerSetContentPacket::write(BinaryStream&) const::{lambda(BinaryStream&, int const&)#1}> const&, std::_Manager_operation)
+012c2e34 W std::_Function_handler<EntityLink (ReadOnlyBinaryStream&), AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+00bc91fa W std::_Function_handler<ItemInstance (ReadOnlyBinaryStream&), CraftingEventPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+00bc91c2 W std::_Function_handler<ItemInstance (ReadOnlyBinaryStream&), CraftingEventPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c469a W std::_Function_handler<ItemInstance (ReadOnlyBinaryStream&), ContainerSetContentPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c1580 W std::_Function_handler<PackIdVersion (ReadOnlyBinaryStream&), ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c12ec W std::_Function_handler<PackIdVersion (ReadOnlyBinaryStream&), ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c2bf8 W std::_Function_handler<SyncedAttribute (ReadOnlyBinaryStream&), AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c3a04 W std::_Function_handler<BlockPos (ReadOnlyBinaryStream&), ExplodePacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c46d2 W std::_Function_handler<int (ReadOnlyBinaryStream&), ContainerSetContentPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}>::_M_invoke(std::_Any_data const&, ReadOnlyBinaryStream&)
+012c2624 W std::_Function_handler<void (BinaryStream&, EntityLink const&), AddEntityPacket::write(BinaryStream&) const::{lambda(BinaryStream&, EntityLink const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, EntityLink const&)
+00bc8f18 W std::_Function_handler<void (BinaryStream&, ItemInstance const&), CraftingEventPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#2}>::_M_invoke(std::_Any_data const&, BinaryStream&, ItemInstance const&)
+00bc8ee2 W std::_Function_handler<void (BinaryStream&, ItemInstance const&), CraftingEventPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, ItemInstance const&)
+012c44f6 W std::_Function_handler<void (BinaryStream&, ItemInstance const&), ContainerSetContentPacket::write(BinaryStream&) const::{lambda(BinaryStream&, ItemInstance const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, ItemInstance const&)
+012c08d0 W std::_Function_handler<void (BinaryStream&, PackIdVersion const&), ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#2}>::_M_invoke(std::_Any_data const&, BinaryStream&, PackIdVersion const&)
+012c07cc W std::_Function_handler<void (BinaryStream&, PackIdVersion const&), ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, PackIdVersion const&)
+012c25ac W std::_Function_handler<void (BinaryStream&, AttributeInstanceHandle const&), AddEntityPacket::write(BinaryStream&) const::{lambda(BinaryStream&, AttributeInstanceHandle const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, AttributeInstanceHandle const&)
+012c37fe W std::_Function_handler<void (BinaryStream&, BlockPos const&), ExplodePacket::write(BinaryStream&) const::{lambda(BinaryStream&, BlockPos const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, BlockPos const&)
+012c452c W std::_Function_handler<void (BinaryStream&, int const&), ContainerSetContentPacket::write(BinaryStream&) const::{lambda(BinaryStream&, int const&)#1}>::_M_invoke(std::_Any_data const&, BinaryStream&, int const&)
+012cda80 W void std::vector<UpdateAttributesPacket::AttributeData, std::allocator<UpdateAttributesPacket::AttributeData> >::_M_emplace_back_aux<UpdateAttributesPacket::AttributeData>(UpdateAttributesPacket::AttributeData&&)
+012cdc54 W std::vector<UpdateAttributesPacket::AttributeData, std::allocator<UpdateAttributesPacket::AttributeData> >::reserve(unsigned int)
+012c2c30 W AddEntityPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}::operator()(ReadOnlyBinaryStream&) const
+012c15b8 W ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#2}::operator()(ReadOnlyBinaryStream&) const
+012c1324 W ResourcePackStackPacket::read(BinaryStream&)::{lambda(ReadOnlyBinaryStream&)#1}::operator()(ReadOnlyBinaryStream&) const
+012c0904 W ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#2}::operator()(BinaryStream&, PackIdVersion const&) const
+012c0800 W ResourcePackStackPacket::write(BinaryStream&) const::{lambda(BinaryStream&, PackIdVersion const&)#1}::operator()(BinaryStream&, PackIdVersion const&) const

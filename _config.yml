@@ -1,0 +1,25 @@
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+timezone: Europe/London
+
+title: Minecraft: Pocket Edition
+
+excerpt_separator: <!--read more-->
+
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+ 
+defaults:
+  - scope:
+      path: ""
+      type: pages
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      layout: wiki
+      secondarytitle: MCPE Wiki

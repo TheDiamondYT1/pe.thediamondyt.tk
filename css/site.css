@@ -1,0 +1,14 @@
+/**
+ * Some base css for this site
+ * Copyright and stuff blah blah blah idk
+ */
+.page {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.code-block {
+  white-space: pre; 
+  overflow: auto;
+  word-wrap: normal;
+}

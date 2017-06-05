@@ -1,0 +1,153 @@
+000e609c W CameraItem::use(ItemInstance*, Level*, Player*)
+000e6b9c W CameraItem::~CameraItem()
+000e6b4c W CameraItem::~CameraItem()
+000e5ad4 W DiggerItem::isHandEquipped()
+000e5ad0 W DiggerItem::getAttackDamage(Entity*)
+000e5ab8 W DiggerItem::getDestroySpeed(ItemInstance*, Tile*)
+000e6650 W DiggerItem::~DiggerItem()
+000e65ec W DiggerItem::~DiggerItem()
+000e5a6c W ShearsItem::getDestroySpeed(ItemInstance*, Tile*)
+000e5a68 W ShearsItem::canDestroySpecial(Tile*)
+000e607c W ShearsItem::mineBlock(ItemInstance*, int, int, int, int)
+000e6af8 W ShearsItem::~ShearsItem()
+000e6894 W ShearsItem::~ShearsItem()
+000ea41c T ShovelItem::canDestroySpecial(Tile const*)
+000ea83c T ShovelItem::ShovelItem(int, Item::Tier const&)
+000ea628 T ShovelItem::ShovelItem(int, Item::Tier const&)
+000ea448 W ShovelItem::~ShovelItem()
+000ea4b0 W ShovelItem::~ShovelItem()
+000e5bd8 W WeaponItem::isHandEquipped()
+000e5bd4 W WeaponItem::getAttackDamage(Entity*)
+000e5bcc W WeaponItem::getDestroySpeed(ItemInstance*, Tile*)
+000e5bdc W WeaponItem::use(ItemInstance*, Level*, Player*)
+000e6420 W WeaponItem::~WeaponItem()
+000e637c W WeaponItem::~WeaponItem()
+000e9ecc T HatchetItem::getDestroySpeed(ItemInstance*, Tile*)
+000ea28c T HatchetItem::HatchetItem(int, Item::Tier const&)
+000ea0d4 T HatchetItem::HatchetItem(int, Item::Tier const&)
+000e9f58 W HatchetItem::~HatchetItem()
+000e9ef4 W HatchetItem::~HatchetItem()
+000e6224 W PickaxeItem::getDestroySpeed(ItemInstance*, Tile*)
+000e5ad8 W PickaxeItem::canDestroySpecial(Tile*)
+000e6cd0 W PickaxeItem::PickaxeItem(int, Item::Tier const&)
+000e6588 W PickaxeItem::~PickaxeItem()
+000e6524 W PickaxeItem::~PickaxeItem()
+000e68e8 W SnowballItem::use(ItemInstance*, Level*, Player*)
+000e63cc W SnowballItem::~SnowballItem()
+000e6bf0 W SnowballItem::~SnowballItem()
+0010bcd4 W ClothTileItem::getDescriptionId(ItemInstance*)
+00104398 W ClothTileItem::getLevelDataForAuxValue(int)
+00104378 W ClothTileItem::getIcon(int)
+0010cc24 W ClothTileItem::~ClothTileItem()
+0010cd6c W ClothTileItem::~ClothTileItem()
+004116c8 B DyePowderItem::COLOR_DESCS
+0015e6d0 R DyePowderItem::COLOR_RGB
+001043ac W AuxDataTileItem::getLevelDataForAuxValue(int)
+0010439c W AuxDataTileItem::getIcon(int)
+0010c1dc W AuxDataTileItem::~AuxDataTileItem()
+0010bf98 W AuxDataTileItem::~AuxDataTileItem()
+000e5f74 W TilePlanterItem::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+000e62d8 W TilePlanterItem::~TilePlanterItem()
+000e6288 W TilePlanterItem::~TilePlanterItem()
+004129a8 B Item::sword_gold
+0041296c B Item::sword_iron
+00412970 B Item::sword_wood
+004129f8 B Item::yellowDust
+004129ac B Item::shovel_gold
+00412950 B Item::shovel_iron
+00412974 B Item::shovel_wood
+00412980 B Item::sword_stone
+000e5a30 W Item::getMaxDamage()
+000e5a48 W Item::handEquipped()
+004129b4 B Item::hatchet_gold
+00412958 B Item::hatchet_iron
+0041297c B Item::hatchet_wood
+004129b0 B Item::pickAxe_gold
+00412954 B Item::pickAxe_iron
+00412978 B Item::pickAxe_wood
+00412984 B Item::shovel_stone
+000e59f0 W Item::canBeDepleted()
+0041298c B Item::hatchet_stone
+000e5a44 W Item::interactEnemy(ItemInstance*, Mob*)
+000e5a54 W Item::isMirroredArt()
+00412988 B Item::pickAxe_stone
+00412990 B Item::sword_emerald
+000e5be0 T Item::teardownItems()
+000e6738 W Item::getDescription(ItemInstance*)
+000e64c8 W Item::getDescription()
+000e5a50 W Item::isHandEquipped()
+00412994 B Item::shovel_emerald
+000e5a3c W Item::getAttackDamage(Entity*)
+000e5a18 W Item::getDestroySpeed(ItemInstance*, Tile*)
+000e5a24 W Item::getMaxStackSize()
+0041299c B Item::hatchet_emerald
+000e5a2c W Item::isStackedByData()
+00412998 B Item::pickAxe_emerald
+000e59ec W Item::setMaxStackSize(int)
+000e5c18 W Item::getDescriptionId(ItemInstance*)
+000e5c28 W Item::getDescriptionId()
+000e66b8 W Item::setDescriptionId(std::string const&)
+000e5a40 W Item::canDestroySpecial(Tile*)
+00411734 B Item::ICON_DESCRIPTION_PREFIX
+000e5a28 W Item::getLevelDataForAuxValue(int)
+000e5a58 W Item::getCraftingRemainingItem()
+000e5a5c W Item::hasCraftingRemainingItem()
+000e5c38 W Item::setCraftingRemainingItem(Item*)
+000e5a20 W Item::use(ItemInstance*, Level*, Player*)
+00412940 B Item::Tier::GOLD
+00412920 B Item::Tier::IRON
+00412900 B Item::Tier::WOOD
+00412910 B Item::Tier::STONE
+00412930 B Item::Tier::EMERALD
+004129fc B Item::bone
+004129e8 B Item::book
+004129a4 B Item::bowl
+004129dc B Item::clay
+0041295c B Item::arrow
+004129d8 B Item::brick
+004129f4 B Item::clock
+00412100 B Item::items
+004129e4 B Item::paper
+004129e0 B Item::reeds
+004129a0 B Item::stick
+00412a00 B Item::sugar
+000e5a10 W Item::useOn(ItemInstance*, Level*, int, int, int, int)
+000e5a14 W Item::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+004129c4 B Item::wheat
+00412a08 B Item::camera
+00411738 B Item::random
+00412a04 B Item::shears
+004129b8 B Item::string
+004129f0 B Item::compass
+00412960 B Item::emerald
+004129bc B Item::feather
+000e5a0c W Item::getIcon(int)
+000e6794 W Item::getName()
+004129d4 B Item::leather
+000e59e8 W Item::setIcon(int)
+000e5a04 W Item::setIcon(int, int)
+004129c0 B Item::sulphur
+004129d0 B Item::snowBall
+004129cc B Item::door_iron
+004129c8 B Item::door_wood
+00412968 B Item::goldIngot
+000e5a34 W Item::hurtEnemy(ItemInstance*, Mob*)
+000e71b8 T Item::initItems()
+00412964 B Item::ironIngot
+000e5a38 W Item::mineBlock(ItemInstance*, int, int, int, int)
+004129ec B Item::slimeBall
+000e6840 W Item::~Item()
+000e632c W Item::~Item()
+000d9738 W DataItem::~DataItem()
+000d8e78 W DataItem::~DataItem()
+000e5d48 W DoorItem::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+000e6474 W DoorItem::~DoorItem()
+000e659c W DoorItem::~DoorItem()
+00104338 W TileItem::getDescriptionId(ItemInstance*)
+00104358 W TileItem::getDescriptionId()
+00106d00 W TileItem::useOn(ItemInstance*, Player*, Level*, int, int, int, int)
+00105858 W TileItem::TileItem(int)
+00108600 W TileItem::TileItem(int)
+0010c6c0 W TileItem::~TileItem()
+0010baa4 W TileItem::~TileItem()
+000d8e7c W DataItem::isDataEqual(DataItem const&) const
