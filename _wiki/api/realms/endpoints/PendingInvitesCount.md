@@ -1,6 +1,6 @@
 ---
 title: Realms API | Pending Invites Count
-permalink: /wiki/api/realms/invities-count/
+permalink: /wiki/api/realms/invites-count/
 ---
 ## Pending Invites Count
 Returns the amount of people invitied to your realm.
