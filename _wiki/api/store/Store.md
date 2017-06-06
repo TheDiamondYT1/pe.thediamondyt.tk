@@ -9,8 +9,6 @@ Unfortunatly this requires Xbox Live authentication, and i don't know how to do 
 ### Base info
 Some info used in every GET request on this page **unless specified otherwise**.
 
-{:.table}
-{:.table-bordered}
 |Parameter|Value|
 |---------|-----|
 |Authorization|**TODO**|
