@@ -4,7 +4,7 @@ permalink: /wiki/api/store/
 ---
 ## Minecraft Store API
 Mojang have a private API for interacting with their Minecraft Store servers. Here i will try to work out what all the fields mean so people can make their own API clients.  
-Unfortunatly i cant seem to get this to work and curl returns `No reply from server`.
+Unfortunatly this requires Xbox Live authentication, and i don't know how to do that.
 
 ### Base info
 Some info used in every GET request on this page **unless specified otherwise**.

@@ -3,18 +3,28 @@ title: MCPE Protocol
 permalink: /wiki/protocol/
 ---
 ## MCPE Protocol
-Minecraft Pocket Edition uses UDP for networking, unlike PC Minecraft which uses TCP.  
+Minecraft: Pocket Edition uses UDP for networking, unlike Minecraft Java Edition which uses TCP. It is rumoured that Mojang will make the switch to TCP in a future update.
   
-The client listens for LAN servers on port **19132**.
+The client listens for Local Area Network (LAN) servers on port **19132**. If you wish to join a server on another port, you must manually add it at in the servers screen.
 
-### MCPE Packets
-MCPE versions before i think 0.14 didnt have a different version for every beta.
+---
 
-Click the MCPE version to get full information.
+### Login Sequence
+1. **C->S** Login  
+2. **S->C** Play Status (0) (LOGIN_SUCCESS)  
+3. **S->C** Resource Packs Info  
+4. **C->S** Resource Pack Client Response (Wrapped in a Batch packet)  
+5. **S->C** Start Game   
+
+// TODO: finish
+
+---
+
+Older client versions do not have a different version fot each beta build, which can get confusing. Keep that in mind.  
 
 {:.table}
 {:.table-bordered}
-|Human Readable|MCPE Version|Protocol Version|
+|Client Version|Network Version|Protocol Version|
 |--------------|------------|----------------|
 |v1.1.0.9|1.1.0.9|112|
 |v1.1.0.8|1.1.0.8|111|

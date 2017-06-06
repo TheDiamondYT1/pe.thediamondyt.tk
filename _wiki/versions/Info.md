@@ -3,7 +3,7 @@ title: Minecraft Pocket Edition
 permalink: /wiki/versions/
 ---
 # Minecraft: Pocket Edition
-Click the version of your choice to view method dumps from libminecraftpe.so
+Click the version of your choice to view method dumps from libminecraftpe.so.
 
 {:.table}
 {:.table-bordered}

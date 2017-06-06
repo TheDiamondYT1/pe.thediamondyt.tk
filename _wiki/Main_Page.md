@@ -5,7 +5,7 @@ permalink: /wiki/
 ## Minecraft: Pocket Edition Wiki
 Welcome to my wiki! Here i will add all the techy things i find out about MCPE, and some general things for documentation purposes.
   
-This wiki (and the entire site) is open-source. Check it out @ https://github.com/TheDiamondYT1/pe.thediamondyt.tk.
+This wiki (and the entire site) is open-source. Check it out @ [Github](https://github.com/TheDiamondYT1/pe.thediamondyt.tk)
 
 ---
 
