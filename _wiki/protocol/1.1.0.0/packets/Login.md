@@ -62,7 +62,6 @@ Click a field name for more info and examples.
 #### Example
 Here is an example of what data is sent in this packet. Generated using safe_var_dump() and json_encode() in PocketMine-MP.
 
-{:.code-block}
 ```json
 {
     "exp": 1522581510,
