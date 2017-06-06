@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: wiki
 title: Minecraft: Pocket Edition | TheDiamondYT
 ---
 
