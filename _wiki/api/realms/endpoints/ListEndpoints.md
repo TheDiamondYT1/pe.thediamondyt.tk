@@ -16,7 +16,7 @@ I am not sure what `id` is yet, see example below.
 ### Example Request
 
 ```
-GET /titles/1739947436/endpoints HTTP/1.1
+GET /titles/default/endpoints HTTP/1.1
 Host: title.mgt.xboxlive.com:443
 Accept-Language:en-GB,en
 Authorization: (long xbox live token)
