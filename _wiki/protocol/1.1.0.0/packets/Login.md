@@ -1,5 +1,4 @@
 ---
-layout: login
 title: MCPE 1.1.0.0 LoginPacket
 permalink: /wiki/protocol/1.1.0.0/packets/login/
 ---
