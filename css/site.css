@@ -82,5 +82,5 @@
 /**
  * Table 
  */
-table > .table
-table > .table-bordered
+.page > table .table
+.page > table .table-bordered

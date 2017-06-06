@@ -8,11 +8,14 @@ Unfortunatly this requires Xbox Live authentication, and i don't know how to do 
 
 ### Endpoints
 
+* [Client Compatible](client-compatible/)
 * [List Worlds](list-worlds/)  
 * [New Trial](new-trial/)  
+* [List Endpoints](list-endpoints/)  
+* [Pending Invites Count](invites-count/)  
    
    
-** TODO : REMOVE **
+**TODO: REMOVE**
 
 {:.table}
 {:.table-bordered}
@@ -20,11 +23,8 @@ Unfortunatly this requires Xbox Live authentication, and i don't know how to do 
 |----|-----------|
 |/worlds/{id}|**TODO**|
 |/archive/download/world/{id}/1/latest|**TODO**|
-|/trial/new|**TODO**|
 |/activities/live/players|**TODO**|
-|/mco/client/compatible|**TODO**|
 |/invites/pending|**TODO**|
-|/invites/count/pending|**TODO**|
   
 `Host: payments.realms.minecraft.net:443`  
 
