@@ -1,6 +1,7 @@
 ---
 name: MiNET
 permalink: /wiki/software/minet/
+shortname: MiNET
 ---
 ## MiNET
 

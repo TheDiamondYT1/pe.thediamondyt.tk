@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class="page">
+  {% if page.shortname == true %}
+  {% include breadcrumb.html %}
+  {% endif %}
+  
   {{ content }}
 </div>
-
-

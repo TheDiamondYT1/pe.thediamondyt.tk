@@ -1,6 +1,7 @@
 ---
 name: PocketMine-MP
 permalink: /wiki/software/pocketmine/
+shortname: PocketMine-MP
 ---
 ## PocketMine-MP
 
