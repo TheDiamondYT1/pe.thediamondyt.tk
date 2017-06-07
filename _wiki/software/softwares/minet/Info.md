@@ -4,8 +4,6 @@ permalink: /wiki/software/minet/
 ---
 ## MiNET
 
-{:.table}
-{:.table-bordered}
 |Language|C#|
 |Source|https://github.com/NiclasOlofsson/MiNET|
 |Status|In Development|

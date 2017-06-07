@@ -5,8 +5,6 @@ permalink: /wiki/versions/
 # Minecraft: Pocket Edition
 Click the version of your choice to view method dumps from libminecraftpe.so.
 
-{:.table}
-{:.table-bordered}
 |Version|
 |-------|
 |[v1.1.0.55](1.1.0.55/|
@@ -22,16 +20,12 @@ Click the version of your choice to view method dumps from libminecraftpe.so.
 
 ### Realms alpha
 
-{:.table}
-{:.table-bordered}
 |Version|
 |-------|
 |[Realms alpha build 4](0.15.0.a4/)|
   
 ### Demo
 
-{:.table}
-{:.table-bordered}
 |Version|
 |-------|
 |[v0.2.1 alpha build 2](demo/0.2.1.2)|

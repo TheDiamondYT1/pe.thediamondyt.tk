@@ -12,8 +12,6 @@ I am not sure what `id` is yet, see example below.
 
 ### Optional Arguments
 
-{:.table}
-{:.table-bordered}
 |Argument|Type|Description|
 |alllanguages|bool|Displays pack info in multiple languages|
   

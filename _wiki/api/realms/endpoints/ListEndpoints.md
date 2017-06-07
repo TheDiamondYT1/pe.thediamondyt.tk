@@ -5,8 +5,6 @@ permalink: /wiki/api/realms/list-endpoints/
 ## List Endpoints
 This endpoint lists all endpoints related to the pocket realms service.
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |GET|/titles/{id}/endpoints|

@@ -5,8 +5,6 @@ permalink: /wiki/protocol/1.1.0.5/
 ## MCPE 1.1.0.5 Protocol  
 Tip: Use CTRL+F or your browsers page search feature to easily find the packet you want. 
    
-{:.table}
-{:.table-bordered}
 |Protocol Number|110|
 |Version Number|1.1.0.5|
 |Version Name|v1.1.0.5 beta|
@@ -25,8 +23,6 @@ There were a few minor changes to packets in this version.
   
 ### Packets
 
-{:.table}
-{:.table-bordered}
 |Name|ID|
 |----|--|
 |[Login](packets/login)|0x01|

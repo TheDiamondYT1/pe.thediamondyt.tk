@@ -4,8 +4,6 @@ permalink: /wiki/api/realms/new-trial/
 ---
 ## New Trial
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |GET|/trial/new|

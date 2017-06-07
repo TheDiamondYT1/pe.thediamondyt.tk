@@ -7,16 +7,12 @@ NOTE: MCPE did not have support for external servers in this version, so this pr
 
 Tip: Use CTRL+F or your browsers page search feature to easily find the packet you want.  
    
-{:.table}
-{:.table-bordered}
 |Protocol Number|Unknown|
 |Version Number|0.2.0|
 |Version Name|v0.2.0 alpha|
    
 ### Packets
 
-{:.table}
-{:.table-bordered}
 |Name|ID|
 |----|--|
 |Login||

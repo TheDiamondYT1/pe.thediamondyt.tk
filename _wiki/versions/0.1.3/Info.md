@@ -6,8 +6,6 @@ permalink: /wiki/versions/0.1.3/
 
 #### Release Dates
  
-{:.table}
-{:.table-bordered}
 |Android|iOS|
 |-------|---|
 |December 3, 2011|December 14, 2011|

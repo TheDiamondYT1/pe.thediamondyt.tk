@@ -9,8 +9,6 @@ Minecraft: Pocket Edition has various programs and tools available for it. These
 
 ### Servers
 
-{:.table}
-{:.table-bordered}
 |Name|Status|
 |----|------|
 |[PocketMine-MP](pocketmine/)|In Development|
@@ -21,8 +19,6 @@ Minecraft: Pocket Edition has various programs and tools available for it. These
 
 ### Apps
 
-{:.table}
-{:.table-bordered}
 |Name|Status|
 |----|------|
 |BlockLauncher|In Development|

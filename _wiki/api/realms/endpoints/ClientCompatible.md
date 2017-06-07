@@ -9,8 +9,6 @@ This endpoint returns whether or not the client is compatible for use with Realm
 
 **Host:** pocket.realms.minecraft.net:443
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |GET|/mco/client/compatible|

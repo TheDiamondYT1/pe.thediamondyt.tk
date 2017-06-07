@@ -5,8 +5,6 @@ permalink: /wiki/versions/0.1.1/
 # MCPE 0.1.1
 This version of the game was re-uploaded on October 8th, 2011 to fix issues with Xperia Play controls.
 
-{:.table]
-{:.table-bordered}
 |Android|
 |October 7, 2011|
 

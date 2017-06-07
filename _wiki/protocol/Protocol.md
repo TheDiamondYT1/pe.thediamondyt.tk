@@ -22,8 +22,6 @@ The client listens for Local Area Network (LAN) servers on port **19132**. If yo
 
 Older client versions do not have a different version fot each beta build, which can get confusing. Keep that in mind.  
 
-{:.table}
-{:.table-bordered}
 |Client Version|Network Version|Protocol Version|
 |--------------|------------|----------------|
 |v1.1.0.9|1.1.0.9|112|

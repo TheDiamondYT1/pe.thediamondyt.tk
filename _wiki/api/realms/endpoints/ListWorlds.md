@@ -4,8 +4,6 @@ permalink: /wiki/api/realms/list-worlds/
 ---
 ## List Worlds
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |GET|/worlds|

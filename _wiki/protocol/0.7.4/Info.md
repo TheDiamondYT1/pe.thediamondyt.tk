@@ -5,16 +5,12 @@ permalink: /wiki/protocol/0.7.4/
 ## MCPE 0.7.4 Protocol  
 Tip: Use CTRL+F or your browsers page search feature to easily find the packet you want.  
    
-{:.table}
-{:.table-bordered}
 |Protocol Number|Unknown|
 |Version Number|0.7.4|
 |Version Name|v0.7.4 alpha|
    
 ### Packets
 
-{:.table}
-{:.table-bordered}
 |Name|ID|
 |----|--|
 |Login||

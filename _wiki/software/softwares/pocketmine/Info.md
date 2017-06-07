@@ -4,8 +4,6 @@ permalink: /wiki/software/pocketmine/
 ---
 ## PocketMine-MP
 
-{:.table}
-{:.table-bordered}
 |Language|PHP|
 |Source|[https://github.com/pmmp/PocketMine-MP](https://github.com/pmmp/PocketMine-MP)|
 |Website|[http://pmmp.io](http://pmmp.io)|

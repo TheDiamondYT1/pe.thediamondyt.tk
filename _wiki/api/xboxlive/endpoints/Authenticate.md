@@ -4,8 +4,6 @@ permalink: /wiki/api/xboxlive/authenticate/
 ---
 ## Authenticate
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |POST|/user/authenticate/|

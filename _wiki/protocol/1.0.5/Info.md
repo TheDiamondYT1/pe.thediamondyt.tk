@@ -5,8 +5,6 @@ permalink: /wiki/protocol/1.0.5/
 ## MCPE 1.0.5 Protocol  
 Tip: Use CTRL+F or your browsers page search feature to easily find the packet you want.  
    
-{:.table}
-{:.table-bordered}
 |Protocol Number|105|
 |Version Number|1.0.5.0|
 |Version Name|v1.0.5.0 beta|
@@ -23,8 +21,6 @@ The following packets are new to this version of Minecraft PE:
    
 ### Packets
 
-{:.table}
-{:.table-bordered}
 |Name|ID|
 |----|--|
 |[Login](packets/login)|0x01|

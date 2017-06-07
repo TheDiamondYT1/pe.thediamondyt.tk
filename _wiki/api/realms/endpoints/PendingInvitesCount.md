@@ -9,8 +9,6 @@ This endpoint returns the amount of players invitied to join your realm.
 
 **Host:** pocket.realms.minecraft.net:443
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |GET|/invities/count/pending|
