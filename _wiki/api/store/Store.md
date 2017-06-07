@@ -8,7 +8,9 @@ Unfortunatly this requires Xbox Live authentication, and i don't know how to do 
 
 ### Endpoints
 
-* 
+|Test|More Test|
+|----|---------|
+|Test|Testing21|
    
    
 ### Example Xbox Live Token

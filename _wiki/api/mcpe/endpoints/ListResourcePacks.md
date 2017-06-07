@@ -4,8 +4,6 @@ permalink: /wiki/api/mcpe/list-resource-packs/
 ---
 ## List Resource Packs
 
-{:.table}
-{:.table-bordered}
 |Method|URL|
 |------|---|
 |GET|/v1/catalog/items/{id}|

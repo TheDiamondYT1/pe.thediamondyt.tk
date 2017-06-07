@@ -77,10 +77,4 @@
 
 .page > .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; } /* Line Number */
 .page > .highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; } /* Other Styling */
-.highlight > .lineno 
 
-/**
- * Table 
- */
-.page > table .table
-.page > table .table-bordered
