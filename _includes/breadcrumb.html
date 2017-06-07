@@ -1,11 +1,11 @@
-<nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
-  <a href="{{ site.url }}{{ site.baseurl }}">Start</a>
+<ol class="breadcrumb">
+  <li><a href="{{ site.url }}{{ site.baseurl }}">Home</a>
   {% assign crumbs = page.url | split: '/' %}
   {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
-  <a class="current">{{ page.shortname }}</a>
+  <li class="active"><a href="{{ page.shortname }}"</a></li>
   {% else %}
-  <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
+  <li><a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a></li>
   {% endif %}
   {% endfor %}
-</nav>
+</ol>
