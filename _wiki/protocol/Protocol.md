@@ -10,11 +10,11 @@ The client listens for Local Area Network (LAN) servers on port **19132**. If yo
 ---
 
 ### Login Sequence
-1. **C->S** Login  
-2. **S->C** Play Status (0) (LOGIN_SUCCESS)  
-3. **S->C** Resource Packs Info  
-4. **C->S** Resource Pack Client Response (Wrapped in a Batch packet)  
-5. **S->C** Start Game   
+1. **C->S**  Login  
+2. **S->C**  Play Status (0) (LOGIN_SUCCESS)  
+3. **S->C**  Resource Packs Info  
+4. **C->S**  Resource Pack Client Response (Wrapped in a Batch packet)  
+5. **S->C**  Start Game   
 
 // TODO: finish
 

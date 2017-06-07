@@ -1,0 +1,927 @@
+015e5ad8 W ShovelItem& registerItem<ShovelItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015e69a4 W ShovelItem& registerItem<ShovelItem, char const (&) [13], int, Item::Tier const&>(char const (&) [13], int&&, Item::Tier const&)
+015e6514 W ShovelItem& registerItem<ShovelItem, char const (&) [14], int, Item::Tier const&>(char const (&) [14], int&&, Item::Tier const&)
+015e6e34 W ShovelItem& registerItem<ShovelItem, char const (&) [15], int, Item::Tier const&>(char const (&) [15], int&&, Item::Tier const&)
+015e62cc W WeaponItem& registerItem<WeaponItem, char const (&) [11], int, Item::Tier const&>(char const (&) [11], int&&, Item::Tier const&)
+015e6880 W WeaponItem& registerItem<WeaponItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015e63f0 W WeaponItem& registerItem<WeaponItem, char const (&) [13], int, Item::Tier const&>(char const (&) [13], int&&, Item::Tier const&)
+015e6d10 W WeaponItem& registerItem<WeaponItem, char const (&) [14], int, Item::Tier const&>(char const (&) [14], int&&, Item::Tier const&)
+015e6bec W HatchetItem& registerItem<HatchetItem, char const (&) [10], int, Item::Tier const&>(char const (&) [10], int&&, Item::Tier const&)
+015e675c W HatchetItem& registerItem<HatchetItem, char const (&) [11], int, Item::Tier const&>(char const (&) [11], int&&, Item::Tier const&)
+015e707c W HatchetItem& registerItem<HatchetItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015e5d20 W HatchetItem& registerItem<HatchetItem, char const (&) [9], int, Item::Tier const&>(char const (&) [9], int&&, Item::Tier const&)
+015e5bfc W PickaxeItem& registerItem<PickaxeItem, char const (&) [13], int, Item::Tier const&>(char const (&) [13], int&&, Item::Tier const&)
+015e6ac8 W PickaxeItem& registerItem<PickaxeItem, char const (&) [14], int, Item::Tier const&>(char const (&) [14], int&&, Item::Tier const&)
+015e6638 W PickaxeItem& registerItem<PickaxeItem, char const (&) [15], int, Item::Tier const&>(char const (&) [15], int&&, Item::Tier const&)
+015e6f58 W PickaxeItem& registerItem<PickaxeItem, char const (&) [16], int, Item::Tier const&>(char const (&) [16], int&&, Item::Tier const&)
+015eaf2c W HorseArmorItem& registerItem<HorseArmorItem, char const (&) [15], int, int, HorseArmorItem::HorseArmorTier>(char const (&) [15], int&&, int&&, HorseArmorItem::HorseArmorTier&&)
+015eae04 W HorseArmorItem& registerItem<HorseArmorItem, char const (&) [18], int, int, HorseArmorItem::HorseArmorTier>(char const (&) [18], int&&, int&&, HorseArmorItem::HorseArmorTier&&)
+015e73e8 W HoeItem& registerItem<HoeItem, char const (&) [10], int, Item::Tier const&>(char const (&) [10], int&&, Item::Tier const&)
+015e72c4 W HoeItem& registerItem<HoeItem, char const (&) [11], int, Item::Tier const&>(char const (&) [11], int&&, Item::Tier const&)
+015e7630 W HoeItem& registerItem<HoeItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015e750c W HoeItem& registerItem<HoeItem, char const (&) [9], int, Item::Tier const&>(char const (&) [9], int&&, Item::Tier const&)
+015e7f88 W ArmorItem& registerItem<ArmorItem, char const (&) [11], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [11], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e7e5c W ArmorItem& registerItem<ArmorItem, char const (&) [12], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [12], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e81e0 W ArmorItem& registerItem<ArmorItem, char const (&) [13], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [13], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e7ad8 W ArmorItem& registerItem<ArmorItem, char const (&) [14], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [14], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e7754 W ArmorItem& registerItem<ArmorItem, char const (&) [15], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [15], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e7d30 W ArmorItem& registerItem<ArmorItem, char const (&) [16], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [16], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e79ac W ArmorItem& registerItem<ArmorItem, char const (&) [17], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [17], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e80b4 W ArmorItem& registerItem<ArmorItem, char const (&) [18], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [18], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e7880 W ArmorItem& registerItem<ArmorItem, char const (&) [19], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [19], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015e7c04 W ArmorItem& registerItem<ArmorItem, char const (&) [21], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [21], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015eba88 W ArmorItem& registerItem<ArmorItem, char const (&) [7], int, ArmorItem::ArmorMaterial const&, ArmorItem::Tier, ArmorSlot>(char const (&) [7], int&&, ArmorItem::ArmorMaterial const&, ArmorItem::Tier&&, ArmorSlot&&)
+017fb55c T BottleItem::BottleItem(std::string const&, int)
+017fb55c T BottleItem::BottleItem(std::string const&, int)
+017fb71e W BottleItem::~BottleItem()
+02276240 R BucketItem::BUCKET_MILK
+02276244 R BucketItem::BUCKET_EMPTY
+0227623c R BucketItem::DRINK_DURATION
+017fc8c8 T BucketItem::setIcon(std::string const&, int)
+017fc5b4 T BucketItem::BucketItem(std::string const&, int)
+017fc5b4 T BucketItem::BucketItem(std::string const&, int)
+017fddc4 W BucketItem::~BucketItem()
+017fdb10 W BucketItem::~BucketItem()
+0161bf74 W DiggerItem::~DiggerItem()
+0161bf4c W DiggerItem::~DiggerItem()
+0161c25c T PotionItem::setIcon(std::string const&, int)
+0161bfa0 T PotionItem::PotionItem(std::string const&, int)
+0161bfa0 T PotionItem::PotionItem(std::string const&, int)
+0161d2f8 W PotionItem::~PotionItem()
+0161d224 W PotionItem::~PotionItem()
+01601720 W ShearsItem::~ShearsItem()
+0161d868 T ShovelItem::ShovelItem(std::string const&, int, Item::Tier const&)
+0161d868 T ShovelItem::ShovelItem(std::string const&, int, Item::Tier const&)
+0161dfdc W ShovelItem::~ShovelItem()
+015fd68c W WeaponItem::~WeaponItem()
+015aa9a0 T CompassItem::populateFrames(mce::ImageBuffer const&)
+015aac44 T CompassItem::SpriteCalculator::calculateFrame(BlockSource const&, Vec3 const&, float)
+015aacb8 T CompassItem::SpriteCalculator::calculateFrame(BlockSource const&, float, float, float)
+015aaa8c T CompassItem::SpriteCalculator::updateFromPosition(BlockSource const&, float, float, float, bool)
+015aaa3e T CompassItem::SpriteCalculator::update(Entity&, bool)
+015aaa34 T CompassItem::SpriteCalculator::SpriteCalculator()
+015aaa34 T CompassItem::SpriteCalculator::SpriteCalculator()
+015aa778 T CompassItem::CompassItem(std::string const&, int)
+015aa778 T CompassItem::CompassItem(std::string const&, int)
+015aadf8 W CompassItem::~CompassItem()
+015aad24 W CompassItem::~CompassItem()
+017fe520 T ComplexItem::ComplexItem(std::string const&, int)
+017fe520 T ComplexItem::ComplexItem(std::string const&, int)
+017fe53c T ComplexItem::~ComplexItem()
+017fe538 T ComplexItem::~ComplexItem()
+017fe538 T ComplexItem::~ComplexItem()
+01808cd0 T HatchetItem::HatchetItem(std::string const&, int, Item::Tier const&)
+01808cd0 T HatchetItem::HatchetItem(std::string const&, int, Item::Tier const&)
+01809278 W HatchetItem::~HatchetItem()
+0161a990 T PickaxeItem::PickaxeItem(std::string const&, int, Item::Tier const&)
+0161a990 T PickaxeItem::PickaxeItem(std::string const&, int, Item::Tier const&)
+0161b664 W PickaxeItem::~PickaxeItem()
+015d9788 T EmptyMapItem::addPlayerMarker(ItemInstance&)
+015d9254 T EmptyMapItem::EmptyMapItem()
+015d9254 T EmptyMapItem::EmptyMapItem()
+015d9a4c W EmptyMapItem::~EmptyMapItem()
+018063c4 T EnderEyeItem::EnderEyeItem(std::string const&, int)
+018063c4 T EnderEyeItem::EnderEyeItem(std::string const&, int)
+01806730 W EnderEyeItem::~EnderEyeItem()
+016132dc T MinecartItem::MinecartItem(std::string const&, int, MinecartType)
+016132dc T MinecartItem::MinecartItem(std::string const&, int, MinecartType)
+01614754 W MinecartItem::~MinecartItem()
+016001b4 W SnowballItem::~SnowballItem()
+014b4e88 T AutoPlaceItem::AutoPlaceItem(std::string const&, bool)
+014b4e88 T AutoPlaceItem::AutoPlaceItem(std::string const&, bool)
+024a1e80 B DyePowderItem::COLOR_DESCS
+024a1ec0 B DyePowderItem::COLOR_DESCS_MIXED_CASE
+01805694 T DyePowderItem::setIcon(std::string const&, int)
+02276248 R DyePowderItem::COLOR_RGB
+018055d4 T DyePowderItem::DyePowderItem(std::string const&, int)
+018055d4 T DyePowderItem::DyePowderItem(std::string const&, int)
+01805d80 W DyePowderItem::~DyePowderItem()
+01805cf8 W DyePowderItem::~DyePowderItem()
+018a313c T EmptyLootItem::_createItem(std::vector<ItemInstance, std::allocator<ItemInstance> >&, Random&, LootTableContext&)
+018a3140 W EmptyLootItem::~EmptyLootItem()
+01604288 W LeafBlockItem::~LeafBlockItem()
+016b75e4 T WoodSlabBlock::Item::Item(std::string const&, int)
+016b75e4 T WoodSlabBlock::Item::Item(std::string const&, int)
+016b802c W WoodSlabBlock::Item::~Item()
+01603484 W ClothBlockItem::~ClothBlockItem()
+01805f94 T EndCrystalItem::EndCrystalItem(std::string const&, int)
+01805f94 T EndCrystalItem::EndCrystalItem(std::string const&, int)
+018063b4 W EndCrystalItem::~EndCrystalItem()
+01806740 T EnderpearlItem::EnderpearlItem(std::string const&, int)
+01806740 T EnderpearlItem::EnderpearlItem(std::string const&, int)
+01806a10 W EnderpearlItem::~EnderpearlItem()
+01806f94 T FireChargeItem::FireChargeItem(std::string const&, int)
+01806f94 T FireChargeItem::FireChargeItem(std::string const&, int)
+01807864 W FireChargeItem::~FireChargeItem()
+01807ac8 T FishingRodItem::setIcon(std::string const&, int)
+01807874 T FishingRodItem::FishingRodItem(std::string const&, int)
+01807874 T FishingRodItem::FishingRodItem(std::string const&, int)
+0180834c W FishingRodItem::~FishingRodItem()
+018081f0 W FishingRodItem::~FishingRodItem()
+022762ac R HorseArmorItem::mHealthPerTier
+01809954 T HorseArmorItem::HorseArmorItem(std::string const&, int, int, HorseArmorItem::HorseArmorTier)
+01809954 T HorseArmorItem::HorseArmorItem(std::string const&, int, int, HorseArmorItem::HorseArmorTier)
+01809ce8 W HorseArmorItem::~HorseArmorItem()
+0115acc8 W PackContentItem::PackContentItem(PackContentItem const&)
+017f9268 T AuxDataBlockItem::AuxDataBlockItem(std::string const&, int, Block const*)
+017f9268 T AuxDataBlockItem::AuxDataBlockItem(std::string const&, int, Block const*)
+017f92c8 W AuxDataBlockItem::~AuxDataBlockItem()
+017fa5b4 T BlockPlanterItem::BlockPlanterItem(std::string const&, int, Block const*, bool)
+017fa5b4 T BlockPlanterItem::BlockPlanterItem(std::string const&, int, Block const*, bool)
+017fa8e4 W BlockPlanterItem::~BlockPlanterItem()
+0161d4b8 W RedStoneDustItem::~RedStoneDustItem()
+01604150 W SaplingBlockItem::~SaplingBlockItem()
+0161fe88 T SplashPotionItem::setIcon(std::string const&, int)
+0161fbf8 T SplashPotionItem::SplashPotionItem(std::string const&, int)
+0161fbf8 T SplashPotionItem::SplashPotionItem(std::string const&, int)
+01620c04 W SplashPotionItem::~SplashPotionItem()
+01620a7c W SplashPotionItem::~SplashPotionItem()
+00f8cd80 T StoreCatalogItem::fetchImages(ContentCatalogService*, std::string const&)
+00f8dfd8 T StoreCatalogItem::getMetadata()
+00f8ce14 T StoreCatalogItem::hydrateItem(ContentCatalogService*, std::string const&)
+00f8cbf8 T StoreCatalogItem::setMetadata(std::string const&)
+00f8dc24 T StoreCatalogItem::setImageMeta(std::vector<HydrateResponse::ImageMeta, std::allocator<HydrateResponse::ImageMeta> > const&)
+00f8d664 T StoreCatalogItem::setStartDate(std::string const&)
+00f8cc40 T StoreCatalogItem::_setIsFeatured()
+00f8eaf0 T StoreCatalogItem::_setMashupTabs()
+00f8db58 T StoreCatalogItem::setDescription(std::string const&)
+00f8ca74 T StoreCatalogItem::setEntitlement(Entitlement&)
+00f8f1cc T StoreCatalogItem::_setCreatorName()
+00f8dfd4 T StoreCatalogItem::setStoreCategory(StoreCatalogCategory)
+00f8dfdc T StoreCatalogItem::_setPackIdVersion()
+00f8f3e2 T StoreCatalogItem::setDescDictionary(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&)
+00f8d77c T StoreCatalogItem::setKeyArtLocation(std::string const&)
+00f8f41e T StoreCatalogItem::getEntitlementList()
+00f8f3dc T StoreCatalogItem::setTitleDictionary(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string> > > const&)
+00f8cc6c T StoreCatalogItem::_setPerformanceTierRequirement()
+00f8cb40 T StoreCatalogItem::setup(SearchResponse::Document const&)
+00f8da8c T StoreCatalogItem::setTitle(std::string const&)
+00f8cb12 T StoreCatalogItem::hasPackId(mce::UUID)
+00f8c208 T StoreCatalogItem::StoreCatalogItem(std::function<void ()>)
+00f8c208 T StoreCatalogItem::StoreCatalogItem(std::function<void ()>)
+00c01d60 W StoreCatalogItem::~StoreCatalogItem()
+00e680e8 W TextureAtlasItem::TextureAtlasItem(std::string const&, unsigned int)
+01604be0 W TopSnowBlockItem::~TopSnowBlockItem()
+0115bd34 W WorldContentItem::~WorldContentItem()
+01805e10 T EnchantedBookItem::EnchantedBookItem(std::string const&, int)
+01805e10 T EnchantedBookItem::EnchantedBookItem(std::string const&, int)
+01805e42 W EnchantedBookItem::~EnchantedBookItem()
+01808440 T FlintAndSteelItem::FlintAndSteelItem(std::string const&, int)
+01808440 T FlintAndSteelItem::FlintAndSteelItem(std::string const&, int)
+01808998 W FlintAndSteelItem::~FlintAndSteelItem()
+018089a8 T HangingEntityItem::HangingEntityItem(std::string const&, int, EntityType)
+018089a8 T HangingEntityItem::HangingEntityItem(std::string const&, int, EntityType)
+01808cc0 W HangingEntityItem::~HangingEntityItem()
+01617d70 T MonsterPlacerItem::spawnMobAt(BlockSource&, EntityType, Vec3 const&, ItemInstance const*)
+016175f8 T MonsterPlacerItem::spawnMobAt(BlockSource&, EntityType, Vec3 const&, Vec3 const&, ItemInstance const*, Entity*)
+016169e4 T MonsterPlacerItem::setIcon(std::string const&, int)
+01614764 T MonsterPlacerItem::MonsterPlacerItem(std::string const&, int)
+01614764 T MonsterPlacerItem::MonsterPlacerItem(std::string const&, int)
+0161a980 W MonsterPlacerItem::~MonsterPlacerItem()
+016189e4 W MonsterPlacerItem::~MonsterPlacerItem()
+017fe428 T CarrotOnAStickItem::CarrotOnAStickItem(std::string const&, int)
+017fe428 T CarrotOnAStickItem::CarrotOnAStickItem(std::string const&, int)
+017fe476 W CarrotOnAStickItem::~CarrotOnAStickItem()
+01603ba0 W StoneSlabBlockItem::~StoneSlabBlockItem()
+0160491c W WaterLilyBlockItem::~WaterLilyBlockItem()
+0115b8dc W InvalidResourceItem::InvalidResourceItem(ContentSource*)
+0115ba7c W InvalidResourceItem::~InvalidResourceItem()
+0160d424 T LingeringPotionItem::setIcon(std::string const&, int)
+0160d194 T LingeringPotionItem::LingeringPotionItem(std::string const&, int)
+0160d194 T LingeringPotionItem::LingeringPotionItem(std::string const&, int)
+0160e05c W LingeringPotionItem::~LingeringPotionItem()
+0160ded4 W LingeringPotionItem::~LingeringPotionItem()
+0115ae48 W ManifestContentItem::ManifestContentItem(ManifestContentItem const&)
+0115aa6c W ManifestContentItem::~ManifestContentItem()
+0161e008 T ShulkerBoxBlockItem::ShulkerBoxBlockItem(std::string const&, int, Block const*)
+0161e008 T ShulkerBoxBlockItem::ShulkerBoxBlockItem(std::string const&, int, Block const*)
+0161f0b0 W ShulkerBoxBlockItem::~ShulkerBoxBlockItem()
+01806a24 T ExperiencePotionItem::ExperiencePotionItem(std::string const&, int)
+01806a24 T ExperiencePotionItem::ExperiencePotionItem(std::string const&, int)
+01806f84 W ExperiencePotionItem::~ExperiencePotionItem()
+00e67404 W MinecraftUIRenderContext::PersistentMeshItem::PersistentMeshItem(BatchKey const&, std::vector<mce::TexturePtr, std::allocator<mce::TexturePtr> >, std::string const&, unsigned int)
+00e6765c W MinecraftUIRenderContext::PersistentMeshItem::~PersistentMeshItem()
+015fb990 T Item::_textMatch(std::string const&, std::string const&, bool)
+015e2980 T Item::initClient(Json::Value&, Json::Value&)
+015e225c T Item::initServer(Json::Value&)
+0246197c B Item::mDoor_iron
+0246196c B Item::mDoor_wood
+02461b2c B Item::mFilledMap
+02461b0c B Item::mFlowerPot
+02461844 B Item::mGoldIngot
+024618d4 B Item::mHoe_stone
+02461848 B Item::mIronIngot
+02461b08 B Item::mItemFrame
+0246198c B Item::mMobPlacer
+02461aa8 B Item::mRabbitRaw
+024619d0 B Item::mSlimeBall
+015a9f3a W Item::setIsGlint(bool)
+02461960 B Item::mApple_gold
+02461944 B Item::mBoots_gold
+02461920 B Item::mBoots_iron
+02462e74 B Item::mChalkboard
+02461ae8 B Item::mComparator
+02461ac4 B Item::mDoor_birch
+02461a18 B Item::mDye_powder
+02461a6c B Item::mEndCrystal
+02461a64 B Item::mEnderpearl
+02461994 B Item::mFireCharge
+024619e0 B Item::mFishingRod
+02461ad4 B Item::mGhast_tear
+02461a08 B Item::mMelonSlice
+02461a9c B Item::mMutton_raw
+02461a84 B Item::mNetherStar
+02461998 B Item::mPumpkinPie
+02461ab4 B Item::mRabbitFoot
+024619b4 B Item::mRabbitHide
+02461ab0 B Item::mRabbitStew
+02461a54 B Item::mSpider_eye
+024618b0 B Item::mSword_gold
+02461870 B Item::mSword_iron
+02461874 B Item::mSword_wood
+024619e8 B Item::mYellowDust
+015fa3f4 T Item::setCategory(CreativeItemCategory)
+015fb318 T Item::lookupByName(std::string const&, bool)
+02461a90 B Item::mBeef_cooked
+02461a80 B Item::mBlazePowder
+02461910 B Item::mBoots_chain
+02461a94 B Item::mChicken_raw
+02461958 B Item::mChorusFruit
+02461acc B Item::mDoor_acacia
+02461ac8 B Item::mDoor_jungle
+02461ac0 B Item::mDoor_spruce
+02461a78 B Item::mGold_nugget
+02461934 B Item::mHelmet_gold
+02461914 B Item::mHelmet_iron
+024618dc B Item::mHoe_diamond
+02461a7c B Item::mIron_nugget
+02461ad8 B Item::mMagma_cream
+02461a74 B Item::mNether_wart
+02461aec B Item::mNetherbrick
+02461a38 B Item::mPotatoBaked
+02461a14 B Item::mSeeds_melon
+024618e4 B Item::mSeeds_wheat
+024618b4 B Item::mShovel_gold
+02461850 B Item::mShovel_iron
+02461878 B Item::mShovel_wood
+02461884 B Item::mSword_stone
+02461af4 B Item::mTNTMinecart
+015fb202 T Item::setMaxDamage(int)
+015f6d64 T Item::addBlockItems()
+02461a50 B Item::mBeetrootSoup
+02461b48 B Item::mCreativeList
+02461ad0 B Item::mDoor_darkoak
+024619f0 B Item::mFish_raw_cod
+02461b1c B Item::mGlass_bottle
+02461a44 B Item::mGoldenCarrot
+024618c0 B Item::mHatchet_gold
+02461858 B Item::mHatchet_iron
+02461880 B Item::mHatchet_wood
+02461904 B Item::mHelmet_chain
+024618ac B Item::mMushroomStew
+02461af0 B Item::mNetherQuartz
+024618b8 B Item::mPickAxe_gold
+02461854 B Item::mPickAxe_iron
+0246187c B Item::mPickAxe_wood
+0246194c B Item::mPorkChop_raw
+02461aac B Item::mRabbitCooked
+02461aa4 B Item::mRotten_flesh
+02461888 B Item::mShovel_stone
+02461b34 B Item::mShulkerShell
+015e3798 T Item::registerItems()
+015a9f34 W Item::setExplodable(bool)
+015f9784 T Item::teardownItems()
+015fb2b0 T Item::getTextureItem(std::string const&)
+015ee40c T Item::initClientData()
+015edf60 T Item::initServerData(ResourcePackManager&)
+02461930 B Item::mBoots_diamond
+024618fc B Item::mBoots_leather
+02461adc B Item::mBrewing_stand
+024619d4 B Item::mChestMinecart
+02461b20 B Item::mDragon_breath
+0246185c B Item::mFlintAndSteel
+02461890 B Item::mHatchet_stone
+02461bc0 B Item::mItemLookupMap
+02461940 B Item::mLeggings_gold
+0246191c B Item::mLeggings_iron
+02461aa0 B Item::mMutton_cooked
+0246188c B Item::mPickAxe_stone
+02462e70 B Item::mPortfolioBook
+02461a10 B Item::mSeeds_pumpkin
+02461b14 B Item::mSplash_potion
+02461894 B Item::mSword_diamond
+015f6c40 T Item::addCreativeItem(Block const*, short)
+015f6cd0 T Item::addCreativeItem(Item*, short)
+015f6c08 T Item::addCreativeItem(ItemInstance const&)
+015f6b78 T Item::addCreativeItem(short, short)
+024619ec B Item::mCarrotOnAStick
+02461a98 B Item::mChicken_cooked
+02461ae4 B Item::mEnchanted_book
+024619a4 B Item::mGoldHorseArmor
+02461924 B Item::mHelmet_diamond
+024618f0 B Item::mHelmet_leather
+02461b24 B Item::mHopperMinecart
+024619a0 B Item::mIronHorseArmor
+0246190c B Item::mLeggings_chain
+02461a4c B Item::mSeeds_beetroot
+02461898 B Item::mShovel_diamond
+02461a0c B Item::mSpeckled_melon
+015e61a4 T Item::setAllowOffhand(bool)
+015fa440 T Item::setHandEquipped()
+015f9af8 T Item::setMaxStackSize(unsigned char)
+015e1b24 T Item::setTextureAtlas(std::shared_ptr<TextureAtlas>)
+015a9f2a W Item::setUseAnimation(UseAnimation)
+02461964 B Item::mApple_enchanted
+02461938 B Item::mChestplate_gold
+02461918 B Item::mChestplate_iron
+02461a00 B Item::mFish_cooked_cod
+024619f4 B Item::mFish_raw_salmon
+024618a0 B Item::mHatchet_diamond
+0246189c B Item::mPickAxe_diamond
+02461950 B Item::mPorkChop_cooked
+02461afc B Item::mPrismarineShard
+015f9b82 T Item::setIsMirroredArt(bool)
+015a9f40 W Item::setShouldDespawn(bool)
+015fb1fc T Item::setStackedByData(bool)
+015ebbb4 T Item::initCreativeItems()
+02461908 B Item::mChestplate_chain
+02461b40 B Item::mItemTextureAtlas
+0246192c B Item::mLeggings_diamond
+024618f8 B Item::mLeggings_leather
+02461b18 B Item::mLingering_potion
+02461a5c B Item::mPoisonous_potato
+015a9f30 W Item::setMaxUseDuration(int)
+0246195c B Item::mChorusFruitPopped
+024619a8 B Item::mDiamondHorseArmor
+0246199c B Item::mLeatherHorseArmor
+02461928 B Item::mChestplate_diamond
+024618f4 B Item::mChestplate_leather
+02461a04 B Item::mFish_cooked_salmon
+024619f8 B Item::mFish_raw_clownfish
+02461b00 B Item::mPrismarineCrystals
+024619fc B Item::mFish_raw_pufferfish
+02461af8 B Item::mCommandBlockMinecart
+02461990 B Item::mExperiencePotionItem
+02461a58 B Item::mFermented_spider_eye
+02461840 B Item::ICON_DESCRIPTION_PREFIX
+015f9afc T Item::setRequiresWorldBuilder(bool)
+015fb208 T Item::getTextureUVCoordinateSet(std::string const&, int)
+02275e5c R Item::mGenerateDenyParticleEffect
+02461ba4 B Item::Tier::GOLD
+02461b7c B Item::Tier::IRON
+02461b54 B Item::Tier::WOOD
+02461b68 B Item::Tier::STONE
+02461b90 B Item::Tier::DIAMOND
+02461a28 B Item::mBed
+02461864 B Item::mBow
+024619d8 B Item::mEgg
+02461988 B Item::mBoat
+02461a1c B Item::mBone
+024619cc B Item::mBook
+024618a8 B Item::mBowl
+02461a24 B Item::mCake
+024619c0 B Item::mClay
+0246186c B Item::mCoal
+024619ac B Item::mLead
+02461968 B Item::mSign
+02461860 B Item::mApple
+02461868 B Item::mArrow
+024618ec B Item::mBread
+024619b8 B Item::mBrick
+024619e4 B Item::mClock
+02461948 B Item::mFlint
+02462670 B Item::mItems
+024619c8 B Item::mPaper
+024619c4 B Item::mReeds
+02461a60 B Item::mSkull
+024618a4 B Item::mStick
+02461a20 B Item::mSugar
+02461b38 B Item::mTotem
+024618e8 B Item::mWheat
+02461970 B Item::mBucket
+02462e78 B Item::mCamera
+02461a40 B Item::mCarrot
+02461a30 B Item::mCookie
+02461900 B Item::mElytra
+02461b28 B Item::mHopper
+02461a34 B Item::mPotato
+02461b10 B Item::mPotion
+02461c98 B Item::mRandom
+02461978 B Item::mSaddle
+02461a88 B Item::mShears
+024618c4 B Item::mString
+015f9b4e T Item::setIcon(TextureUVCoordinateSet const&)
+015f9b54 T Item::setIcon(std::string const&, int)
+024619dc B Item::mCompass
+0246184c B Item::mDiamond
+02461b04 B Item::mEmerald
+024618c8 B Item::mFeather
+024619b0 B Item::mLeather
+02461ab8 B Item::mNameTag
+024618cc B Item::mSulphur
+02461a8c B Item::mBeef_raw
+02461a48 B Item::mBeetroot
+02461a70 B Item::mBlazeRod
+02461ae0 B Item::mCauldron
+02461b30 B Item::mEmptyMap
+02461a68 B Item::mEnderEye
+024618e0 B Item::mHoe_gold
+024618d8 B Item::mHoe_iron
+024618d0 B Item::mHoe_wood
+02461974 B Item::mMinecart
+02461954 B Item::mPainting
+02461980 B Item::mRedStone
+02461a2c B Item::mRepeater
+02461984 B Item::mSnowBall
+015f9894 T Item::Item(std::string const&, short)
+015f9894 T Item::Item(std::string const&, short)
+015fba2c W Item::~Item()
+012fdf3c W Item::~Item()
+00bce02c W CItem::CItem(ItemInstance const&, Recipe*, std::string const&)
+00bce108 W CItem::~CItem()
+017f92d8 T BedItem::setIcon(std::string const&, int)
+017f9b38 W BedItem::~BedItem()
+017f9ab0 W BedItem::~BedItem()
+017fba50 T BowItem::setIcon(std::string const&, int)
+017fb72c T BowItem::BowItem(std::string const&, int)
+017fb72c T BowItem::BowItem(std::string const&, int)
+017fc594 W BowItem::~BowItem()
+017fc390 W BowItem::~BowItem()
+01600aa8 W EggItem::~EggItem()
+018092a4 T HoeItem::HoeItem(std::string const&, int, Item::Tier)
+018092a4 T HoeItem::HoeItem(std::string const&, int, Item::Tier)
+01809420 W HoeItem::~HoeItem()
+024633dc B MapItem::TAG_MAP_UUID
+0160e1dc T MapItem::getSavedData(ItemInstance const&, Level&)
+0160e2a8 T MapItem::getSavedData(EntityUniqueID const&, Level&)
+0160e43c T MapItem::sampleMapData(BlockSource&, int, BlockPos const&, BlockPos const&, int, int, std::vector<MapSample, std::allocator<MapSample> >*, MapItemSavedData*, MapItemSavedData::TrackedMapEntity*)
+024633d4 B MapItem::TAG_MAP_SCALING
+01611424 T MapItem::setMapNameIndex(ItemInstance&, int)
+01611498 T MapItem::serializeMapData(std::vector<MapSample, std::allocator<MapSample> > const&, std::string&)
+024633e0 B MapItem::TAG_MAP_NAME_INDEX
+0160eedc T MapItem::setItemInstanceInfo(ItemInstance&, MapItemSavedData&)
+016124b4 T MapItem::renderBiomePreviewMap(Dimension&, MapItemSavedData&)
+024633d8 B MapItem::TAG_MAP_PLAYER_DISPLAY
+016113e0 T MapItem::doesDisplayPlayerMarkers(ItemInstance const&)
+01612060 T MapItem::_scheduleMapChunkRendering(Dimension&, MapItemSavedData const&, MapItemSavedData::ChunkBounds, std::shared_ptr<bool>)
+01612934 T MapItem::setIcon(std::string const&, int)
+0160e248 T MapItem::getMapId(ItemInstance const&)
+0160e070 T MapItem::MapItem()
+0160e070 T MapItem::MapItem()
+016129f8 W MapItem::~MapItem()
+01612970 W MapItem::~MapItem()
+017fa9ac T BoatItem::setIcon(std::string const&, int)
+017fa8f4 T BoatItem::BoatItem(std::string const&, int)
+017fa8f4 T BoatItem::BoatItem(std::string const&, int)
+017fb4cc W BoatItem::~BoatItem()
+017fb444 W BoatItem::~BoatItem()
+015fd080 W CoalItem::setIcon(std::string const&, int)
+015fce10 W CoalItem::CoalItem(std::string const&, int)
+015fcfbc W CoalItem::~CoalItem()
+015fcefc W CoalItem::~CoalItem()
+014faa38 W DataItem::~DataItem()
+01805374 T DoorItem::place(BlockSource*, int, int, int, int, Block const*)
+01805254 T DoorItem::DoorItem(std::string const&, int, Material const&, DoorBlock::DoorType)
+01805254 T DoorItem::DoorItem(std::string const&, int, Material const&, DoorBlock::DoorType)
+018055c4 W DoorItem::~DoorItem()
+0160d04c T LeadItem::bindPlayerMobs(Entity&, int, int, int)
+0160cfcc T LeadItem::LeadItem(std::string const&, int)
+0160cfcc T LeadItem::LeadItem(std::string const&, int)
+0160d186 W LeadItem::~LeadItem()
+018a3198 T LootItem::_createItem(std::vector<ItemInstance, std::allocator<ItemInstance> >&, Random&, LootTableContext&)
+018a3304 T LootItem::deserialize(Json::Value, int, int, std::vector<std::unique_ptr<LootItemCondition, std::default_delete<LootItemCondition> >, std::allocator<std::unique_ptr<LootItemCondition, std::default_delete<LootItemCondition> > > >&)
+018a3658 W LootItem::~LootItem()
+018a360c W LootItem::~LootItem()
+015ffa74 W SignItem::~SignItem()
+015a9f04 T ArmorItem::isDamageable(ItemInstance const&)
+015a9ec8 T ArmorItem::isFlyEnabled(ItemInstance const&)
+015a922c T ArmorItem::ArmorMaterial::ArmorMaterial(int, int, int, int, int, int)
+015a922c T ArmorItem::ArmorMaterial::ArmorMaterial(int, int, int, int, int, int)
+015a9b58 T ArmorItem::getSlotForItem(ItemInstance const&)
+015a9e30 T ArmorItem::isElytraBroken(int)
+02275c5c R ArmorItem::mHealthPerSlot
+015a9908 T ArmorItem::getArmorForSlot(ArmorSlot, int)
+0245fa18 B ArmorItem::GOLD
+0245fa00 B ArmorItem::IRON
+0245f9e8 B ArmorItem::CHAIN
+0245fa50 B ArmorItem::ELYTRA
+0245fa30 B ArmorItem::DIAMOND
+0245f9d0 B ArmorItem::LEATHER
+015a9eb0 T ArmorItem::isElytra(ItemInstance const&)
+015a9850 T ArmorItem::ArmorItem(std::string const&, int, ArmorItem::ArmorMaterial const&, int, ArmorSlot)
+015a9850 T ArmorItem::ArmorItem(std::string const&, int, ArmorItem::ArmorMaterial const&, int, ArmorSlot)
+015a9f1c W ArmorItem::~ArmorItem()
+017f8010 T ArrowItem::setIcon(std::string const&, int)
+017f7e34 T ArrowItem::ArrowItem(std::string const&, int)
+017f7e34 T ArrowItem::ArrowItem(std::string const&, int)
+017f9190 W ArrowItem::~ArrowItem()
+017f90bc W ArrowItem::~ArrowItem()
+017f9bc4 T BlockItem::BlockItem(std::string const&, int)
+017f9bc4 T BlockItem::BlockItem(std::string const&, int)
+017fa5a4 W BlockItem::~BlockItem()
+015aa2cc T ClockItem::populateFrames(mce::ImageBuffer const&)
+015aa4dc T ClockItem::SpriteCalculator::calculateFrame(BlockSource const&, Vec3 const&)
+015aa4c0 T ClockItem::SpriteCalculator::calculateFrame(Entity const&)
+015aa36a T ClockItem::SpriteCalculator::update(Entity&, bool)
+015aa394 T ClockItem::SpriteCalculator::update(BlockSource const&, Vec3 const&, bool)
+015aa360 T ClockItem::SpriteCalculator::SpriteCalculator()
+015aa360 T ClockItem::SpriteCalculator::SpriteCalculator()
+015a9f64 T ClockItem::ClockItem(std::string const&, int)
+015a9f64 T ClockItem::ClockItem(std::string const&, int)
+015aa680 W ClockItem::~ClockItem()
+015aa5ac W ClockItem::~ClockItem()
+0161f0c0 T SkullItem::SkullItem(std::string const&, int)
+0161f0c0 T SkullItem::SkullItem(std::string const&, int)
+0161fbb0 W SkullItem::~SkullItem()
+01296ce4 T SoundItem::setLoaded(bool)
+017fb71a T BottleItem::isLiquidClipItem(int) const
+017fb66c T BottleItem::_createBottledItem(Entity&, ItemInstance&, Item const&) const
+017fb594 T BottleItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+017fdaa4 T BucketItem::isEmissive(int) const
+017fce3c T BucketItem::_takeLiquid(ItemInstance&, Entity&, BlockPos const&) const
+017fcfe8 T BucketItem::_emptyBucket(BlockSource&, FullBlock, BlockPos const&, Entity*) const
+017fdaf8 T BucketItem::isDestructive(int) const
+017fca64 T BucketItem::getMaxStackSize(ItemInstance const&) const
+017fdabc T BucketItem::isValidAuxValue(int) const
+017fcaa0 T BucketItem::useTimeDepleted(ItemInstance&, Level*, Player*) const
+017fda98 T BucketItem::isLiquidClipItem(int) const
+017fd4dc T BucketItem::buildDescriptionName(ItemInstance const&) const
+017fca7c T BucketItem::use(ItemInstance&, Player&) const
+017fcb4c T BucketItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+017fd4a4 T BucketItem::getIcon(int, int, bool) const
+017fd270 T BucketItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+0161b694 W DiggerItem::isHandEquipped() const
+0161b690 W DiggerItem::getAttackDamage() const
+0161b622 W DiggerItem::getDestroySpeed(ItemInstance const&, Block const&) const
+0161bf14 W DiggerItem::getEnchantValue() const
+0161be50 W DiggerItem::isValidRepairItem(ItemInstance const&, ItemInstance const&) const
+0161b698 W DiggerItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+0161bf1c W DiggerItem::mineBlock(ItemInstance&, BlockID, int, int, int, Entity*) const
+0161d0b4 T PotionItem::applyEffect(ThrownPotion*, ItemInstance const&) const
+0161d0f0 T PotionItem::getEffectId(ItemInstance const&) const
+0161c258 T PotionItem::getPotionType() const
+0161d024 T PotionItem::isValidAuxValue(int) const
+0160e06a W PotionItem::uniqueAuxValues() const
+0161ce54 T PotionItem::useTimeDepleted(ItemInstance&, Level*, Player*) const
+0161c4a4 T PotionItem::buildDescriptionName(ItemInstance const&) const
+0161c708 T PotionItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+0161c938 T PotionItem::buildEffectDescriptionName(ItemInstance const&) const
+0161ce40 T PotionItem::use(ItemInstance&, Player&) const
+0161cd20 T PotionItem::getIcon(int, int, bool) const
+0161d210 T PotionItem::isGlint(ItemInstance const&) const
+01601748 W ShearsItem::getEnchantSlot() const
+0160174c W ShearsItem::getDestroySpeed(ItemInstance const&, Block const&) const
+01601730 W ShearsItem::canDestroySpecial(Block const&) const
+016017f8 W ShearsItem::mineBlock(ItemInstance&, BlockID, int, int, int, Entity*) const
+0161dfd4 T ShovelItem::getEnchantSlot() const
+0161dda4 T ShovelItem::canDestroySpecial(Block const&) const
+0161ddc4 T ShovelItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+015fdf40 W WeaponItem::getEnchantSlot() const
+015fd6bc W WeaponItem::isHandEquipped() const
+015fd6b8 W WeaponItem::getAttackDamage() const
+015fdf50 W WeaponItem::getDestroySpeed(ItemInstance const&, Block const&) const
+015fdf44 W WeaponItem::getEnchantValue() const
+015fd69c W WeaponItem::canDestroySpecial(Block const&) const
+015fde7c W WeaponItem::isValidRepairItem(ItemInstance const&, ItemInstance const&) const
+015fd6c0 W WeaponItem::canDestroyInCreative() const
+015fd6c4 W WeaponItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+015fdf4a W WeaponItem::use(ItemInstance&, Player&) const
+015fdf78 W WeaponItem::hurtEnemy(ItemInstance&, Mob*, Mob*) const
+015aaa30 T CompassItem::SpriteCalculator::getFrame() const
+015aaa28 T CompassItem::getAnimationFrameFor(Mob&) const
+015aaa10 T CompassItem::getIcon(int, int, bool) const
+017fe54e T ComplexItem::getUpdatePacket(ItemInstance const&, Level&, Entity&) const
+017fe54a T ComplexItem::isComplex() const
+01809270 T HatchetItem::getEnchantSlot() const
+0180920c T HatchetItem::getDestroySpeed(ItemInstance const&, Block const&) const
+0161b65c T PickaxeItem::getEnchantSlot() const
+0161b5c8 T PickaxeItem::getDestroySpeed(ItemInstance const&, Block const&) const
+0161b49c T PickaxeItem::canDestroySpecial(Block const&) const
+015d97fc T EmptyMapItem::getInteractText(Player const&) const
+015d97f8 T EmptyMapItem::requiresInteract() const
+015d98c8 T EmptyMapItem::buildDescriptionName(ItemInstance const&) const
+015d9344 T EmptyMapItem::use(ItemInstance&, Player&) const
+0180672c T EnderEyeItem::isThrowable() const
+018063dc T EnderEyeItem::use(ItemInstance&, Player&) const
+01614748 T MinecartItem::isDestructive(int) const
+01613318 T MinecartItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01614554 T MinecartItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+016001c2 W SnowballItem::isThrowable() const
+016001c8 W SnowballItem::use(ItemInstance&, Player&) const
+01600454 W SnowballItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+0180579c T DyePowderItem::buildDescriptionName(ItemInstance const&) const
+01805e0c W DyePowderItem::isDye() const
+01805b64 T DyePowderItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01805780 T DyePowderItem::getIcon(int, int, bool) const
+01805a48 T DyePowderItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+016042cc W LeafBlockItem::buildDescriptionName(ItemInstance const&) const
+01604298 W LeafBlockItem::getLevelDataForAuxValue(int) const
+016b7848 T WoodSlabBlock::Item::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+016b7608 T WoodSlabBlock::Item::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01603498 W ClothBlockItem::buildDescriptionName(ItemInstance const&) const
+01603492 W ClothBlockItem::getLevelDataForAuxValue(int) const
+01805fb4 T EndCrystalItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01806a1e W EnderpearlItem::isThrowable() const
+01806a0c T EnderpearlItem::getCooldownTime() const
+01806a08 T EnderpearlItem::getCooldownType() const
+01806774 T EnderpearlItem::use(ItemInstance&, Player&) const
+01807820 T FireChargeItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+018074fc T FireChargeItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01806fb0 T FireChargeItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+0180843c W FishingRodItem::isMirroredArt() const
+018081e0 T FishingRodItem::getEnchantSlot() const
+0180835a W FishingRodItem::isHandEquipped() const
+018081e6 T FishingRodItem::getEnchantValue() const
+01808364 W FishingRodItem::getInteractText(Player const&) const
+0180835e W FishingRodItem::requiresInteract() const
+018081d4 T FishingRodItem::getAnimationFrameFor(Mob&) const
+01807e48 T FishingRodItem::use(ItemInstance&, Player&) const
+01808430 W FishingRodItem::getIcon(int, int, bool) const
+018081ee T FishingRodItem::hurtEnemy(ItemInstance&, Mob*, Mob*) const
+018081ea T FishingRodItem::mineBlock(ItemInstance&, BlockID, int, int, int, Entity*) const
+0180973c T HorseArmorItem::clearColor(ItemInstance&) const
+01809948 T HorseArmorItem::isTintable() const
+0180997c T HorseArmorItem::getArmorValue() const
+01809430 T HorseArmorItem::hasCustomColor(ItemInstance const&) const
+01809a90 T HorseArmorItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+01809ce4 T HorseArmorItem::getTier() const
+01809990 T HorseArmorItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+0180951c T HorseArmorItem::getColor(ItemInstance const&) const
+01809818 T HorseArmorItem::setColor(ItemInstance&, Color const&) const
+017f92ac T AuxDataBlockItem::buildDescriptionName(ItemInstance const&) const
+017f92a8 T AuxDataBlockItem::getLevelDataForAuxValue(int) const
+017fa8cc T BlockPlanterItem::isEmissive(int) const
+017fa868 T BlockPlanterItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+017fa608 T BlockPlanterItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0161d43c T RedStoneDustItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+0161d3d0 T RedStoneDustItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01604164 W SaplingBlockItem::buildDescriptionName(ItemInstance const&) const
+0160415e W SaplingBlockItem::getLevelDataForAuxValue(int) const
+016207ac T SplashPotionItem::isThrowable() const
+0161fe84 T SplashPotionItem::getPotionType() const
+016200d0 T SplashPotionItem::buildDescriptionName(ItemInstance const&) const
+016202a8 T SplashPotionItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+016204f4 T SplashPotionItem::use(ItemInstance&, Player&) const
+016203d0 T SplashPotionItem::getIcon(int, int, bool) const
+016207b0 T SplashPotionItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+00f8f3e8 T StoreCatalogItem::isFeatured() const
+00f8d200 T StoreCatalogItem::getProductId() const
+00f8d66a T StoreCatalogItem::getStartDate() const
+00f8f6ac T StoreCatalogItem::getMashupTabs() const
+00f8f3ce T StoreCatalogItem::getPackIdList() const
+00f8d65c T StoreCatalogItem::getCreatorName() const
+00f8d430 T StoreCatalogItem::getDescription() const
+00f8d660 T StoreCatalogItem::getThumbnailUrl() const
+00f8f3ac T StoreCatalogItem::getPackIdVersion() const
+00f8dfd0 T StoreCatalogItem::getStoreCategory() const
+00f8f59c T StoreCatalogItem::getStorePriority() const
+00f8d674 T StoreCatalogItem::getKeyArtLocation(int) const
+00f8d66e T StoreCatalogItem::getLastModifiedDate() const
+00f8d738 T StoreCatalogItem::getPanoramaLocation(int) const
+00f8f3d2 T StoreCatalogItem::getPackIdVersionList() const
+00f8d6f4 T StoreCatalogItem::getScreenshotLocation(int) const
+00f8f498 T StoreCatalogItem::isAvailableForPurchase() const
+00f8d6b8 T StoreCatalogItem::_getImageByPropertyandIndex(std::string const&, int) const
+00f8f6a8 T StoreCatalogItem::getItemPerformanceRequirements() const
+00f8dfcc T StoreCatalogItem::getTags() const
+00f8f3ee T StoreCatalogItem::isOwned() const
+00f8f3d6 T StoreCatalogItem::isValid() const
+00f8f47c T StoreCatalogItem::getPrice() const
+00f8d204 T StoreCatalogItem::getTitle() const
+00f8f388 T StoreCatalogItem::getPackId() const
+01604bee W TopSnowBlockItem::getLevelDataForAuxValue(int) const
+01604bf4 W TopSnowBlockItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01805e2c T EnchantedBookItem::getEnchantSlot() const
+01805e32 T EnchantedBookItem::getEnchantValue() const
+01805e3a T EnchantedBookItem::buildDescriptionName(ItemInstance const&) const
+01805e36 T EnchantedBookItem::isGlint(ItemInstance const&) const
+01808994 T FlintAndSteelItem::isDestructive(int) const
+01808804 T FlintAndSteelItem::getEnchantSlot() const
+018087c0 T FlintAndSteelItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+0180847c T FlintAndSteelItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0180880c T FlintAndSteelItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+018089c4 T HangingEntityItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01618974 T MonsterPlacerItem::isValidAuxValue(int) const
+0161853c T MonsterPlacerItem::isLiquidClipItem(int) const
+016180e8 T MonsterPlacerItem::buildDescriptionName(ItemInstance const&) const
+016173d4 T MonsterPlacerItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+01617bac T MonsterPlacerItem::getIcon(int, int, bool) const
+01618558 T MonsterPlacerItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+017fe48c W CarrotOnAStickItem::isMirroredArt() const
+017fe46c T CarrotOnAStickItem::getEnchantSlot() const
+017fe484 W CarrotOnAStickItem::isHandEquipped() const
+017fe472 T CarrotOnAStickItem::getEnchantValue() const
+017fe488 W CarrotOnAStickItem::requiresInteract() const
+01603bb2 W StoneSlabBlockItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+01603bae W StoneSlabBlockItem::getLevelDataForAuxValue(int) const
+01603e08 W StoneSlabBlockItem::tryToConvertTargetBlock(BlockSource&, Level&, BlockPos const&, ItemInstance&, Entity&) const
+01603bb8 W StoneSlabBlockItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0160492a W WaterLilyBlockItem::isLiquidClipItem(int) const
+01604930 W WaterLilyBlockItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0160dbfc T LingeringPotionItem::isThrowable() const
+0160d420 T LingeringPotionItem::getPotionType() const
+0160d66c T LingeringPotionItem::buildDescriptionName(ItemInstance const&) const
+0160d708 T LingeringPotionItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+0160d94c T LingeringPotionItem::use(ItemInstance&, Player&) const
+0160d830 T LingeringPotionItem::getIcon(int, int, bool) const
+0160dc00 T LingeringPotionItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+0161ec64 T ShulkerBoxBlockItem::buildDescriptionName(ItemInstance const&) const
+0161e204 T ShulkerBoxBlockItem::buildContainedItemList(ItemInstance const&) const
+0161e020 T ShulkerBoxBlockItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+0161ee74 T ShulkerBoxBlockItem::buildEffectDescriptionName(ItemInstance const&) const
+01806cc8 T ExperiencePotionItem::isThrowable() const
+01806a44 T ExperiencePotionItem::use(ItemInstance&, Player&) const
+01806a40 T ExperiencePotionItem::isGlint(ItemInstance const&) const
+01806ccc T ExperiencePotionItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+015a9f5a W Item::isEmissive(int) const
+015aa774 W Item::isTintable() const
+015fa47a T Item::isThrowable() const
+015f9a56 T Item::onCraftedBy(ItemInstance&, Level&, Player&) const
+015fa456 T Item::allowOffhand() const
+015fa3f8 T Item::getMaxDamage() const
+015faef4 T Item::readUserData(ItemInstance&, IDataInput&) const
+015fa3d2 T Item::releaseUsing(ItemInstance&, Player*, int) const
+015f9b0c T Item::canBeDepleted() const
+015f9b78 T Item::getBlockShape() const
+015fa40c T Item::interactEnemy(ItemInstance&, Mob*, Player*) const
+015f9a54 T Item::inventoryTick(ItemInstance&, Level&, Entity&, int, bool) const
+015fa482 T Item::isDestructive(int) const
+015f9b7e T Item::isMirroredArt() const
+015fb038 T Item::writeUserData(ItemInstance const&, IDataOutput&) const
+015fb2c4 T Item::getEnchantSlot() const
+015a9f5e W Item::getIconYOffset() const
+015fa448 T Item::isHandEquipped() const
+015fa3fe T Item::getAttackDamage() const
+015f9a5e T Item::getCooldownTime() const
+015f9a58 T Item::getCooldownType() const
+015fb310 T Item::getDamageChance(int) const
+015fa3e0 T Item::getDestroySpeed(ItemInstance const&, Block const&) const
+015fb2f4 T Item::getEnchantValue() const
+015f9a64 T Item::getInteractText(Player const&) const
+015f9a50 T Item::getMaxStackSize(ItemInstance const&) const
+015fa3ee T Item::isStackedByData() const
+015a9f4e W Item::isValidAuxValue(int) const
+015a9f52 W Item::uniqueAuxValues() const
+015fa35a T Item::useTimeDepleted(ItemInstance&, Level*, Player*) const
+015a9f46 W Item::isLiquidClipItem(int) const
+015a9f4a W Item::requiresInteract() const
+015fa3e6 T Item::canDestroySpecial(Block const&) const
+015f9840 T Item::destroySpeedBonus(ItemInstance const&) const
+015aa758 W Item::isValidRepairItem(ItemInstance const&, ItemInstance const&) const
+015fa2b4 T Item::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+015fa488 T Item::buildDescriptionName(ItemInstance const&) const
+015fa47e T Item::canDestroyInCreative() const
+015a9f56 W Item::getAnimationFrameFor(Mob&) const
+015fa28e T Item::_checkUseOnPermissions(Entity&, ItemInstance&, signed char const&, BlockPos const&) const
+015fa3ea T Item::getLevelDataForAuxValue(int) const
+015fa9ac T Item::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+015fa6a8 T Item::buildEffectDescriptionName(ItemInstance const&) const
+015f9b88 T Item::updateCustomBlockEntityTag(BlockSource&, ItemInstance&, BlockPos&) const
+015fa178 T Item::use(ItemInstance&, Player&) const
+015e1ab0 T Item::Tier::getTierItem() const
+015fa452 T Item::isDye() const
+015fa1cc T Item::useOn(ItemInstance&, Entity&, int, int, int, signed char, float, float, float) const
+015fa2b8 T Item::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+015f9b26 T Item::getIcon(int, int, bool) const
+015fa44e T Item::isArmor() const
+015fa45c T Item::isGlint(ItemInstance const&) const
+015fa356 T Item::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+015aa75c W Item::getColor(ItemInstance const&) const
+015fa402 T Item::hurtEnemy(ItemInstance&, Mob*, Mob*) const
+015fb30c T Item::isComplex() const
+015fa410 T Item::mineBlock(ItemInstance&, BlockID, int, int, int, Entity*) const
+017f96d8 T BedItem::_calculateDir(Entity&) const
+017f9aa4 T BedItem::isValidAuxValue(int) const
+017f97f8 T BedItem::buildDescriptionName(ItemInstance const&) const
+017f971c T BedItem::_checkUseOnPermissions(Entity&, ItemInstance&, signed char const&, BlockPos const&) const
+017f9660 T BedItem::_calculateHeadAndFeetPos(Entity&, BlockPos&, BlockPos&) const
+017f9314 T BedItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+017f9308 T BedItem::getIcon(int, int, bool) const
+017fbc9c T BowItem::releaseUsing(ItemInstance&, Player*, int) const
+017fc32c T BowItem::getEnchantSlot() const
+017fc258 T BowItem::_getLaunchPower(int) const
+017fc330 T BowItem::getEnchantValue() const
+017fc2a8 T BowItem::getAnimationFrameFor(Mob&) const
+017fc334 T BowItem::use(ItemInstance&, Player&) const
+017fc5a2 W BowItem::getIcon(int, int, bool) const
+017fc38c T BowItem::hurtEnemy(ItemInstance&, Mob*, Mob*) const
+017fc388 T BowItem::mineBlock(ItemInstance&, BlockID, int, int, int, Entity*) const
+01600ab6 W EggItem::isThrowable() const
+01600abc W EggItem::use(ItemInstance&, Player&) const
+01600d40 W EggItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+0180941c T HoeItem::getEnchantSlot() const
+01809418 T HoeItem::isHandEquipped() const
+018092f0 T HoeItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0160f1e8 T MapItem::onCraftedBy(ItemInstance&, Level&, Player&) const
+0160edac T MapItem::inventoryTick(ItemInstance&, Level&, Entity&, int, bool) const
+0160f154 T MapItem::getUpdatePacket(ItemInstance const&, Level&, Entity&) const
+0160f2a8 T MapItem::buildDescriptionName(ItemInstance const&) const
+0160f664 T MapItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+0160ed14 T MapItem::update(BlockSource&, BlockPos const&, MapItemSavedData&) const
+0160e2b8 T MapItem::update(Level&, Entity&, MapItemSavedData&) const
+01612964 T MapItem::getIcon(int, int, bool) const
+0160f004 T MapItem::blockTick(ItemInstance&, BlockSource&, BlockPos const&) const
+017fb078 T BoatItem::isStackedByData() const
+017fadb8 T BoatItem::isValidAuxValue(int) const
+017fb558 W BoatItem::isLiquidClipItem(int) const
+017fadd8 T BoatItem::buildDescriptionName(ItemInstance const&) const
+017faa98 T BoatItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+017fadbe T BoatItem::getIcon(int, int, bool) const
+017fb07c T BoatItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+015fd34c W CoalItem::buildDescriptionName(ItemInstance const&) const
+015fd574 W CoalItem::getIcon(int, int, bool) const
+014fa9fa W DataItem::isDataEqual(DataItem const&) const
+01805278 T DoorItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0160cfec T LeadItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+015ffa82 W SignItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+015ffae4 W SignItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+015a9638 T ArmorItem::clearColor(ItemInstance&) const
+015a9844 T ArmorItem::isTintable() const
+015a9258 T ArmorItem::getTierItem() const
+015a932c T ArmorItem::ArmorMaterial::getEnchantValue() const
+015a923c T ArmorItem::ArmorMaterial::getHealthForSlot(ArmorSlot) const
+015a9250 T ArmorItem::ArmorMaterial::getDefenseForSlot(ArmorSlot) const
+015a98b0 T ArmorItem::getEnchantSlot() const
+015a9330 T ArmorItem::hasCustomColor(ItemInstance const&) const
+015a9b70 T ArmorItem::getDamageChance(int) const
+015a9900 T ArmorItem::getEnchantValue() const
+015a92a0 T ArmorItem::isValidRepairItem(ItemInstance const&, ItemInstance const&) const
+015a9b94 T ArmorItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+015a9e54 T ArmorItem::use(ItemInstance&, Player&) const
+015a9df0 T ArmorItem::getIcon(int, int, bool) const
+015a98ac T ArmorItem::isArmor() const
+015a9a28 T ArmorItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+015a941c T ArmorItem::getColor(ItemInstance const&) const
+015a98e8 T ArmorItem::isElytra() const
+015a9714 T ArmorItem::setColor(ItemInstance&, Color const&) const
+015a9dec T ArmorItem::hurtEnemy(ItemInstance&, Mob*, Mob*) const
+015a9de8 T ArmorItem::mineBlock(ItemInstance&, BlockID, int, int, int, Entity*) const
+017f853c T ArrowItem::applyEffect(Arrow*, ItemInstance const&) const
+017f9000 T ArrowItem::getMobEffect(int) const
+017f8eb4 T ArrowItem::isValidAuxValue(int) const
+017f85a8 T ArrowItem::buildDescriptionName(ItemInstance const&) const
+017f8a80 T ArrowItem::appendFormattedHovertext(ItemInstance const&, Level&, std::string&, bool) const
+017f8bb0 T ArrowItem::buildEffectDescriptionName(ItemInstance const&) const
+017f8ed4 T ArrowItem::getIcon(int, int, bool) const
+017f8258 T ArrowItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+017fa4ec T BlockItem::isEmissive(int) const
+017fa504 T BlockItem::isDestructive(int) const
+017fa588 T BlockItem::getIconYOffset() const
+017fa4d4 T BlockItem::isValidAuxValue(int) const
+017fa474 T BlockItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+017fa520 T BlockItem::buildDescriptionName(ItemInstance const&) const
+017f9c44 T BlockItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+017fa54c T BlockItem::getIcon(int, int, bool) const
+015aa35c T ClockItem::SpriteCalculator::getFrame() const
+015aa354 T ClockItem::getAnimationFrameFor(Mob&) const
+015aa33c T ClockItem::getIcon(int, int, bool) const
+0161f99c T SkullItem::_canDispense(BlockSource&, Vec3 const&, signed char) const
+0161fbac T SkullItem::getBlockShape() const
+0161f840 T SkullItem::isValidAuxValue(int) const
+0161f208 T SkullItem::_calculatePlacePos(ItemInstance&, Entity&, signed char&, BlockPos&) const
+0161f500 T SkullItem::buildDescriptionName(ItemInstance const&) const
+0161fbbe W SkullItem::getLevelDataForAuxValue(int) const
+0161f0f8 T SkullItem::_useOn(ItemInstance&, Entity&, BlockPos, signed char, float, float, float) const
+0161f26c T SkullItem::getIcon(int, int, bool) const
+0161f84c T SkullItem::dispense(BlockSource&, Container&, int, Vec3 const&, signed char) const
+01296cec T SoundItem::getSoundName() const
+01296cf4 T SoundItem::getMinDistance() const
+01296cfc T SoundItem::is3D() const
+01296cf8 T SoundItem::isStream() const
+01296ce8 T SoundItem::getLoaded() const
+01296cf0 T SoundItem::getVolume() const
+00bce4d0 W CItem::ReqItem* std::__uninitialized_copy<false>::__uninit_copy<CItem::ReqItem*, CItem::ReqItem*>(CItem::ReqItem*, CItem::ReqItem*, CItem::ReqItem*)
+00bce354 W void std::vector<CItem::ReqItem, std::allocator<CItem::ReqItem> >::_M_emplace_back_aux<CItem::ReqItem const&>(CItem::ReqItem const&)
+015fc800 W std::_MakeUniq<ShovelItem>::__single_object std::make_unique<ShovelItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015fe448 W std::_MakeUniq<ShovelItem>::__single_object std::make_unique<ShovelItem, char const (&) [13], int, Item::Tier const&>(char const (&) [13], int&&, Item::Tier const&)
+015fe090 W std::_MakeUniq<ShovelItem>::__single_object std::make_unique<ShovelItem, char const (&) [14], int, Item::Tier const&>(char const (&) [14], int&&, Item::Tier const&)
+015fe800 W std::_MakeUniq<ShovelItem>::__single_object std::make_unique<ShovelItem, char const (&) [15], int, Item::Tier const&>(char const (&) [15], int&&, Item::Tier const&)
+015fd580 W std::_MakeUniq<WeaponItem>::__single_object std::make_unique<WeaponItem, char const (&) [11], int, Item::Tier const&>(char const (&) [11], int&&, Item::Tier const&)
+015fe33c W std::_MakeUniq<WeaponItem>::__single_object std::make_unique<WeaponItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015fdf84 W std::_MakeUniq<WeaponItem>::__single_object std::make_unique<WeaponItem, char const (&) [13], int, Item::Tier const&>(char const (&) [13], int&&, Item::Tier const&)
+015fe6f4 W std::_MakeUniq<WeaponItem>::__single_object std::make_unique<WeaponItem, char const (&) [14], int, Item::Tier const&>(char const (&) [14], int&&, Item::Tier const&)
+015fe610 W std::_MakeUniq<HatchetItem>::__single_object std::make_unique<HatchetItem, char const (&) [10], int, Item::Tier const&>(char const (&) [10], int&&, Item::Tier const&)
+015fe258 W std::_MakeUniq<HatchetItem>::__single_object std::make_unique<HatchetItem, char const (&) [11], int, Item::Tier const&>(char const (&) [11], int&&, Item::Tier const&)
+015fe9c8 W std::_MakeUniq<HatchetItem>::__single_object std::make_unique<HatchetItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015fc9c8 W std::_MakeUniq<HatchetItem>::__single_object std::make_unique<HatchetItem, char const (&) [9], int, Item::Tier const&>(char const (&) [9], int&&, Item::Tier const&)
+015fc8e4 W std::_MakeUniq<PickaxeItem>::__single_object std::make_unique<PickaxeItem, char const (&) [13], int, Item::Tier const&>(char const (&) [13], int&&, Item::Tier const&)
+015fe52c W std::_MakeUniq<PickaxeItem>::__single_object std::make_unique<PickaxeItem, char const (&) [14], int, Item::Tier const&>(char const (&) [14], int&&, Item::Tier const&)
+015fe174 W std::_MakeUniq<PickaxeItem>::__single_object std::make_unique<PickaxeItem, char const (&) [15], int, Item::Tier const&>(char const (&) [15], int&&, Item::Tier const&)
+015fe8e4 W std::_MakeUniq<PickaxeItem>::__single_object std::make_unique<PickaxeItem, char const (&) [16], int, Item::Tier const&>(char const (&) [16], int&&, Item::Tier const&)
+01602740 W std::_MakeUniq<HorseArmorItem>::__single_object std::make_unique<HorseArmorItem, char const (&) [15], int, int, HorseArmorItem::HorseArmorTier>(char const (&) [15], int&&, int&&, HorseArmorItem::HorseArmorTier&&)
+01602658 W std::_MakeUniq<HorseArmorItem>::__single_object std::make_unique<HorseArmorItem, char const (&) [18], int, int, HorseArmorItem::HorseArmorTier>(char const (&) [18], int&&, int&&, HorseArmorItem::HorseArmorTier&&)
+015fec80 W std::_MakeUniq<HoeItem>::__single_object std::make_unique<HoeItem, char const (&) [10], int, Item::Tier const&>(char const (&) [10], int&&, Item::Tier const&)
+015feb94 W std::_MakeUniq<HoeItem>::__single_object std::make_unique<HoeItem, char const (&) [11], int, Item::Tier const&>(char const (&) [11], int&&, Item::Tier const&)
+015fee58 W std::_MakeUniq<HoeItem>::__single_object std::make_unique<HoeItem, char const (&) [12], int, Item::Tier const&>(char const (&) [12], int&&, Item::Tier const&)
+015fed6c W std::_MakeUniq<HoeItem>::__single_object std::make_unique<HoeItem, char const (&) [9], int, Item::Tier const&>(char const (&) [9], int&&, Item::Tier const&)
+015ff5d4 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [11], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [11], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff4e4 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [12], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [12], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff7b4 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [13], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [13], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff214 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [14], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [14], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015fef44 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [15], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [15], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff3f4 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [16], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [16], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff124 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [17], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [17], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff6c4 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [18], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [18], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff034 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [19], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [19], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+015ff304 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [21], int, ArmorItem::ArmorMaterial const&, int, ArmorSlot>(char const (&) [21], int&&, ArmorItem::ArmorMaterial const&, int&&, ArmorSlot&&)
+01602ff8 W std::_MakeUniq<ArmorItem>::__single_object std::make_unique<ArmorItem, char const (&) [7], int, ArmorItem::ArmorMaterial const&, ArmorItem::Tier, ArmorSlot>(char const (&) [7], int&&, ArmorItem::ArmorMaterial const&, ArmorItem::Tier&&, ArmorSlot&&)

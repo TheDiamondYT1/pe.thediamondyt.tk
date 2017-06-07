@@ -3,14 +3,21 @@ title: MCPE API | Patch Notes
 permalink: /wiki/api/mcpe/patch-notes/
 ---
 ## Patch Notes
+This endpoint returns the patch notes for the specified client version. 
+
+It requires 2 seperate requests to actually obtain the content.
 
 {:.table}
 {:.table-bordered}
 |Method|URL|
 |------|---|
 |POST|/v1/category/items/search/|
+|GET|/v1/category/items/{productId}|
 
-### Example Request
+value of `productId` is explained below.
+
+### Making the requests
+This may be slightly harder for beginners, and i haven't it explained it that well. You have been warned.
 
 ```
 POST /v1/catalog/items/search/ HTTP/1.1
@@ -33,7 +40,7 @@ Connection: Keep-Alive
 }
 ```
 
-### Example Response
+Once you have done that, you will get a response that looks like the following:
 
 ```
 HTTP/1.1 200 OK
@@ -78,3 +85,76 @@ Date: Tue, 06 Jun 2017 20:48:00 GMT
     }]
 }
 ```
+
+Now we can get ready to make the `GET` request. In the JSON that we just received, find the `productId` field and add it to the URL as shown below.
+
+xforge.xboxlive.com:443/v1/catalog/items/{productId}
+
+```
+GET /v1/catalog/items/G009SWJHK75F HTTP/1.1
+Host: xforge.xboxlive.com:443
+Accept-Language:
+Authorization:
+Cache-Control:public
+Content-Type:application/json
+If-None-Match:
+User-Agent:cpprestsdk/2.8.0
+Connection: Keep-Alive
+```
+
+which returns something like
+
+```
+{
+    "id": "G009SWL69327",
+    "title": {
+        "neutral": "1.0.6 Update"
+    },
+    "description": {
+        "neutral": ""
+    },
+    "contentType": "PatchNotes",
+    "titleIds": [896928775],
+    "platforms": ["minecraft"],
+    "tags": [
+        "1.0.6",
+        "1.0.6_development"
+    ],
+    "sandbox": "RETAIL",
+    "version": "1",
+    "minimumClientVersion": null,
+    "parentIds": null,
+    "creationDate": "2017-04-06T17:36:18.2575164+00:00",
+    "lastModifiedDate": "2017-04-06T17:45:27.1240322+00:00",
+    "startDate": "2017-04-06T17:36:18.2575164+00:00",
+    "visibility": 1,
+    "contentUrls": [
+        "https://ugcorigin.s-microsoft.com/15/26576bf3-0000-0000-7a48-6505c52535f9/680/mod.mod"
+    ],
+    "contents": [
+    {
+        "contentId": "26576bf3-0000-0000-7a48-6505c52535f9",
+        "contentType": "publicmod",
+        "contentUri": "https://ugcorigin.s-microsoft.com/15/26576bf3-0000-0000-7a48-6505c52535f9/680/mod.mod"
+    }],
+    "creatorId": "2535448579972708",
+    "creatorGamertag": "DampKeyboard157",
+    "isTestContent": false,
+    "images": [
+    {
+        "uri": "https://ugcorigin.s-microsoft.com/12/67f58e36-06ab-4639-97dd-4a51ac1df0d7/550/profile.jpg",
+        "imagePurpose": "Thumbnail",
+        "height": -1,
+        "width": -1,
+        "fileSizeInBytes": -1
+    }],
+    "commerce": {},
+    "custom": {
+        "offer": "chinesemythology"
+    }
+}
+```
+
+Now we can get the compressed patch note files. In the JSON we just received, find the `contentUrls` array and download the file from the URL provided.
+
+The file downloaded is actually a compressed zip file, despite the exstension being `.mod`, so just rename it.

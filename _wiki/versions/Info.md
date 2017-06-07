@@ -9,6 +9,7 @@ Click the version of your choice to view method dumps from libminecraftpe.so.
 {:.table-bordered}
 |Version|
 |-------|
+|[v1.1.0.55](1.1.0.55/|
 |[v1.1.0.9](1.1.0.9/)|
 |[v1.1.0.8](1.1.0.8/)|
 |[v1.1.0.0](1.1.0.0/)|

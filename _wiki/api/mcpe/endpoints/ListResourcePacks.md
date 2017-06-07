@@ -8,7 +8,7 @@ permalink: /wiki/api/mcpe/list-resource-packs/
 {:.table-bordered}
 |Method|URL|
 |------|---|
-|GET|/|
+|GET|/v1/catalog/items/{id}|
 
 I am not sure what `id` is yet, see example below. 
 

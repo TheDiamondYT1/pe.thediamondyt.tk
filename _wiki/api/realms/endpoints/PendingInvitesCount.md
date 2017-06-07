@@ -3,13 +3,17 @@ title: Realms API | Pending Invites Count
 permalink: /wiki/api/realms/invites-count/
 ---
 ## Pending Invites Count
-Returns the amount of people invitied to your realm.
+This endpoint returns the amount of players invitied to join your realm.
+
+---
+
+**Host:** pocket.realms.minecraft.net:443
 
 {:.table}
 {:.table-bordered}
 |Method|URL|
 |------|---|
-|GET|/invities/count/pending/|
+|GET|/invities/count/pending|
   
 ### Example Request
 

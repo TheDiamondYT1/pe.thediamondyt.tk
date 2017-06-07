@@ -1,0 +1,1306 @@
+0073d884 <ResourcePackClientResponsePacket::getId() const@plt>:
+  73d884:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  73d888:	e28cca75 	add	ip, ip, #479232	; 0x75000
+  73d88c:	e5bcf518 	ldr	pc, [ip, #1304]!	; 0x518
+
+0073d890 <ResourcePackClientResponsePacket::getName() const@plt>:
+--
+007403e0 <CraftingEventPacket::getId() const@plt>:
+  7403e0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  7403e4:	e28cca73 	add	ip, ip, #471040	; 0x73000
+  7403e8:	e5bcf830 	ldr	pc, [ip, #2096]!	; 0x830
+
+007403ec <CraftingEventPacket::getName() const@plt>:
+--
+00741e68 <TextPacket::getId() const@plt>:
+  741e68:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  741e6c:	e28cca72 	add	ip, ip, #466944	; 0x72000
+  741e70:	e5bcf680 	ldr	pc, [ip, #1664]!	; 0x680
+
+00741e74 <TextPacket::getName() const@plt>:
+--
+00741ebc <StructureBlockUpdatePacket::getId() const@plt>:
+  741ebc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  741ec0:	e28cca72 	add	ip, ip, #466944	; 0x72000
+  741ec4:	e5bcf648 	ldr	pc, [ip, #1608]!	; 0x648
+
+00741ec8 <StructureBlockUpdatePacket::getName() const@plt>:
+--
+00741f10 <PurchaseReceiptPacket::getId() const@plt>:
+  741f10:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  741f14:	e28cca72 	add	ip, ip, #466944	; 0x72000
+  741f18:	e5bcf610 	ldr	pc, [ip, #1552]!	; 0x610
+
+00741f1c <PurchaseReceiptPacket::getName() const@plt>:
+--
+007420fc <SetDifficultyPacket::getId() const@plt>:
+  7420fc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  742100:	e28cca72 	add	ip, ip, #466944	; 0x72000
+  742104:	e5bcf4c8 	ldr	pc, [ip, #1224]!	; 0x4c8
+
+00742108 <SetDifficultyPacket::getName() const@plt>:
+--
+00749a7c <ClientToServerHandshakePacket::getId() const@plt>:
+  749a7c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  749a80:	e28cca6d 	add	ip, ip, #446464	; 0x6d000
+  749a84:	e5bcf3c8 	ldr	pc, [ip, #968]!	; 0x3c8
+
+00749a88 <ClientToServerHandshakePacket::getName() const@plt>:
+--
+00749ad0 <ResourcePackDataInfoPacket::getId() const@plt>:
+  749ad0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  749ad4:	e28cca6d 	add	ip, ip, #446464	; 0x6d000
+  749ad8:	e5bcf390 	ldr	pc, [ip, #912]!	; 0x390
+
+00749adc <ResourcePackDataInfoPacket::getName() const@plt>:
+--
+00749b24 <BossEventPacket::getId() const@plt>:
+  749b24:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  749b28:	e28cca6d 	add	ip, ip, #446464	; 0x6d000
+  749b2c:	e5bcf358 	ldr	pc, [ip, #856]!	; 0x358
+
+00749b30 <BossEventPacket::getName() const@plt>:
+--
+00749b9c <ShowCreditsPacket::getId() const@plt>:
+  749b9c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  749ba0:	e28cca6d 	add	ip, ip, #446464	; 0x6d000
+  749ba4:	e5bcf308 	ldr	pc, [ip, #776]!	; 0x308
+
+00749ba8 <ShowCreditsPacket::getName() const@plt>:
+--
+0074a400 <LoginPacket::getId() const@plt>:
+  74a400:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74a404:	e28cca6c 	add	ip, ip, #108, 20	; 0x6c000
+  74a408:	e5bcfd70 	ldr	pc, [ip, #3440]!	; 0xd70
+
+0074a40c <LoginPacket::getName() const@plt>:
+--
+0074a454 <SetEntityLinkPacket::getId() const@plt>:
+  74a454:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74a458:	e28cca6c 	add	ip, ip, #108, 20	; 0x6c000
+  74a45c:	e5bcfd38 	ldr	pc, [ip, #3384]!	; 0xd38
+
+0074a460 <SetEntityLinkPacket::getName() const@plt>:
+--
+0074d568 <RequestChunkRadiusPacket::getId() const@plt>:
+  74d568:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d56c:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d570:	e5bcfc80 	ldr	pc, [ip, #3200]!	; 0xc80
+
+0074d574 <RequestChunkRadiusPacket::getName() const@plt>:
+--
+0074d5b0 <EntityEventPacket::getId() const@plt>:
+  74d5b0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d5b4:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d5b8:	e5bcfc50 	ldr	pc, [ip, #3152]!	; 0xc50
+
+0074d5bc <EntityEventPacket::getName() const@plt>:
+--
+0074d5f8 <MovePlayerPacket::getId() const@plt>:
+  74d5f8:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d5fc:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d600:	e5bcfc20 	ldr	pc, [ip, #3104]!	; 0xc20
+
+0074d604 <MovePlayerPacket::getName() const@plt>:
+--
+0074d64c <ContainerSetSlotPacket::getId() const@plt>:
+  74d64c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d650:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d654:	e5bcfbe8 	ldr	pc, [ip, #3048]!	; 0xbe8
+
+0074d658 <ContainerSetSlotPacket::getName() const@plt>:
+--
+0074d6a0 <MobEquipmentPacket::getId() const@plt>:
+  74d6a0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d6a4:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d6a8:	e5bcfbb0 	ldr	pc, [ip, #2992]!	; 0xbb0
+
+0074d6ac <MobEquipmentPacket::getName() const@plt>:
+--
+0074d6e8 <AdventureSettingsPacket::getId() const@plt>:
+  74d6e8:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d6ec:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d6f0:	e5bcfb80 	ldr	pc, [ip, #2944]!	; 0xb80
+
+0074d6f4 <AdventureSettingsPacket::getName() const@plt>:
+--
+0074d730 <PlayerActionPacket::getId() const@plt>:
+  74d730:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d734:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d738:	e5bcfb50 	ldr	pc, [ip, #2896]!	; 0xb50
+
+0074d73c <PlayerActionPacket::getName() const@plt>:
+--
+0074d778 <RiderJumpPacket::getId() const@plt>:
+  74d778:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d77c:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d780:	e5bcfb20 	ldr	pc, [ip, #2848]!	; 0xb20
+
+0074d784 <RiderJumpPacket::getName() const@plt>:
+--
+0074d7c0 <ContainerClosePacket::getId() const@plt>:
+  74d7c0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d7c4:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d7c8:	e5bcfaf0 	ldr	pc, [ip, #2800]!	; 0xaf0
+
+0074d7cc <ContainerClosePacket::getName() const@plt>:
+--
+0074d808 <AnimatePacket::getId() const@plt>:
+  74d808:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d80c:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d810:	e5bcfac0 	ldr	pc, [ip, #2752]!	; 0xac0
+
+0074d814 <AnimatePacket::getName() const@plt>:
+--
+0074d85c <DropItemPacket::getId() const@plt>:
+  74d85c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d860:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d864:	e5bcfa88 	ldr	pc, [ip, #2696]!	; 0xa88
+
+0074d868 <DropItemPacket::getName() const@plt>:
+--
+0074d8a4 <MobArmorEquipmentPacket::getId() const@plt>:
+  74d8a4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d8a8:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d8ac:	e5bcfa58 	ldr	pc, [ip, #2648]!	; 0xa58
+
+0074d8b0 <MobArmorEquipmentPacket::getName() const@plt>:
+--
+0074d8ec <PlayerInputPacket::getId() const@plt>:
+  74d8ec:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d8f0:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d8f4:	e5bcfa28 	ldr	pc, [ip, #2600]!	; 0xa28
+
+0074d8f8 <PlayerInputPacket::getName() const@plt>:
+--
+0074d934 <SetPlayerGameTypePacket::getId() const@plt>:
+  74d934:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d938:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d93c:	e5bcf9f8 	ldr	pc, [ip, #2552]!	; 0x9f8
+
+0074d940 <SetPlayerGameTypePacket::getName() const@plt>:
+--
+0074d97c <EntityFallPacket::getId() const@plt>:
+  74d97c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d980:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d984:	e5bcf9c8 	ldr	pc, [ip, #2504]!	; 0x9c8
+
+0074d988 <EntityFallPacket::getName() const@plt>:
+--
+0074d9c4 <BlockPickRequestPacket::getId() const@plt>:
+  74d9c4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74d9c8:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74d9cc:	e5bcf998 	ldr	pc, [ip, #2456]!	; 0x998
+
+0074d9d0 <BlockPickRequestPacket::getName() const@plt>:
+--
+0074da0c <LevelSoundEventPacket::getId() const@plt>:
+  74da0c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  74da10:	e28cca6a 	add	ip, ip, #434176	; 0x6a000
+  74da14:	e5bcf968 	ldr	pc, [ip, #2408]!	; 0x968
+
+0074da18 <LevelSoundEventPacket::getName() const@plt>:
+--
+00759d48 <InteractPacket::getId() const@plt>:
+  759d48:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  759d4c:	e28cca62 	add	ip, ip, #401408	; 0x62000
+  759d50:	e5bcf740 	ldr	pc, [ip, #1856]!	; 0x740
+
+00759d54 <InteractPacket::getName() const@plt>:
+--
+00759d90 <SetSpawnPositionPacket::getId() const@plt>:
+  759d90:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  759d94:	e28cca62 	add	ip, ip, #401408	; 0x62000
+  759d98:	e5bcf710 	ldr	pc, [ip, #1808]!	; 0x710
+
+00759d9c <SetSpawnPositionPacket::getName() const@plt>:
+--
+00764620 <SimpleEventPacket::getId() const@plt>:
+  764620:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  764624:	e28cca5b 	add	ip, ip, #372736	; 0x5b000
+  764628:	e5bcf6b0 	ldr	pc, [ip, #1712]!	; 0x6b0
+
+0076462c <SimpleEventPacket::getName() const@plt>:
+--
+0076e694 <PlayStatusPacket::getId() const@plt>:
+  76e694:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e698:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e69c:	e5bcfbb8 	ldr	pc, [ip, #3000]!	; 0xbb8
+
+0076e6a0 <PlayStatusPacket::getName() const@plt>:
+--
+0076e6e8 <ServerToClientHandshakePacket::getId() const@plt>:
+  76e6e8:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e6ec:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e6f0:	e5bcfb80 	ldr	pc, [ip, #2944]!	; 0xb80
+
+0076e6f4 <ServerToClientHandshakePacket::getName() const@plt>:
+--
+0076e73c <ResourcePacksInfoPacket::getId() const@plt>:
+  76e73c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e740:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e744:	e5bcfb48 	ldr	pc, [ip, #2888]!	; 0xb48
+
+0076e748 <ResourcePacksInfoPacket::getName() const@plt>:
+--
+0076e790 <ResourcePackStackPacket::getId() const@plt>:
+  76e790:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e794:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e798:	e5bcfb10 	ldr	pc, [ip, #2832]!	; 0xb10
+
+0076e79c <ResourcePackStackPacket::getName() const@plt>:
+--
+0076e7e4 <DisconnectPacket::getId() const@plt>:
+  76e7e4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e7e8:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e7ec:	e5bcfad8 	ldr	pc, [ip, #2776]!	; 0xad8
+
+0076e7f0 <DisconnectPacket::getName() const@plt>:
+--
+0076e82c <SetTimePacket::getId() const@plt>:
+  76e82c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e830:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e834:	e5bcfaa8 	ldr	pc, [ip, #2728]!	; 0xaa8
+
+0076e838 <SetTimePacket::getName() const@plt>:
+--
+0076e874 <StartGamePacket::getId() const@plt>:
+  76e874:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e878:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e87c:	e5bcfa78 	ldr	pc, [ip, #2680]!	; 0xa78
+
+0076e880 <StartGamePacket::getName() const@plt>:
+--
+0076e8bc <AddEntityPacket::getId() const@plt>:
+  76e8bc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e8c0:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e8c4:	e5bcfa48 	ldr	pc, [ip, #2632]!	; 0xa48
+
+0076e8c8 <AddEntityPacket::getName() const@plt>:
+--
+0076e904 <AddItemEntityPacket::getId() const@plt>:
+  76e904:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e908:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e90c:	e5bcfa18 	ldr	pc, [ip, #2584]!	; 0xa18
+
+0076e910 <AddItemEntityPacket::getName() const@plt>:
+--
+0076e94c <TakeItemEntityPacket::getId() const@plt>:
+  76e94c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e950:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e954:	e5bcf9e8 	ldr	pc, [ip, #2536]!	; 0x9e8
+
+0076e958 <TakeItemEntityPacket::getName() const@plt>:
+--
+0076e994 <AddPlayerPacket::getId() const@plt>:
+  76e994:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e998:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e99c:	e5bcf9b8 	ldr	pc, [ip, #2488]!	; 0x9b8
+
+0076e9a0 <AddPlayerPacket::getName() const@plt>:
+--
+0076e9dc <MoveEntityPacket::getId() const@plt>:
+  76e9dc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76e9e0:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76e9e4:	e5bcf988 	ldr	pc, [ip, #2440]!	; 0x988
+
+0076e9e8 <MoveEntityPacket::getName() const@plt>:
+--
+0076ea24 <RespawnPacket::getId() const@plt>:
+  76ea24:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ea28:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ea2c:	e5bcf958 	ldr	pc, [ip, #2392]!	; 0x958
+
+0076ea30 <RespawnPacket::getName() const@plt>:
+--
+0076ea6c <RemoveEntityPacket::getId() const@plt>:
+  76ea6c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ea70:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ea74:	e5bcf928 	ldr	pc, [ip, #2344]!	; 0x928
+
+0076ea78 <RemoveEntityPacket::getName() const@plt>:
+--
+0076eab4 <RemoveBlockPacket::getId() const@plt>:
+  76eab4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76eab8:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76eabc:	e5bcf8f8 	ldr	pc, [ip, #2296]!	; 0x8f8
+
+0076eac0 <RemoveBlockPacket::getName() const@plt>:
+--
+0076eafc <UpdateBlockPacket::getId() const@plt>:
+  76eafc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76eb00:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76eb04:	e5bcf8c8 	ldr	pc, [ip, #2248]!	; 0x8c8
+
+0076eb08 <UpdateBlockPacket::getName() const@plt>:
+--
+0076eb50 <ExplodePacket::getId() const@plt>:
+  76eb50:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76eb54:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76eb58:	e5bcf890 	ldr	pc, [ip, #2192]!	; 0x890
+
+0076eb5c <ExplodePacket::getName() const@plt>:
+--
+0076eb98 <LevelEventPacket::getId() const@plt>:
+  76eb98:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76eb9c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76eba0:	e5bcf860 	ldr	pc, [ip, #2144]!	; 0x860
+
+0076eba4 <LevelEventPacket::getName() const@plt>:
+--
+0076ebe0 <BlockEventPacket::getId() const@plt>:
+  76ebe0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ebe4:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ebe8:	e5bcf830 	ldr	pc, [ip, #2096]!	; 0x830
+
+0076ebec <BlockEventPacket::getName() const@plt>:
+--
+0076ec28 <MobEffectPacket::getId() const@plt>:
+  76ec28:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ec2c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ec30:	e5bcf800 	ldr	pc, [ip, #2048]!	; 0x800
+
+0076ec34 <MobEffectPacket::getName() const@plt>:
+--
+0076ec7c <UseItemPacket::getId() const@plt>:
+  76ec7c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ec80:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ec84:	e5bcf7c8 	ldr	pc, [ip, #1992]!	; 0x7c8
+
+0076ec88 <UseItemPacket::getName() const@plt>:
+--
+0076ecc4 <HurtArmorPacket::getId() const@plt>:
+  76ecc4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ecc8:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76eccc:	e5bcf798 	ldr	pc, [ip, #1944]!	; 0x798
+
+0076ecd0 <HurtArmorPacket::getName() const@plt>:
+--
+0076ed18 <SetEntityDataPacket::getId() const@plt>:
+  76ed18:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ed1c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ed20:	e5bcf760 	ldr	pc, [ip, #1888]!	; 0x760
+
+0076ed24 <SetEntityDataPacket::getName() const@plt>:
+--
+0076ed60 <SetEntityMotionPacket::getId() const@plt>:
+  76ed60:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ed64:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ed68:	e5bcf730 	ldr	pc, [ip, #1840]!	; 0x730
+
+0076ed6c <SetEntityMotionPacket::getName() const@plt>:
+--
+0076eda8 <SetHealthPacket::getId() const@plt>:
+  76eda8:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76edac:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76edb0:	e5bcf700 	ldr	pc, [ip, #1792]!	; 0x700
+
+0076edb4 <SetHealthPacket::getName() const@plt>:
+--
+0076edf0 <ItemFrameDropItemPacket::getId() const@plt>:
+  76edf0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76edf4:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76edf8:	e5bcf6d0 	ldr	pc, [ip, #1744]!	; 0x6d0
+
+0076edfc <ItemFrameDropItemPacket::getName() const@plt>:
+--
+0076ee38 <ContainerOpenPacket::getId() const@plt>:
+  76ee38:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ee3c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ee40:	e5bcf6a0 	ldr	pc, [ip, #1696]!	; 0x6a0
+
+0076ee44 <ContainerOpenPacket::getName() const@plt>:
+--
+0076ee80 <ContainerSetDataPacket::getId() const@plt>:
+  76ee80:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ee84:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ee88:	e5bcf670 	ldr	pc, [ip, #1648]!	; 0x670
+
+0076ee8c <ContainerSetDataPacket::getName() const@plt>:
+--
+0076eed4 <ContainerSetContentPacket::getId() const@plt>:
+  76eed4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76eed8:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76eedc:	e5bcf638 	ldr	pc, [ip, #1592]!	; 0x638
+
+0076eee0 <ContainerSetContentPacket::getName() const@plt>:
+--
+0076ef28 <AddPaintingPacket::getId() const@plt>:
+  76ef28:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ef2c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ef30:	e5bcf600 	ldr	pc, [ip, #1536]!	; 0x600
+
+0076ef34 <AddPaintingPacket::getName() const@plt>:
+--
+0076ef7c <BlockEntityDataPacket::getId() const@plt>:
+  76ef7c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76ef80:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76ef84:	e5bcf5c8 	ldr	pc, [ip, #1480]!	; 0x5c8
+
+0076ef88 <BlockEntityDataPacket::getName() const@plt>:
+--
+0076efd0 <FullChunkDataPacket::getId() const@plt>:
+  76efd0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76efd4:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76efd8:	e5bcf590 	ldr	pc, [ip, #1424]!	; 0x590
+
+0076efdc <FullChunkDataPacket::getName() const@plt>:
+--
+0076f018 <SetCommandsEnabledPacket::getId() const@plt>:
+  76f018:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f01c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f020:	e5bcf560 	ldr	pc, [ip, #1376]!	; 0x560
+
+0076f024 <SetCommandsEnabledPacket::getName() const@plt>:
+--
+0076f060 <ChangeDimensionPacket::getId() const@plt>:
+  76f060:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f064:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f068:	e5bcf530 	ldr	pc, [ip, #1328]!	; 0x530
+
+0076f06c <ChangeDimensionPacket::getName() const@plt>:
+--
+0076f0b4 <PlayerListPacket::getId() const@plt>:
+  76f0b4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f0b8:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f0bc:	e5bcf4f8 	ldr	pc, [ip, #1272]!	; 0x4f8
+
+0076f0c0 <PlayerListPacket::getName() const@plt>:
+--
+0076f0fc <SpawnExperienceOrbPacket::getId() const@plt>:
+  76f0fc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f100:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f104:	e5bcf4c8 	ldr	pc, [ip, #1224]!	; 0x4c8
+
+0076f108 <SpawnExperienceOrbPacket::getName() const@plt>:
+--
+0076f144 <ChunkRadiusUpdatedPacket::getId() const@plt>:
+  76f144:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f148:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f14c:	e5bcf498 	ldr	pc, [ip, #1176]!	; 0x498
+
+0076f150 <ChunkRadiusUpdatedPacket::getName() const@plt>:
+--
+0076f18c <MapInfoRequestPacket::getId() const@plt>:
+  76f18c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f190:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f194:	e5bcf468 	ldr	pc, [ip, #1128]!	; 0x468
+
+0076f198 <MapInfoRequestPacket::getName() const@plt>:
+--
+0076f1e0 <ReplaceItemInSlotPacket::getId() const@plt>:
+  76f1e0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f1e4:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f1e8:	e5bcf430 	ldr	pc, [ip, #1072]!	; 0x430
+
+0076f1ec <ReplaceItemInSlotPacket::getName() const@plt>:
+--
+0076f234 <AddItemPacket::getId() const@plt>:
+  76f234:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f238:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f23c:	e5bcf3f8 	ldr	pc, [ip, #1016]!	; 0x3f8
+
+0076f240 <AddItemPacket::getName() const@plt>:
+--
+0076f288 <UpdateTradePacket::getId() const@plt>:
+  76f288:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f28c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f290:	e5bcf3c0 	ldr	pc, [ip, #960]!	; 0x3c0
+
+0076f294 <UpdateTradePacket::getName() const@plt>:
+--
+0076f2dc <UpdateEquipPacket::getId() const@plt>:
+  76f2dc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f2e0:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f2e4:	e5bcf388 	ldr	pc, [ip, #904]!	; 0x388
+
+0076f2e8 <UpdateEquipPacket::getName() const@plt>:
+--
+0076f330 <CommandBlockUpdatePacket::getId() const@plt>:
+  76f330:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f334:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f338:	e5bcf350 	ldr	pc, [ip, #848]!	; 0x350
+
+0076f33c <CommandBlockUpdatePacket::getName() const@plt>:
+--
+0076f378 <CameraPacket::getId() const@plt>:
+  76f378:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f37c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f380:	e5bcf320 	ldr	pc, [ip, #800]!	; 0x320
+
+0076f384 <CameraPacket::getName() const@plt>:
+--
+0076f3cc <GameRulesChangedPacket::getId() const@plt>:
+  76f3cc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f3d0:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f3d4:	e5bcf2e8 	ldr	pc, [ip, #744]!	; 0x2e8
+
+0076f3d8 <GameRulesChangedPacket::getName() const@plt>:
+--
+0076f420 <ResourcePackChunkDataPacket::getId() const@plt>:
+  76f420:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f424:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f428:	e5bcf2b0 	ldr	pc, [ip, #688]!	; 0x2b0
+
+0076f42c <ResourcePackChunkDataPacket::getName() const@plt>:
+--
+0076f474 <ResourcePackChunkRequestPacket::getId() const@plt>:
+  76f474:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f478:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f47c:	e5bcf278 	ldr	pc, [ip, #632]!	; 0x278
+
+0076f480 <ResourcePackChunkRequestPacket::getName() const@plt>:
+--
+0076f4c8 <TransferPacket::getId() const@plt>:
+  76f4c8:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f4cc:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f4d0:	e5bcf240 	ldr	pc, [ip, #576]!	; 0x240
+
+0076f4d4 <TransferPacket::getName() const@plt>:
+--
+0076f51c <SetTitlePacket::getId() const@plt>:
+  76f51c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f520:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f524:	e5bcf208 	ldr	pc, [ip, #520]!	; 0x208
+
+0076f528 <SetTitlePacket::getName() const@plt>:
+--
+0076f570 <PlaySoundPacket::getId() const@plt>:
+  76f570:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f574:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f578:	e5bcf1d0 	ldr	pc, [ip, #464]!	; 0x1d0
+
+0076f57c <PlaySoundPacket::getName() const@plt>:
+--
+0076f5c4 <StopSoundPacket::getId() const@plt>:
+  76f5c4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f5c8:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f5cc:	e5bcf198 	ldr	pc, [ip, #408]!	; 0x198
+
+0076f5d0 <StopSoundPacket::getName() const@plt>:
+--
+0076f618 <ShowStoreOfferPacket::getId() const@plt>:
+  76f618:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f61c:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f620:	e5bcf160 	ldr	pc, [ip, #352]!	; 0x160
+
+0076f624 <ShowStoreOfferPacket::getName() const@plt>:
+--
+0076f66c <AddBehaviorTreePacket::getId() const@plt>:
+  76f66c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f670:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f674:	e5bcf128 	ldr	pc, [ip, #296]!	; 0x128
+
+0076f678 <AddBehaviorTreePacket::getName() const@plt>:
+--
+0076f6c0 <AvailableCommandsPacket::getId() const@plt>:
+  76f6c0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f6c4:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f6c8:	e5bcf0f0 	ldr	pc, [ip, #240]!	; 0xf0
+
+0076f6cc <AvailableCommandsPacket::getName() const@plt>:
+--
+0076f7b0 <ClientboundMapItemDataPacket::getId() const@plt>:
+  76f7b0:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f7b4:	e28cca54 	add	ip, ip, #84, 20	; 0x54000
+  76f7b8:	e5bcf050 	ldr	pc, [ip, #80]!	; 0x50
+
+0076f7bc <ClientboundMapItemDataPacket::getName() const@plt>:
+--
+0076f930 <CommandStepPacket::getId() const@plt>:
+  76f930:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76f934:	e28cca53 	add	ip, ip, #339968	; 0x53000
+  76f938:	e5bcff50 	ldr	pc, [ip, #3920]!	; 0xf50
+
+0076f93c <CommandStepPacket::getName() const@plt>:
+--
+0076fabc <CraftingDataPacket::getId() const@plt>:
+  76fabc:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76fac0:	e28cca53 	add	ip, ip, #339968	; 0x53000
+  76fac4:	e5bcfe48 	ldr	pc, [ip, #3656]!	; 0xe48
+
+0076fac8 <CraftingDataPacket::getName() const@plt>:
+--
+0076fb28 <EventPacket::getId() const@plt>:
+  76fb28:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76fb2c:	e28cca53 	add	ip, ip, #339968	; 0x53000
+  76fb30:	e5bcfe00 	ldr	pc, [ip, #3584]!	; 0xe00
+
+0076fb34 <EventPacket::getName() const@plt>:
+--
+0076fb7c <InventoryActionPacket::getId() const@plt>:
+  76fb7c:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76fb80:	e28cca53 	add	ip, ip, #339968	; 0x53000
+  76fb84:	e5bcfdc8 	ldr	pc, [ip, #3528]!	; 0xdc8
+
+0076fb88 <InventoryActionPacket::getName() const@plt>:
+--
+0076fc54 <UpdateAttributesPacket::getId() const@plt>:
+  76fc54:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  76fc58:	e28cca53 	add	ip, ip, #339968	; 0x53000
+  76fc5c:	e5bcfd38 	ldr	pc, [ip, #3384]!	; 0xd38
+
+0076fc60 <UpdateAttributesPacket::getName() const@plt>:
+--
+0077f4c4 <AddHangingEntityPacket::getId() const@plt>:
+  77f4c4:	e28fc61c 	add	ip, pc, #28, 12	; 0x1c00000
+  77f4c8:	e28cca49 	add	ip, ip, #299008	; 0x49000
+  77f4cc:	e5bcf798 	ldr	pc, [ip, #1944]!	; 0x798
+
+0077f4d0 <AddHangingEntityPacket::getName() const@plt>:
+--
+00b83c60 <ResourcePackClientResponsePacket::getId() const@@Base>:
+  b83c60:	2008      	movs	r0, #8
+  b83c62:	4770      	bx	lr
+
+00b83c64 <ResourcePackClientResponsePacket::getName() const@@Base>:
+  b83c64:	b580      	push	{r7, lr}
+--
+00bcb3a4 <CraftingEventPacket::getId() const@@Base>:
+  bcb3a4:	2036      	movs	r0, #54	; 0x36
+  bcb3a6:	4770      	bx	lr
+
+00bcb3a8 <CraftingEventPacket::getName() const@@Base>:
+  bcb3a8:	b580      	push	{r7, lr}
+--
+00be7d02 <TextPacket::getId() const@@Base>:
+  be7d02:	2009      	movs	r0, #9
+  be7d04:	4770      	bx	lr
+	...
+
+00be7d08 <TextPacket::getName() const@@Base>:
+--
+00be81f0 <StructureBlockUpdatePacket::getId() const@@Base>:
+  be81f0:	205b      	movs	r0, #91	; 0x5b
+  be81f2:	4770      	bx	lr
+
+00be81f4 <StructureBlockUpdatePacket::getName() const@@Base>:
+  be81f4:	b580      	push	{r7, lr}
+--
+00be8b90 <PurchaseReceiptPacket::getId() const@@Base>:
+  be8b90:	205d      	movs	r0, #93	; 0x5d
+  be8b92:	4770      	bx	lr
+
+00be8b94 <PurchaseReceiptPacket::getName() const@@Base>:
+  be8b94:	b580      	push	{r7, lr}
+--
+00beebfa <SetDifficultyPacket::getId() const@@Base>:
+  beebfa:	203c      	movs	r0, #60	; 0x3c
+  beebfc:	4770      	bx	lr
+	...
+
+00beec00 <SetDifficultyPacket::getName() const@@Base>:
+--
+00cf8ac8 <ClientToServerHandshakePacket::getId() const@@Base>:
+  cf8ac8:	2004      	movs	r0, #4
+  cf8aca:	4770      	bx	lr
+
+00cf8acc <ClientToServerHandshakePacket::getName() const@@Base>:
+  cf8acc:	b580      	push	{r7, lr}
+--
+00cf8c60 <ResourcePackDataInfoPacket::getId() const@@Base>:
+  cf8c60:	2053      	movs	r0, #83	; 0x53
+  cf8c62:	4770      	bx	lr
+
+00cf8c64 <ResourcePackDataInfoPacket::getName() const@@Base>:
+  cf8c64:	b580      	push	{r7, lr}
+--
+00cf8ebc <BossEventPacket::getId() const@@Base>:
+  cf8ebc:	204c      	movs	r0, #76	; 0x4c
+  cf8ebe:	4770      	bx	lr
+
+00cf8ec0 <BossEventPacket::getName() const@@Base>:
+  cf8ec0:	b580      	push	{r7, lr}
+--
+00cf9c3a <ShowCreditsPacket::getId() const@@Base>:
+  cf9c3a:	204d      	movs	r0, #77	; 0x4d
+  cf9c3c:	4770      	bx	lr
+	...
+
+00cf9c40 <ShowCreditsPacket::getName() const@@Base>:
+--
+00cfd88c <LoginPacket::getId() const@@Base>:
+  cfd88c:	2001      	movs	r0, #1
+  cfd88e:	4770      	bx	lr
+
+00cfd890 <LoginPacket::getName() const@@Base>:
+  cfd890:	b580      	push	{r7, lr}
+--
+00cfdab4 <SetEntityLinkPacket::getId() const@@Base>:
+  cfdab4:	2029      	movs	r0, #41	; 0x29
+  cfdab6:	4770      	bx	lr
+
+00cfdab8 <SetEntityLinkPacket::getName() const@@Base>:
+  cfdab8:	b580      	push	{r7, lr}
+--
+00d31a4a <RequestChunkRadiusPacket::getId() const@@Base>:
+  d31a4a:	2045      	movs	r0, #69	; 0x45
+  d31a4c:	4770      	bx	lr
+	...
+
+00d31a50 <RequestChunkRadiusPacket::getName() const@@Base>:
+--
+00d31a92 <EntityEventPacket::getId() const@@Base>:
+  d31a92:	201c      	movs	r0, #28
+  d31a94:	4770      	bx	lr
+	...
+
+00d31a98 <EntityEventPacket::getName() const@@Base>:
+--
+00d31b10 <MovePlayerPacket::getId() const@@Base>:
+  d31b10:	2013      	movs	r0, #19
+  d31b12:	4770      	bx	lr
+
+00d31b14 <MovePlayerPacket::getName() const@@Base>:
+  d31b14:	b580      	push	{r7, lr}
+--
+00d31c64 <ContainerSetSlotPacket::getId() const@@Base>:
+  d31c64:	2032      	movs	r0, #50	; 0x32
+  d31c66:	4770      	bx	lr
+
+00d31c68 <ContainerSetSlotPacket::getName() const@@Base>:
+  d31c68:	b580      	push	{r7, lr}
+--
+00d31d98 <MobEquipmentPacket::getId() const@@Base>:
+  d31d98:	201f      	movs	r0, #31
+  d31d9a:	4770      	bx	lr
+
+00d31d9c <MobEquipmentPacket::getName() const@@Base>:
+  d31d9c:	b580      	push	{r7, lr}
+--
+00d31eb8 <AdventureSettingsPacket::getId() const@@Base>:
+  d31eb8:	2037      	movs	r0, #55	; 0x37
+  d31eba:	4770      	bx	lr
+
+00d31ebc <AdventureSettingsPacket::getName() const@@Base>:
+  d31ebc:	b580      	push	{r7, lr}
+--
+00d31f18 <PlayerActionPacket::getId() const@@Base>:
+  d31f18:	2024      	movs	r0, #36	; 0x24
+  d31f1a:	4770      	bx	lr
+
+00d31f1c <PlayerActionPacket::getName() const@@Base>:
+  d31f1c:	b580      	push	{r7, lr}
+--
+00d31fb2 <RiderJumpPacket::getId() const@@Base>:
+  d31fb2:	2014      	movs	r0, #20
+  d31fb4:	4770      	bx	lr
+	...
+
+00d31fb8 <RiderJumpPacket::getName() const@@Base>:
+--
+00d31ff8 <ContainerClosePacket::getId() const@@Base>:
+  d31ff8:	2031      	movs	r0, #49	; 0x31
+  d31ffa:	4770      	bx	lr
+
+00d31ffc <ContainerClosePacket::getName() const@@Base>:
+  d31ffc:	b580      	push	{r7, lr}
+--
+00d3203e <AnimatePacket::getId() const@@Base>:
+  d3203e:	202c      	movs	r0, #44	; 0x2c
+  d32040:	4770      	bx	lr
+	...
+
+00d32044 <AnimatePacket::getName() const@@Base>:
+--
+00d32108 <DropItemPacket::getId() const@@Base>:
+  d32108:	202e      	movs	r0, #46	; 0x2e
+  d3210a:	4770      	bx	lr
+
+00d3210c <DropItemPacket::getName() const@@Base>:
+  d3210c:	b580      	push	{r7, lr}
+--
+00d321da <MobArmorEquipmentPacket::getId() const@@Base>:
+  d321da:	2020      	movs	r0, #32
+  d321dc:	4770      	bx	lr
+	...
+
+00d321e0 <MobArmorEquipmentPacket::getName() const@@Base>:
+--
+00d32416 <PlayerInputPacket::getId() const@@Base>:
+  d32416:	2039      	movs	r0, #57	; 0x39
+  d32418:	4770      	bx	lr
+	...
+
+00d3241c <PlayerInputPacket::getName() const@@Base>:
+--
+00d32494 <SetPlayerGameTypePacket::getId() const@@Base>:
+  d32494:	203e      	movs	r0, #62	; 0x3e
+  d32496:	4770      	bx	lr
+
+00d32498 <SetPlayerGameTypePacket::getName() const@@Base>:
+  d32498:	b580      	push	{r7, lr}
+--
+00d324d8 <EntityFallPacket::getId() const@@Base>:
+  d324d8:	2025      	movs	r0, #37	; 0x25
+  d324da:	4770      	bx	lr
+
+00d324dc <EntityFallPacket::getName() const@@Base>:
+  d324dc:	b580      	push	{r7, lr}
+--
+00d32554 <BlockPickRequestPacket::getId() const@@Base>:
+  d32554:	2022      	movs	r0, #34	; 0x22
+  d32556:	4770      	bx	lr
+
+00d32558 <BlockPickRequestPacket::getName() const@@Base>:
+  d32558:	b580      	push	{r7, lr}
+--
+00d325c4 <LevelSoundEventPacket::getId() const@@Base>:
+  d325c4:	2019      	movs	r0, #25
+  d325c6:	4770      	bx	lr
+
+00d325c8 <LevelSoundEventPacket::getName() const@@Base>:
+  d325c8:	b580      	push	{r7, lr}
+--
+00fa7ffa <InteractPacket::getId() const@@Base>:
+  fa7ffa:	2021      	movs	r0, #33	; 0x21
+  fa7ffc:	4770      	bx	lr
+	...
+
+00fa8000 <InteractPacket::getName() const@@Base>:
+--
+00fa806a <SetSpawnPositionPacket::getId() const@@Base>:
+  fa806a:	202b      	movs	r0, #43	; 0x2b
+  fa806c:	4770      	bx	lr
+	...
+
+00fa8070 <SetSpawnPositionPacket::getName() const@@Base>:
+--
+011523d8 <SimpleEventPacket::getId() const@@Base>:
+ 11523d8:	2040      	movs	r0, #64	; 0x40
+ 11523da:	4770      	bx	lr
+
+011523dc <SimpleEventPacket::getName() const@@Base>:
+ 11523dc:	b580      	push	{r7, lr}
+--
+01306578 <PlayStatusPacket::getId() const@@Base>:
+ 1306578:	2002      	movs	r0, #2
+ 130657a:	4770      	bx	lr
+
+0130657c <PlayStatusPacket::getName() const@@Base>:
+ 130657c:	b580      	push	{r7, lr}
+--
+01306724 <ServerToClientHandshakePacket::getId() const@@Base>:
+ 1306724:	2003      	movs	r0, #3
+ 1306726:	4770      	bx	lr
+
+01306728 <ServerToClientHandshakePacket::getName() const@@Base>:
+ 1306728:	b580      	push	{r7, lr}
+--
+0130697c <ResourcePacksInfoPacket::getId() const@@Base>:
+ 130697c:	2006      	movs	r0, #6
+ 130697e:	4770      	bx	lr
+
+01306980 <ResourcePacksInfoPacket::getName() const@@Base>:
+ 1306980:	b580      	push	{r7, lr}
+--
+01307b58 <ResourcePackStackPacket::getId() const@@Base>:
+ 1307b58:	2007      	movs	r0, #7
+ 1307b5a:	4770      	bx	lr
+
+01307b5c <ResourcePackStackPacket::getName() const@@Base>:
+ 1307b5c:	b580      	push	{r7, lr}
+--
+01308e8c <DisconnectPacket::getId() const@@Base>:
+ 1308e8c:	2005      	movs	r0, #5
+ 1308e8e:	4770      	bx	lr
+
+01308e90 <DisconnectPacket::getName() const@@Base>:
+ 1308e90:	b580      	push	{r7, lr}
+--
+01308fa8 <SetTimePacket::getId() const@@Base>:
+ 1308fa8:	200a      	movs	r0, #10
+ 1308faa:	4770      	bx	lr
+
+01308fac <SetTimePacket::getName() const@@Base>:
+ 1308fac:	b580      	push	{r7, lr}
+--
+013091a2 <StartGamePacket::getId() const@@Base>:
+ 13091a2:	200b      	movs	r0, #11
+ 13091a4:	4770      	bx	lr
+	...
+
+013091a8 <StartGamePacket::getName() const@@Base>:
+--
+01309872 <AddEntityPacket::getId() const@@Base>:
+ 1309872:	200d      	movs	r0, #13
+ 1309874:	4770      	bx	lr
+	...
+
+01309878 <AddEntityPacket::getName() const@@Base>:
+--
+0130a4c2 <AddItemEntityPacket::getId() const@@Base>:
+ 130a4c2:	200f      	movs	r0, #15
+ 130a4c4:	4770      	bx	lr
+	...
+
+0130a4c8 <AddItemEntityPacket::getName() const@@Base>:
+--
+0130a602 <TakeItemEntityPacket::getId() const@@Base>:
+ 130a602:	2011      	movs	r0, #17
+ 130a604:	4770      	bx	lr
+	...
+
+0130a608 <TakeItemEntityPacket::getName() const@@Base>:
+--
+0130a73a <AddPlayerPacket::getId() const@@Base>:
+ 130a73a:	200c      	movs	r0, #12
+ 130a73c:	4770      	bx	lr
+	...
+
+0130a740 <AddPlayerPacket::getName() const@@Base>:
+--
+0130a9dc <MoveEntityPacket::getId() const@@Base>:
+ 130a9dc:	2012      	movs	r0, #18
+ 130a9de:	4770      	bx	lr
+
+0130a9e0 <MoveEntityPacket::getName() const@@Base>:
+ 130a9e0:	b580      	push	{r7, lr}
+--
+0130aa44 <RespawnPacket::getId() const@@Base>:
+ 130aa44:	202d      	movs	r0, #45	; 0x2d
+ 130aa46:	4770      	bx	lr
+
+0130aa48 <RespawnPacket::getName() const@@Base>:
+ 130aa48:	b580      	push	{r7, lr}
+--
+0130aa9a <RemoveEntityPacket::getId() const@@Base>:
+ 130aa9a:	200e      	movs	r0, #14
+ 130aa9c:	4770      	bx	lr
+	...
+
+0130aaa0 <RemoveEntityPacket::getName() const@@Base>:
+--
+0130aaec <RemoveBlockPacket::getId() const@@Base>:
+ 130aaec:	2015      	movs	r0, #21
+ 130aaee:	4770      	bx	lr
+
+0130aaf0 <RemoveBlockPacket::getName() const@@Base>:
+ 130aaf0:	b580      	push	{r7, lr}
+--
+0130ab40 <UpdateBlockPacket::getId() const@@Base>:
+ 130ab40:	2016      	movs	r0, #22
+ 130ab42:	4770      	bx	lr
+
+0130ab44 <UpdateBlockPacket::getName() const@@Base>:
+ 130ab44:	b580      	push	{r7, lr}
+--
+0130ac14 <ExplodePacket::getId() const@@Base>:
+ 130ac14:	2018      	movs	r0, #24
+ 130ac16:	4770      	bx	lr
+
+0130ac18 <ExplodePacket::getName() const@@Base>:
+ 130ac18:	b580      	push	{r7, lr}
+--
+0130b02a <LevelEventPacket::getId() const@@Base>:
+ 130b02a:	201a      	movs	r0, #26
+ 130b02c:	4770      	bx	lr
+	...
+
+0130b030 <LevelEventPacket::getName() const@@Base>:
+--
+0130b0ae <BlockEventPacket::getId() const@@Base>:
+ 130b0ae:	201b      	movs	r0, #27
+ 130b0b0:	4770      	bx	lr
+	...
+
+0130b0b4 <BlockEventPacket::getName() const@@Base>:
+--
+0130b130 <MobEffectPacket::getId() const@@Base>:
+ 130b130:	201d      	movs	r0, #29
+ 130b132:	4770      	bx	lr
+
+0130b134 <MobEffectPacket::getName() const@@Base>:
+ 130b134:	b580      	push	{r7, lr}
+--
+0130b320 <UseItemPacket::getId() const@@Base>:
+ 130b320:	2023      	movs	r0, #35	; 0x23
+ 130b322:	4770      	bx	lr
+
+0130b324 <UseItemPacket::getName() const@@Base>:
+ 130b324:	b580      	push	{r7, lr}
+--
+0130b402 <HurtArmorPacket::getId() const@@Base>:
+ 130b402:	2026      	movs	r0, #38	; 0x26
+ 130b404:	4770      	bx	lr
+	...
+
+0130b408 <HurtArmorPacket::getName() const@@Base>:
+--
+0130b534 <SetEntityDataPacket::getId() const@@Base>:
+ 130b534:	2027      	movs	r0, #39	; 0x27
+ 130b536:	4770      	bx	lr
+
+0130b538 <SetEntityDataPacket::getName() const@@Base>:
+ 130b538:	b580      	push	{r7, lr}
+--
+0130b5a4 <SetEntityMotionPacket::getId() const@@Base>:
+ 130b5a4:	2028      	movs	r0, #40	; 0x28
+ 130b5a6:	4770      	bx	lr
+
+0130b5a8 <SetEntityMotionPacket::getName() const@@Base>:
+ 130b5a8:	b580      	push	{r7, lr}
+--
+0130b61e <SetHealthPacket::getId() const@@Base>:
+ 130b61e:	202a      	movs	r0, #42	; 0x2a
+ 130b620:	4770      	bx	lr
+	...
+
+0130b624 <SetHealthPacket::getName() const@@Base>:
+--
+0130b666 <ItemFrameDropItemPacket::getId() const@@Base>:
+ 130b666:	2047      	movs	r0, #71	; 0x47
+ 130b668:	4770      	bx	lr
+	...
+
+0130b66c <ItemFrameDropItemPacket::getName() const@@Base>:
+--
+0130b6be <ContainerOpenPacket::getId() const@@Base>:
+ 130b6be:	2030      	movs	r0, #48	; 0x30
+ 130b6c0:	4770      	bx	lr
+	...
+
+0130b6c4 <ContainerOpenPacket::getName() const@@Base>:
+--
+0130b75c <ContainerSetDataPacket::getId() const@@Base>:
+ 130b75c:	2033      	movs	r0, #51	; 0x33
+ 130b75e:	4770      	bx	lr
+
+0130b760 <ContainerSetDataPacket::getName() const@@Base>:
+ 130b760:	b580      	push	{r7, lr}
+--
+0130b894 <ContainerSetContentPacket::getId() const@@Base>:
+ 130b894:	2034      	movs	r0, #52	; 0x34
+ 130b896:	4770      	bx	lr
+
+0130b898 <ContainerSetContentPacket::getName() const@@Base>:
+ 130b898:	b580      	push	{r7, lr}
+--
+0130bda4 <AddPaintingPacket::getId() const@@Base>:
+ 130bda4:	2017      	movs	r0, #23
+ 130bda6:	4770      	bx	lr
+
+0130bda8 <AddPaintingPacket::getName() const@@Base>:
+ 130bda8:	b580      	push	{r7, lr}
+--
+0130bf4c <BlockEntityDataPacket::getId() const@@Base>:
+ 130bf4c:	2038      	movs	r0, #56	; 0x38
+ 130bf4e:	4770      	bx	lr
+
+0130bf50 <BlockEntityDataPacket::getName() const@@Base>:
+ 130bf50:	b580      	push	{r7, lr}
+--
+0130c2b0 <FullChunkDataPacket::getId() const@@Base>:
+ 130c2b0:	203a      	movs	r0, #58	; 0x3a
+ 130c2b2:	4770      	bx	lr
+
+0130c2b4 <FullChunkDataPacket::getName() const@@Base>:
+ 130c2b4:	b580      	push	{r7, lr}
+--
+0130c3ce <SetCommandsEnabledPacket::getId() const@@Base>:
+ 130c3ce:	203b      	movs	r0, #59	; 0x3b
+ 130c3d0:	4770      	bx	lr
+	...
+
+0130c3d4 <SetCommandsEnabledPacket::getName() const@@Base>:
+--
+0130c416 <ChangeDimensionPacket::getId() const@@Base>:
+ 130c416:	203d      	movs	r0, #61	; 0x3d
+ 130c418:	4770      	bx	lr
+	...
+
+0130c41c <ChangeDimensionPacket::getName() const@@Base>:
+--
+0130c5ac <PlayerListPacket::getId() const@@Base>:
+ 130c5ac:	203f      	movs	r0, #63	; 0x3f
+ 130c5ae:	4770      	bx	lr
+
+0130c5b0 <PlayerListPacket::getName() const@@Base>:
+ 130c5b0:	b580      	push	{r7, lr}
+--
+0130d238 <SpawnExperienceOrbPacket::getId() const@@Base>:
+ 130d238:	2042      	movs	r0, #66	; 0x42
+ 130d23a:	4770      	bx	lr
+
+0130d23c <SpawnExperienceOrbPacket::getName() const@@Base>:
+ 130d23c:	b580      	push	{r7, lr}
+--
+0130d2a8 <ChunkRadiusUpdatedPacket::getId() const@@Base>:
+ 130d2a8:	2046      	movs	r0, #70	; 0x46
+ 130d2aa:	4770      	bx	lr
+
+0130d2ac <ChunkRadiusUpdatedPacket::getName() const@@Base>:
+ 130d2ac:	b580      	push	{r7, lr}
+--
+0130d2ee <MapInfoRequestPacket::getId() const@@Base>:
+ 130d2ee:	2044      	movs	r0, #68	; 0x44
+ 130d2f0:	4770      	bx	lr
+	...
+
+0130d2f4 <MapInfoRequestPacket::getName() const@@Base>:
+--
+0130d3b8 <ReplaceItemInSlotPacket::getId() const@@Base>:
+ 130d3b8:	2048      	movs	r0, #72	; 0x48
+ 130d3ba:	4770      	bx	lr
+
+0130d3bc <ReplaceItemInSlotPacket::getName() const@@Base>:
+ 130d3bc:	b580      	push	{r7, lr}
+--
+0130d490 <AddItemPacket::getId() const@@Base>:
+ 130d490:	204b      	movs	r0, #75	; 0x4b
+ 130d492:	4770      	bx	lr
+
+0130d494 <AddItemPacket::getName() const@@Base>:
+ 130d494:	b580      	push	{r7, lr}
+--
+0130d5c8 <UpdateTradePacket::getId() const@@Base>:
+ 130d5c8:	2051      	movs	r0, #81	; 0x51
+ 130d5ca:	4770      	bx	lr
+
+0130d5cc <UpdateTradePacket::getName() const@@Base>:
+ 130d5cc:	b580      	push	{r7, lr}
+--
+0130d8b4 <UpdateEquipPacket::getId() const@@Base>:
+ 130d8b4:	2052      	movs	r0, #82	; 0x52
+ 130d8b6:	4770      	bx	lr
+
+0130d8b8 <UpdateEquipPacket::getName() const@@Base>:
+ 130d8b8:	b580      	push	{r7, lr}
+--
+0130dc6c <CommandBlockUpdatePacket::getId() const@@Base>:
+ 130dc6c:	2050      	movs	r0, #80	; 0x50
+ 130dc6e:	4770      	bx	lr
+
+0130dc70 <CommandBlockUpdatePacket::getName() const@@Base>:
+ 130dc70:	b580      	push	{r7, lr}
+--
+0130df5e <CameraPacket::getId() const@@Base>:
+ 130df5e:	204a      	movs	r0, #74	; 0x4a
+ 130df60:	4770      	bx	lr
+	...
+
+0130df64 <CameraPacket::getName() const@@Base>:
+--
+0130e100 <GameRulesChangedPacket::getId() const@@Base>:
+ 130e100:	2049      	movs	r0, #73	; 0x49
+ 130e102:	4770      	bx	lr
+
+0130e104 <GameRulesChangedPacket::getName() const@@Base>:
+ 130e104:	b580      	push	{r7, lr}
+--
+0130e348 <ResourcePackChunkDataPacket::getId() const@@Base>:
+ 130e348:	2054      	movs	r0, #84	; 0x54
+ 130e34a:	4770      	bx	lr
+
+0130e34c <ResourcePackChunkDataPacket::getName() const@@Base>:
+ 130e34c:	b580      	push	{r7, lr}
+--
+0130e5b4 <ResourcePackChunkRequestPacket::getId() const@@Base>:
+ 130e5b4:	2055      	movs	r0, #85	; 0x55
+ 130e5b6:	4770      	bx	lr
+
+0130e5b8 <ResourcePackChunkRequestPacket::getName() const@@Base>:
+ 130e5b8:	b580      	push	{r7, lr}
+--
+0130e7a8 <TransferPacket::getId() const@@Base>:
+ 130e7a8:	2056      	movs	r0, #86	; 0x56
+ 130e7aa:	4770      	bx	lr
+
+0130e7ac <TransferPacket::getName() const@@Base>:
+ 130e7ac:	b580      	push	{r7, lr}
+--
+0130e99c <SetTitlePacket::getId() const@@Base>:
+ 130e99c:	2059      	movs	r0, #89	; 0x59
+ 130e99e:	4770      	bx	lr
+
+0130e9a0 <SetTitlePacket::getName() const@@Base>:
+ 130e9a0:	b580      	push	{r7, lr}
+--
+0130ebc4 <PlaySoundPacket::getId() const@@Base>:
+ 130ebc4:	2057      	movs	r0, #87	; 0x57
+ 130ebc6:	4770      	bx	lr
+
+0130ebc8 <PlaySoundPacket::getName() const@@Base>:
+ 130ebc8:	b580      	push	{r7, lr}
+--
+0130ede8 <StopSoundPacket::getId() const@@Base>:
+ 130ede8:	2058      	movs	r0, #88	; 0x58
+ 130edea:	4770      	bx	lr
+
+0130edec <StopSoundPacket::getName() const@@Base>:
+ 130edec:	b580      	push	{r7, lr}
+--
+ 130efd4:	b11c      	cbz	r4, 130efde <ShowStoreOfferPacket::getId() const@@Base+0x2>
+ 130efd6:	0109      	lsls	r1, r1, #4
+ 130efd8:	b0fc      	sub	sp, #496	; 0x1f0
+ 130efda:	0109      	lsls	r1, r1, #4
+
+0130efdc <ShowStoreOfferPacket::getId() const@@Base>:
+ 130efdc:	205c      	movs	r0, #92	; 0x5c
+ 130efde:	4770      	bx	lr
+
+0130efe0 <ShowStoreOfferPacket::getName() const@@Base>:
+ 130efe0:	b580      	push	{r7, lr}
+--
+0130f294 <AddBehaviorTreePacket::getId() const@@Base>:
+ 130f294:	205a      	movs	r0, #90	; 0x5a
+ 130f296:	4770      	bx	lr
+
+0130f298 <AddBehaviorTreePacket::getName() const@@Base>:
+ 130f298:	b580      	push	{r7, lr}
+--
+0130f5b8 <AvailableCommandsPacket::getId() const@@Base>:
+ 130f5b8:	204e      	movs	r0, #78	; 0x4e
+ 130f5ba:	4770      	bx	lr
+
+0130f5bc <AvailableCommandsPacket::getName() const@@Base>:
+ 130f5bc:	b580      	push	{r7, lr}
+--
+013102d0 <ClientboundMapItemDataPacket::getId() const@@Base>:
+ 13102d0:	2043      	movs	r0, #67	; 0x43
+ 13102d2:	4770      	bx	lr
+
+013102d4 <ClientboundMapItemDataPacket::write(BinaryStream&) const@@Base>:
+ 13102d4:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+--
+01311ae6 <CommandStepPacket::getId() const@@Base>:
+ 1311ae6:	204f      	movs	r0, #79	; 0x4f
+ 1311ae8:	4770      	bx	lr
+	...
+
+01311aec <CommandStepPacket::getName() const@@Base>:
+--
+01312900 <CraftingDataPacket::getId() const@@Base>:
+ 1312900:	2035      	movs	r0, #53	; 0x35
+ 1312902:	4770      	bx	lr
+
+01312904 <CraftingDataPacket::getName() const@@Base>:
+ 1312904:	b580      	push	{r7, lr}
+--
+0131372c <EventPacket::getId() const@@Base>:
+ 131372c:	2041      	movs	r0, #65	; 0x41
+ 131372e:	4770      	bx	lr
+
+01313730 <EventPacket::write(BinaryStream&) const@@Base>:
+ 1313730:	b5b0      	push	{r4, r5, r7, lr}
+--
+01313e64 <InventoryActionPacket::getId() const@@Base>:
+ 1313e64:	202f      	movs	r0, #47	; 0x2f
+ 1313e66:	4770      	bx	lr
+
+01313e68 <InventoryActionPacket::write(BinaryStream&) const@@Base>:
+ 1313e68:	b5b0      	push	{r4, r5, r7, lr}
+--
+01314fc4 <UpdateAttributesPacket::getId() const@@Base>:
+ 1314fc4:	201e      	movs	r0, #30
+ 1314fc6:	4770      	bx	lr
+
+01314fc8 <UpdateAttributesPacket::getName() const@@Base>:
+ 1314fc8:	b580      	push	{r7, lr}
+--
+0157c1ec <AddHangingEntityPacket::getId() const@@Base>:
+ 157c1ec:	2010      	movs	r0, #16
+ 157c1ee:	4770      	bx	lr
+
+0157c1f0 <AddHangingEntityPacket::getName() const@@Base>:
+ 157c1f0:	b580      	push	{r7, lr}

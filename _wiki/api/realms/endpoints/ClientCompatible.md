@@ -3,12 +3,17 @@ title: Realms API | Client Compatible
 permalink: /wiki/api/realms/client-compatible/
 ---
 ## Client Compatible
+This endpoint returns whether or not the client is compatible for use with Realms. The latest client version must be used to use the Pocket Realms service.
+
+---
+
+**Host:** pocket.realms.minecraft.net:443
 
 {:.table}
 {:.table-bordered}
 |Method|URL|
 |------|---|
-|GET|/mco/client/compatible/|
+|GET|/mco/client/compatible|
   
 ### Example Request
 
@@ -35,4 +40,4 @@ Connection: keep-alive
 OUTDATED
 ```
 
-I tested this on 1.0.6, and the current version is 1.1.0.51, so it says outdated.
+I tested this on 1.0.6, and the current version is 1.1.0.55, so it says outdated.

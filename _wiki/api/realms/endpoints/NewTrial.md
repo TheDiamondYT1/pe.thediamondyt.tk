@@ -8,7 +8,7 @@ permalink: /wiki/api/realms/new-trial/
 {:.table-bordered}
 |Method|URL|
 |------|---|
-|GET|/trial/new/|
+|GET|/trial/new|
   
 ### Example Request
 

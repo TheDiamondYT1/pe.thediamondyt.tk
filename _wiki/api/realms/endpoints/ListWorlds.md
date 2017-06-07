@@ -8,7 +8,7 @@ permalink: /wiki/api/realms/list-worlds/
 {:.table-bordered}
 |Method|URL|
 |------|---|
-|GET|/worlds/|
+|GET|/worlds|
   
 ### Example Request
 
