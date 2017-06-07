@@ -1,6 +1,7 @@
 ---
 title: General MCPE API
 permalink: /wiki/api/mcpe/
+shortname: mcpe
 ---
 ## General MCPE API
 Mojang have many private APIs. General ones which don't belong in other categories are listed here.

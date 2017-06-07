@@ -1,6 +1,7 @@
 ---
 title: Realms API | New Trial
 permalink: /wiki/api/realms/new-trial/
+shortname: New Trial
 ---
 ## New Trial
 

@@ -1,6 +1,7 @@
 ---
 title: Realms API | Client Compatible
 permalink: /wiki/api/realms/client-compatible/
+shortname: Client Compatible
 ---
 ## Client Compatible
 This endpoint returns whether or not the client is compatible for use with Realms. The latest client version must be used to use the Pocket Realms service.

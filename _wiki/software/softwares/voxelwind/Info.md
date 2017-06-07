@@ -1,6 +1,7 @@
 ---
 name: Voxelwind
 permalink: /wiki/software/voxelwind/
+shortname: voxelwind
 ---
 ## Voxelwind
 

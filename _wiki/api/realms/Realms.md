@@ -1,6 +1,7 @@
 ---
 title: Realms API
 permalink: /wiki/api/realms/
+shortname: realms
 ---
 ## Realms API
 Mojang have a private API for interacting with their Realms servers. Here i will try to work out what all the fields mean so people can make their own API clients.  

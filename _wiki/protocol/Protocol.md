@@ -1,6 +1,7 @@
 ---
 title: MCPE Protocol
 permalink: /wiki/protocol/
+shortname: protocol
 ---
 ## MCPE Protocol
 Minecraft: Pocket Edition uses UDP for networking, unlike Minecraft Java Edition which uses TCP. It is rumoured that Mojang will make the switch to TCP in a future update.

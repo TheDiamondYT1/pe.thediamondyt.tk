@@ -1,6 +1,7 @@
 ---
 title: Realms API | Pending Invites Count
 permalink: /wiki/api/realms/invites-count/
+shortname: Pending Invites Count
 ---
 ## Pending Invites Count
 This endpoint returns the amount of players invitied to join your realm.

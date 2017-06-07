@@ -1,7 +1,7 @@
 ---
 title: MCPE Software
 permalink: /wiki/software/
-shortname: Software
+shortname: software
 ---
 ## MCPE Software
 Minecraft: Pocket Edition has various programs and tools available for it. These range from server software to mobile apps.

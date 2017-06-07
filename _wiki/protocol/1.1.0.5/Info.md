@@ -1,6 +1,7 @@
 ---
 title: MCPE 1.1.0.5 Protocol
 permalink: /wiki/protocol/1.1.0.5/
+shortname: 1.1.0.5
 ---
 ## MCPE 1.1.0.5 Protocol  
 Tip: Use CTRL+F or your browsers page search feature to easily find the packet you want. 

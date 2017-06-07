@@ -1,6 +1,7 @@
 ---
 title: Realms API | List Worlds
 permalink: /wiki/api/realms/list-worlds/
+shortname: List Worlds
 ---
 ## List Worlds
 

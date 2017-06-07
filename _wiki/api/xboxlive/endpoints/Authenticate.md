@@ -1,6 +1,7 @@
 ---
 title: Xbox Live API | Authenticate
 permalink: /wiki/api/xboxlive/authenticate/
+shortname: Authenticate
 ---
 ## Authenticate
 

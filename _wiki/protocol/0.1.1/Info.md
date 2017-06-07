@@ -1,6 +1,7 @@
 ---
 title: MCPE 0.1.1 Protocol
 permalink: /wiki/protocol/0.1.1/
+shortname: 0.1.1
 ---
 ## MCPE 0.1.1 Protocol  
 NOTE: MCPE did not have support for external servers in this version, so this protocol is for LAN games im guessing.

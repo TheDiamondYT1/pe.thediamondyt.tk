@@ -1,6 +1,7 @@
 ---
 title: Xbox Live API
 permalink: /wiki/api/xboxlive/
+shortname: xbox live
 ---
 ## Xbox Live API
 Listed here are only xbox api endpoints that are used by the client. I will make a seperate site for documenting it all some other time.  

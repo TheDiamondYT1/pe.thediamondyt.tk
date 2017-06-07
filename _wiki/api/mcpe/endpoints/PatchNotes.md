@@ -1,6 +1,7 @@
 ---
 title: MCPE API | Patch Notes
 permalink: /wiki/api/mcpe/patch-notes/
+shortname: Patch Notes
 ---
 ## Patch Notes
 This endpoint returns the patch notes for the specified client version. 

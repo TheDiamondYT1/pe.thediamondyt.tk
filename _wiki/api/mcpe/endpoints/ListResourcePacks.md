@@ -1,6 +1,7 @@
 ---
 title: MCPE API | List Resource Packs
 permalink: /wiki/api/mcpe/list-resource-packs/
+shortname: List Resource Packs
 ---
 ## List Resource Packs
 
