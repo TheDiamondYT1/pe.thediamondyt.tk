@@ -9,28 +9,27 @@ shortname: List Worlds
 |------|---|
 |GET|/worlds|
   
-### Example Request
+### Constructing the request
+<br>
+```
+GET /worlds 
+```
+<br>
+##### Headers
+```
+Authorization: {xboxToken}
+Client-Version: {clientVersion}
+User-Agent: MCPE/Android
+```
+
+##### Headers Explained
+* `{xboxToken}` is an xbox live token  
+* `{clientVersion}` is the version of the client (e.g. 1.0.6)  
+  
+<br>
+### Response
 
 ```
-GET /worlds HTTP/1.1
-Host: pocket.realms.minecraft.net:443
-Authorization: (long xbox live token)
-Cache-Control:no-cache
-Charset:utf-8
-Client-Version:1.0.4
-User-Agent:MCPE/Android
-Connection: Keep-Alive
-```
-
-### Example Response
-
-```
-HTTP/1.1 200 OK
-Content-Type: application/json
-Date: Fri, 24 Mar 2017 16:52:35 GMT
-Content-Length: 389
-Connection: keep-alive
-
 {
     "servers": [
     {
@@ -57,4 +56,13 @@ Connection: keep-alive
 }
 ```
 
+**Explained**  
+* `id` is the id of the realms server.  
+* `ownerUUID` is the unique id of the realms owner.  
+* `name` is the name of the realms owmer.  
+* `motd` is the description of the realm.
+* `state` is the open state of the realm. 
+  * `CLOSED` the realm is offline  
+  * `OPEN` the realm is online  
+  
 I did not pay for my realm and used the free trial, that's why some things are `null`. I will update this data some other time.

@@ -5,6 +5,8 @@ shortname: List Resource Packs
 ---
 ## List Resource Packs
 
+> This might be completely wrong...
+
 |Method|URL|
 |------|---|
 |GET|/v1/catalog/items/{id}|

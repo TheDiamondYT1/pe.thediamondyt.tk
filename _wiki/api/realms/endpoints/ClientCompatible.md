@@ -14,29 +14,28 @@ This endpoint returns whether or not the client is compatible for use with Realm
 |------|---|
 |GET|/mco/client/compatible|
   
-### Example Request
+### Constructing the request
+<br>
+```
+GET /mco/client/compatible
+```
+<br>
+##### Headers
+```
+Authorization: {xboxToken}
+Client-Version: {clientVersion}
+User-Agent: MCPE/Android
+```
+<br>
+##### Headers Explained
+* `{xboxToken}` is an xbox live token  
+* `{clientVersion}` is the version of the client (e.g. 1.0.6)  
+  
+<br>
+### Response
 
 ```
-GET /mco/client/compatible HTTP/1.1
-Host: pocket.realms.minecraft.net:443
-Authorization: (long xbox live token)
-Cache-Control:no-cache
-Charset:utf-8
-Client-Version:1.0.6
-User-Agent:MCPE/Android
-Connection: Keep-Alive
-```
-
-### Example Response
-
-```
-HTTP/1.1 200 OK
-Content-Type: text/plain
-Date: Tue, 06 Jun 2017 16:07:21 GMT
-Content-Length: 8
-Connection: keep-alive
-
 OUTDATED
 ```
 
-I tested this on 1.0.6, and the current version is 1.1.0.55, so it says outdated.
+I tested this on 1.0.6, and the current version is 1.1.0, so it says outdated.

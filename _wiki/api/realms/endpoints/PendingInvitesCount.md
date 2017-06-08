@@ -38,3 +38,11 @@ Connection: keep-alive
 
 0
 ```
+
+---
+
+### Response explained
+
+|Type|Description|
+|----|-----------|
+|int|The amount of players invited to join your realm|
