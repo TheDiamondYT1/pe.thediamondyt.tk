@@ -50,4 +50,4 @@ All functions in the libminecraftpe.so Android binary.
 
 ---
   
-[Protocol Info](http://thediamondyt.tk/wiki/protocol/0.1.3/)
+[Protocol Info](protocol/)

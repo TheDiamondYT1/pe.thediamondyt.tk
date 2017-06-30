@@ -23,7 +23,8 @@ There are various APIs that Minecraft: Pocket Edition uses to do stuff such as c
 
 <br>
 #### Server Stuff
-* [MCPE Protocol](protocol/)  
+* MCPE Protocol
+  * You can read about the protocol for your MCPE version on the [versions page](versions/).  
 
 <br>
 #### Other stuff

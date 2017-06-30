@@ -6,37 +6,31 @@ shortname: List Endpoints
 ## List Endpoints
 This endpoint lists all endpoints related to the pocket realms service.
 
-|Method|URL|
-|------|---|
-|GET|/titles/{id}/endpoints|
+---
 
-I am not sure what `id` is yet, see example below. 
+|**Host**|title.mgt.xboxlive.com:443|
+|**Authentication**|Yes|
   
-### Example Request
-
+### Constructing the request
 ```
-GET /titles/default/endpoints HTTP/1.1
-Host: title.mgt.xboxlive.com:443
-Accept-Language:en-GB,en
-Authorization: (long xbox live token)
-Content-Type:application/json; charset=utf-8
-Signature:AAAAAQHS3t7yoBZWMoZTP/pJwvRc4bW/0xN8Ye2NAP/WQEcU5yi7aQCymN0pmTi8CWbgxELC8wySIK9E9ogjVFLSNmJ7EzkkXkCeQA==
-User-Agent:cpprestsdk/2.8.0
-x-xbl-contract-version:1
-Connection: Keep-Alive
+GET /titles/{id}/endpoints
 ```
-
+I'm not currently sure what `{id}` is, but for now just use `default`.  
+  
+### Headers
+```
+Authorization: {xboxToken}
+Content-Type: application/json
+```
+  
+##### Headers Explained
+* `{xboxToken}` is an xbox live token  
+  
+<br>
+  
 ### Example Response
 
 ```
-HTTP/1.1 200 OK
-Cache-Control: no-cache, no-store
-Content-Length: 1626
-ETag: "8h/DjXgTlkXb+evmwAH1sDhlGHwipKAJKBk3h+onh6k="
-X-Content-Type-Options: nosniff
-MS-CV: Ss/YYzlJO0qCqdk3yqL6gQ.0
-Date: Tue, 06 Jun 2017 16:07:09 GMT
-
 {
     "EndPoints": [
     {
@@ -121,3 +115,8 @@ Date: Tue, 06 Jun 2017 16:07:09 GMT
     }]
 }
 ```
+  
+##### Response Explained
+* `Protocol` is either http or https  
+* `Host` is the host url of the endpoint  
+* `ReplyingParty` is the url of the host replying to the request  

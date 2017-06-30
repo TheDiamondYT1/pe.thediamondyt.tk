@@ -5,19 +5,25 @@ shortname: List Resource Packs
 ---
 ## List Resource Packs
 
-> This might be completely wrong...
+---
 
-|Method|URL|
-|------|---|
-|GET|/v1/catalog/items/{id}|
-
-I am not sure what `id` is yet, see example below. 
-
-### Optional Arguments
-
-|Argument|Type|Description|
-|alllanguages|bool|Displays pack info in multiple languages|
+|**Host**|xforge.xboxlive.com:443|
+|**Authentication**|No|
   
+### Constructing the request
+```
+GET /v1/catalog/items/{id}
+```
+  
+##### Explained
+* `{id}` im not quite sure of yet, see below for example
+  
+##### Headers
+```
+Content-Type: application/json
+```
+  
+<br>
 ### Example Request
 
 ```
@@ -35,16 +41,6 @@ Connection: Keep-Alive
 ### Example Response
 
 ```
-HTTP/1.1 200 OK 
-
-Cache-Control: no-cache, no-store
-Content-Length: 2642
-Content-Type: application/json
-ETag: "0x8D486BBCA5097A9"
-X-Content-Type-Options: nosniff
-MS-CV: jDoQhGcwJUyU/BrF5hPfGA.0
-Date: Tue, 06 Jun 2017 20:27:57 GMT
-
 {
     "id": "G009SWJHK75F",
     "title": {

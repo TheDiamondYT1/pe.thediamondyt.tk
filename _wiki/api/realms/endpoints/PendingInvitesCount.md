@@ -8,41 +8,31 @@ This endpoint returns the amount of players invitied to join your realm.
 
 ---
 
-**Host:** pocket.realms.minecraft.net:443
-
-|Method|URL|
-|------|---|
-|GET|/invities/count/pending|
+|**Host**|pocket.realms.minecraft.net:443|
+|**Authentication**|Yes|
   
-### Example Request
-
+### Constructing the request
 ```
-GET /invites/count/pending HTTP/1.1
-Host: pocket.realms.minecraft.net:443
-Authorization: (long xbox live token)
-Cache-Control:no-cache
-Charset:utf-8
-Client-Version:1.0.6
-User-Agent:MCPE/Android
-Connection: Keep-Alive
+GET /invites/count/pending
 ```
-
-### Example Response
-
+  
+##### Headers
 ```
-HTTP/1.1 200 OK
-Content-Type: text/plain
-Date: Tue, 06 Jun 2017 16:07:42 GMT
-Content-Length: 1
-Connection: keep-alive
+Authorization: {xboxToken}
+Client-Version: {clientVersion}
+User-Agent: MCPE/Android
+```
+  
+##### Headers Explained
+* `{xboxToken}` is an xbox live token  
+* `{clientVersion}` is the version of the client (e.g. 1.0.6)  
+  
+<br>
 
+### Response
+The response will be an integer. I have not invited any players so it showns the following:
+  
+##### Example
+```
 0
 ```
-
----
-
-### Response explained
-
-|Type|Description|
-|----|-----------|
-|int|The amount of players invited to join your realm|

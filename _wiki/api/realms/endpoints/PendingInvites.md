@@ -1,18 +1,18 @@
 ---
-title: Realms API | New Trial
-permalink: /wiki/api/realms/new-trial/
-shortname: New Trial
+title: Realms API | Pending Invites
+permalink: /wiki/api/realms/invites/
 ---
-## New Trial
+## Pending Invites
+This endpoint returns the names of the players you have invited to join your realm.
 
 ---
 
 |**Host**|pocket.realms.minecraft.net:443|
 |**Authentication**|Yes|
-
+  
 ### Constructing the request
 ```
-GET /trial/new
+GET /invites/pending
 ```
   
 ##### Headers
@@ -29,18 +29,11 @@ User-Agent: MCPE/Android
 <br>
 
 ### Example Response
-
-##### Response Code
-```
-403 Forbidden
-```
-
-##### Example 
+  
 ```
 {
-    "errorCode": 403, 
-    "errorMsg": "Trial is not available"
+	"invites": []
 }
 ```
 
-My trial is not available. I'm guessing i already used it.
+I haven't invited anyone to my realm yet.

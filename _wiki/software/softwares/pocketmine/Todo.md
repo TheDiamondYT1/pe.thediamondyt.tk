@@ -62,7 +62,6 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
 ---
   
 #### Entities
- * Add the ability to sheer sheep ([Sheers.php#L49](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/item/Shears.php#L49))
  * Add lingering potions
  * Add lightning checks to EntityDamageEvent ([EntityDamageEvent.php#L152](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/event/entity/EntityDamageEvent.php#L152))
  * Add power and flame enchantment effects to bows.
@@ -73,13 +72,11 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
 ---
  
 #### Bugs
- * Players in spectater mode can shoot bows ([#852](https://github.com/pmmp/PocketMine-MP/issues/852))
  * Poorly coded NBT library is really slow ([#466](https://github.com/pmmp/PocketMine-MP/issues/466))
  * Command usage output is incorrect on the client ([#236](https://github.com/pmmp/PocketMine-MP/issues/236))
  * Torches cannot be placed on top of some blocks ([#458](https://github.com/pmmp/PocketMine-MP/issues/458))
  * Players can fall up to 5 blocks without taking fall damage ([#891](https://github.com/pmmp/PocketMine-MP/issues/891))
  * Effects can be given to non-living entity classes ([#886](https://github.com/pmmp/PocketMine-MP/issues/886))
- * Players position not updating for others on teleport ([#921](https://github.com/pmmp/PocketMine-MP/issues/921))
  
 ---
  

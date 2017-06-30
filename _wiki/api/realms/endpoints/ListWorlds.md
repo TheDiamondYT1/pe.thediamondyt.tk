@@ -5,58 +5,65 @@ shortname: List Worlds
 ---
 ## List Worlds
 
-|Method|URL|
-|------|---|
-|GET|/worlds|
+---
+
+|**Host**|pocket.realms.minecraft.net:443|
+|**Authentication**|Yes|
   
 ### Constructing the request
-<br>
 ```
 GET /worlds 
 ```
-<br>
+  
 ##### Headers
 ```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
 ```
-
+  
 ##### Headers Explained
 * `{xboxToken}` is an xbox live token  
 * `{clientVersion}` is the version of the client (e.g. 1.0.6)  
   
 <br>
 ### Response
-
+If you don't own any servers, it will return an empty array
 ```
 {
-    "servers": [
-    {
-        "id": 218350,
-        "remoteSubscriptionId": "96f47dc6774640f1834f7feb21f4d133",
-        "owner": "",
-        "ownerUUID": "2535430636236042",
-        "name": "TheDiamondYT7's Realm",
-        "motd": "Welcome to my test realm",
-        "state": "CLOSED",
-        "daysLeft": -1,
-        "expired": true,
-        "expiredTrial": false,
-        "worldType": "NORMAL",
-        "players": null,
-        "maxPlayers": 10,
-        "minigameName": null,
-        "minigameId": null,
-        "minigameImage": null,
-        "activeSlot": 1,
-        "slots": null,
-        "member": false
-    }]
+	"servers": []
 }
 ```
-
-**Explained**  
+  
+However if you do own a server, it will return something like this
+```
+{
+	"servers": [
+	{
+		"id": 218350,
+		"remoteSubscriptionId": "96f47dc6774640f1834f7feb21f4d133",
+		"owner": "",
+		"ownerUUID": "2535430636236042",
+		"name": "TheDiamondYT7's Realm",
+		"motd": "Welcome to my test realm",
+		"state": "CLOSED",
+		"daysLeft": -1,
+		"expired": true,
+		"expiredTrial": false,
+		"worldType": "NORMAL",
+		"players": null,
+		"maxPlayers": 10,
+		"minigameName": null,
+		"minigameId": null,
+		"minigameImage": null,
+		"activeSlot": 1,
+		"slots": null,
+		"member": false
+	}]
+}
+```
+  
+##### Response Explained 
 * `id` is the id of the realms server.  
 * `ownerUUID` is the unique id of the realms owner.  
 * `name` is the name of the realms owmer.  

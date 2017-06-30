@@ -8,12 +8,8 @@ This endpoint returns the patch notes for the specified client version.
 
 It requires 2 seperate requests to actually obtain the content.
 
-|Method|URL|
-|------|---|
-|POST|/v1/category/items/search/|
-|GET|/v1/category/items/{productId}|
-
-value of `productId` is explained below.
+|**Host**|xforge.xboxlive.com:443|
+|**Authorization**|No|
 
 ### Making the requests
 This may be slightly harder for beginners, and i haven't it explained it that well. You have been warned.
@@ -21,16 +17,16 @@ This may be slightly harder for beginners, and i haven't it explained it that we
 First, we make a `POST` request with some basic information.
 
 #### Constructing the JSON payload
-<br>
+  
 ```
 POST /v1/catalog/items/search
 ```
-<br>
+  
 ##### Headers
 ```
 Content-Type: application/json
 ```
-<br>
+  
 ##### Payload
 ```
 {

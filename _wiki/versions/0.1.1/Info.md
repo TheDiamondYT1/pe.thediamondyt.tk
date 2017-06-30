@@ -24,4 +24,4 @@ All functions in the libminecraftpe.so Android binary.
 [Items Dump](dumps/itemdump.txt)  
 [Packet Dump](dumps/packetdump.txt)  
   
-[Protocol Info](http://thediamondyt.tk/wiki/protocol/0.1.1/
+[Protocol Info](protocol/)
