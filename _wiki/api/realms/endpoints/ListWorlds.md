@@ -7,8 +7,9 @@ shortname: List Worlds
 
 ---
 
-|**Host**|pocket.realms.minecraft.net:443|
-|**Authentication**|Yes|
+|Host|Authentication|
+|----|--------------|
+|pocket.realms.minecraft.net:443|Yes|
   
 ### Constructing the request
 ```
@@ -31,35 +32,35 @@ User-Agent: MCPE/Android
 If you don't own any servers, it will return an empty array
 ```
 {
-	"servers": []
+    "servers": []
 }
 ```
   
 However if you do own a server, it will return something like this
 ```
 {
-	"servers": [
-	{
-		"id": 218350,
-		"remoteSubscriptionId": "96f47dc6774640f1834f7feb21f4d133",
-		"owner": "",
-		"ownerUUID": "2535430636236042",
-		"name": "TheDiamondYT7's Realm",
-		"motd": "Welcome to my test realm",
-		"state": "CLOSED",
-		"daysLeft": -1,
-		"expired": true,
-		"expiredTrial": false,
-		"worldType": "NORMAL",
-		"players": null,
-		"maxPlayers": 10,
-		"minigameName": null,
-		"minigameId": null,
-		"minigameImage": null,
-		"activeSlot": 1,
-		"slots": null,
-		"member": false
-	}]
+    "servers": [
+    {
+        "id": 218350,
+        "remoteSubscriptionId": "96f47dc6774640f1834f7feb21f4d133", 
+        "owner": "",
+        "ownerUUID": "2535430636236042",
+        "name": "TheDiamondYT7's Realm",
+        "motd": "Welcome to my test realm",
+        "state": "CLOSED",
+        "daysLeft": -1,
+        "expired": true,
+        "expiredTrial": false,
+        "worldType": "NORMAL",
+        "players": null,
+        "maxPlayers": 10,
+        "minigameName": null,
+        "minigameId": null,
+        "minigameImage": null,
+        "activeSlot": 1,
+        "slots": null,
+        "member": false
+    }]
 }
 ```
   

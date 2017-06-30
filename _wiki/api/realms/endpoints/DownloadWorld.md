@@ -6,7 +6,9 @@ shortname: Download World
 ## Download World
 This endpoints allows you to download the world used on your realm.
 
-|**Host**|pocket.realms.minecraft.net:443|
+|Host|Authentication|
+|----|--------------|
+|pocket.realms.minecraft.net:443|Yes|
 
 /archive/download/world/{id}/{world}/latest
 

@@ -7,8 +7,9 @@ shortname: List Resource Packs
 
 ---
 
-|**Host**|xforge.xboxlive.com:443|
-|**Authentication**|No|
+|Host|Authentication|
+|----|--------------|
+|xforge.xboxlive.com:443|No|
   
 ### Constructing the request
 ```

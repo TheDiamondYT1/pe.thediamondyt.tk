@@ -8,8 +8,9 @@ This endpoint allows you to authenticate and get an Xbox Live token. It requires
 
 ---
 
-|**Host**|user.auth.xboxlive.com:443|
-|**Authentication**|No|
+|Host|Authentication|
+|----|--------------|
+|user.auth.xboxlive.com:443|No|
   
 ### Constructing the request
 ```

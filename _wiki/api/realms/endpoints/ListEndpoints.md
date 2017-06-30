@@ -8,8 +8,9 @@ This endpoint lists all endpoints related to the pocket realms service.
 
 ---
 
-|**Host**|title.mgt.xboxlive.com:443|
-|**Authentication**|Yes|
+|Host|Authentication|
+|----|--------------|
+|pocket.realms.minecraft.net:443|Yes|
   
 ### Constructing the request
 ```

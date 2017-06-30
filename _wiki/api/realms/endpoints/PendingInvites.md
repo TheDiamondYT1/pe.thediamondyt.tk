@@ -7,8 +7,9 @@ This endpoint returns the names of the players you have invited to join your rea
 
 ---
 
-|**Host**|pocket.realms.minecraft.net:443|
-|**Authentication**|Yes|
+|Host|Authentication|
+|----|--------------|
+|pocket.realms.minecraft.net:443|Yes|
   
 ### Constructing the request
 ```
