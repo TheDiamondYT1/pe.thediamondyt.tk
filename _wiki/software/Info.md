@@ -13,7 +13,7 @@ Minecraft: Pocket Edition has various programs and tools available for it. These
 |Name|Status|
 |----|------|
 |[PocketMine-MP](pocketmine/)|In Development|
-|MiNET|In Development|
+|[MiNET](minet/)|In Development|
 |[Voxelwind](voxelwind/)|Inactive|
 
 ---

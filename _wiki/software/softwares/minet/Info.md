@@ -19,3 +19,10 @@ In his own words,
 #### Guides
 * General
   * [Downloading the server](guides/downloading-the-server/)
+  
+---
+
+#### Contact
+Contact the MiNET team:
+
+* [Gitter](https://gitter.im/NiclasOlofsson/MiNET)

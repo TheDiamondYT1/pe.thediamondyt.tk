@@ -5,7 +5,7 @@ permalink: /wiki/software/pocketmine/guides/downloading-the-server/
 ## Downloading the server
 ---
 ### Installing PHP
-To run PocketMine-MP, you are required to have PHP 7.0 >= installed with the neccersary extensions. If not, you can compile it yourself or download a pre-compiled binary.
+To run PocketMine-MP, you are required to have PHP 7.0 >= installed with the neccersary extensions and a 64-bit system and php build. If not, you can compile it yourself or download a pre-compiled binary.
 
 * Linux
   * [Script](https://raw.githubusercontent.com/pmmp/php-build-scripts/master/compile.sh)  
@@ -20,8 +20,8 @@ To run PocketMine-MP, you are required to have PHP 7.0 >= installed with the nec
   
 ### Installing PocketMine-MP
 There are a few ways you can download PocketMine-MP. 
-
-**Compile from source**  
+<br>
+#### Compile from source
 You can compile directly from source code in the [Github repository](https://github.com/pmmp/PocketMine-MP). You can also run the server directly from source without compiling to a phar, just follow the steps untill step 3.
 
 1. Clone the repository recursively. `git clone --recursive https://github.com/pmmp/PocketMine-MP`  
@@ -31,9 +31,9 @@ You can compile directly from source code in the [Github repository](https://git
 5. Install the latest [DevTools](https://github.com/pmmp/PocketMine-DevTools) and place it in the plugins directory.
 6. Start the server again like in step 3.
 7. Type 'makeserver' in console then you're done!
-  
-**Installing from Poggit**  
-[Poggit](https://poggit.pmmp.io/) is the official plugin repository for PocketMine-MP. It also hosts bleeding-edge builds of [the server phar](https://poggit.pmmp.io/ci/pmmp/PocketMine-MP/~?branch=master).
-  
-**Windows installer**  
+<br>
+#### Installing from Poggit
+[Poggit](https://poggit.pmmp.io/) is the official plugin repository for PocketMine-MP. It also hosts bleeding-edge builds of [the server phar](https://poggit.pmmp.io/ci/pmmp/PocketMine-MP/~?branch=master) for you to download and use with the tap of a button.  
+<br>
+#### Windows installer
 [TheDeibo](https://forums.pmmp.io/members/thedeibo.11/) made a simple PocketMine installer for Windows to ease the setup of the server. Here is [the forum thread](https://forums.pmmp.io/threads/pocketmine-mp-1-6-2-installer-windows.2022/) which contains download links and instructions.

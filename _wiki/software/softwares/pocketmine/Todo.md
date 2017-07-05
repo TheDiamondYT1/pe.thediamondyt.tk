@@ -41,7 +41,6 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
  
 #### Blocks
  * Redstone is not implemented
- * Double plants arent implemented ([#882](https://github.com/pmmp/PocketMine-MP/issues/882))
  * Implement block bounding boxes and collision boxes ([#169](https://github.com/pmmp/PocketMine-MP/issues/169))
  * Add nether portals ([FlintSteel.php#L40](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/item/FlintSteel.php#L40))
  * Farmland doesnt get turned back to dirt when jumped on
@@ -89,7 +88,6 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
    * Game Type: string
  * Rewrite translation system to use sprintf and support for vanilla language files ([#207 (comment)](https://github.com/pmmp/PocketMine-MP/issues/207#issuecomment-280027871))
  * Check if player is swimming and apply exhaustion ([Player.php#L1597](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/Player.php#L1597))
- * Add eating sounds ([Player.php#L2271](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/Player.php#L2271))
  * Move inventory data to JSON ([InventoryType.php#L64](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/inventory/InventoryType.php#L64))
  * Add JWT encryption for Xbox Live login
  
