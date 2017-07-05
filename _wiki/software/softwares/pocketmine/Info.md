@@ -16,9 +16,12 @@ shortname: PocketMine-MP
 
 PocketMine-MP is a server software for Minecraft PE and was originally created to be a proof of concept to document [wiki.vg](http://wiki.vg). Don't believe me? Check out [this commit](https://github.com/pmmp/PocketMine-MP/commit/1b3568301299cc0c2fc832c5c2fc93326abc565d). It was also originally called `Pocket-Minecraft-PHP` and was renamed on December 22nd, 2012. 
   
-**Developer change**  
-On (date), the founder of PocketMine shoghicp revealed that he had been offered a job a Mojang, and he took it. In the weeks and months that followed we saw no activity from him on the PocketMine Forums and he ignored every tweet asking about PocketMine, and the project slowly died. [This](https://github.com/pmmp/PocketMine-MP/commit/cf3d8f449e05f5f540f88ce50609dff372a01445) seems to be the last commit by shoghi.  
+---
+
+#### Shoghi's Departure
+On (date), the founder of PocketMine shoghicp revealed that he had been offered a job a Mojang, and he took it. In the weeks and months that followed we saw no activity from him on the PocketMine Forums and he ignored every tweet asking about PocketMine, and the project slowly died. [This](https://github.com/pmmp/PocketMine-MP/commit/cf3d8f449e05f5f540f88ce50609dff372a01445) seems to be the last commit by shoghi.<br> 
 Then, on September 6th, 2016, our saviour Dylan K. Taylor (dktapps) took over the project. Website, forums, github — all fresh and new.  
+
 ---
 
 #### PocketMine Realms
