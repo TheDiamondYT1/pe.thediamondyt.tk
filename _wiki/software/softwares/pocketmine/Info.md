@@ -25,7 +25,7 @@ It enabled the connecting to online servers through the MCPE 0.7.0 realms interf
 Around August 31th 2013, PocketMine Realms was shut down due to a petition by Mojang. In return, they would add external server support MCPE in version 0.7.4.
 After this, the service was closed and users were recommended to use PocketMine-MP, as we know it today.  
   
-**Links**
+**Links**  
 I've made an archive of the source repos and some other resources related to PocketMine Realms on [GitHub](https://github.com/PMArchive).  
 * Source
   * [Plugin to list servers](https://github.com/PMArchive/PMRealms-Plugin)
