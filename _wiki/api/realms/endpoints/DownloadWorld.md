@@ -6,22 +6,48 @@ shortname: Download World
 ## Download World
 This endpoints allows you to download the world used on your realm.
 
+It requires 2 seperate requests to actually obtain the world.
+
 |Host|Authentication|
 |----|--------------|
 |pocket.realms.minecraft.net:443|Yes|
 
-/archive/download/world/{id}/{world}/latest
+### Making the requests
+Firstly, we make a `GET` request to obtain the download url.
 
-THIS MAY BE INCORRECT
+#### Constructing the request
+
+```
+GET /archive/download/world/{id}/{world}/latest
+```
+
+##### Headers
+```
+User-Agent: MCPE/Android
+```
   
-### Example Request
+Once you have done that, you will get a response that looks like the following:
 
 ```
-
+{
+    "downloadUrl": "https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds",
+    "token": "(long identity public key)"
+}
 ```
 
-### Example Response
+Keep hold of the `downloadUrl` field, as we will need it for our next request:
 
 ```
-
+GET {downloadUrl}
 ```
+
+#### Headers
+```
+Authorization: {xboxToken}
+```
+
+#### Headers Explained
+* `{xboxToken}` is an xbox live token
+  
+  
+##### This tutorial is incomplete
