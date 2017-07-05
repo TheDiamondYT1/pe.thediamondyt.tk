@@ -1,7 +1,7 @@
 ---
-title: Minecraft: Pocket Edition API
+title: Minecraft - Pocket Edition API
 permalink: /wiki/api/
-shortname: apiEdition
+shortname: api
 ---
 There are various APIs that Minecraft: Pocket Edition uses to do stuff such as connect to realms, login to xbox live and more.
   
