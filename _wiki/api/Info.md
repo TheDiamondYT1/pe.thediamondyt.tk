@@ -5,7 +5,7 @@ shortname: api
 ---
 There are various APIs that Minecraft: Pocket Edition uses to do stuff such as connect to realms, login to xbox live and more.
   
-* [Realms API](api/realms/)  
-* [Store API](api/store/)  
-* [General MCPE API](api/mcpe/)  
-* [Xbox Live API](api/xboxlive/)  
+* [Realms API](realms/)  
+* [Store API](store/)  
+* [General MCPE API](mcpe/)  
+* [Xbox Live API](xboxlive/)  
