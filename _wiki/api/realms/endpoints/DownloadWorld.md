@@ -26,8 +26,8 @@ GET /archive/download/world/{id}/{world}/latest
 User-Agent: MCPE/Android
 ```
   
-Once you have done that, you will get a response that looks like the following:
-
+<br>
+#### Response
 ```
 {
     "downloadUrl": "https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds",
@@ -36,18 +36,18 @@ Once you have done that, you will get a response that looks like the following:
 ```
 
 Keep hold of the `downloadUrl` field, as we will need it for our next request:
-
+<br><br>
 ```
 GET {downloadUrl}
 ```
 
-#### Headers
+##### Headers
 ```
 Authorization: {xboxToken}
 ```
 
-#### Headers Explained
+##### Headers Explained
 * `{xboxToken}` is an xbox live token
   
   
-##### This tutorial is incomplete
+###### This tutorial is incomplete

@@ -33,10 +33,10 @@ Content-Type: application/json
 }
 ```
   
-Once you have done that, you will get a long response like the following:
+then you will get a long response like the following:
 
 ```
 
 ```
 
-##### The tutorial is not finished
+###### This tutorial is incomplete
