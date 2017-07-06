@@ -1,9 +1,9 @@
 ---
-title: MCPE API | List Resource Packs
-permalink: /wiki/api/mcpe/list-resource-packs/
-shortname: List Resource Packs
+title: MCPE API | Resource Pack Info
+permalink: /wiki/api/mcpe/resource-pack-info/
+shortname: Resource Pack Info
 ---
-## List Resource Packs
+## Resource Pack Info
 
 ---
 
@@ -13,11 +13,13 @@ shortname: List Resource Packs
   
 ### Constructing the request
 ```
-GET /v1/catalog/items/{id}
+GET /v1/catalog/items/{id}/
 ```
-  
+
 ##### Explained
-* `{id}` im not quite sure of yet, see below for example
+`{id}` is the id of the resource pack
+
+For example, for the Plastic Texture Pack: `G009SWJHK75F`
   
 ##### Headers
 ```
@@ -25,20 +27,6 @@ Content-Type: application/json
 ```
   
 <br>
-### Example Request
-
-```
-GET /v1/catalog/items/G009SWJHK75F HTTP/1.1
-Host: xforge.xboxlive.com:443
-Accept-Language:
-Authorization:
-Cache-Control:public
-Content-Type:application/json
-If-None-Match:
-User-Agent:cpprestsdk/2.8.0
-Connection: Keep-Alive
-```
-
 ### Example Response
 
 ```

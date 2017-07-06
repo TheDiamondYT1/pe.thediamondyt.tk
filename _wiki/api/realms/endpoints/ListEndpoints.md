@@ -10,13 +10,12 @@ This endpoint lists all endpoints related to the pocket realms service.
 
 |Host|Authentication|
 |----|--------------|
-|pocket.realms.minecraft.net:443|Yes|
+|title.mgt.xboxlive.com:443|Yes|
   
 ### Constructing the request
 ```
-GET /titles/{id}/endpoints
+GET /titles/1739947436/endpoints
 ```
-I'm not currently sure what `{id}` is, but for now just use `default`.  
   
 ### Headers
 ```
