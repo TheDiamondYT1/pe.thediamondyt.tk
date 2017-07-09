@@ -8,6 +8,8 @@ Minecraft: Pocket Edition uses UDP for networking, unlike Minecraft Java Edition
   
 The client listens for Local Area Network (LAN) servers on port **19132**. If you wish to join a server on another port, you must manually add it at in the servers screen.
 
+# TODO: MOVE CLIENT PACKETS TO EACH MCPE VERSION PAGE
+
 ---
 
 ### Login Sequence

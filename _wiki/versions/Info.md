@@ -8,10 +8,7 @@ Click the version of your choice to view method dumps from libminecraftpe.so.
 
 |Version|
 |-------|
-|[v1.1.0.55](1.1.0.55/|
-|[v1.1.0.9](1.1.0.9/)|
-|[v1.1.0.8](1.1.0.8/)|
-|[v1.1.0.0](1.1.0.0/)|
+|[v1.2.0](1.2.0/)|
 |[v0.8.0 alpha](0.8.0/)|
 |[v0.7.4 alpha](0.7.4/)|
 |[v0.2.0 alpha](0.2.0/)|

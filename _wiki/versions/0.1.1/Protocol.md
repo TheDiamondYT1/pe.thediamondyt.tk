@@ -29,5 +29,3 @@ Tip: Use CTRL+F or your browsers page search feature to easily find the packet y
 |Remove Entity||
 |Request Chunk||
 |Player Equipment||
-
-[Packet Dump](http://pe.thediamondyt.tk/wiki/versions/0.1.1/dumps/packetdump.txt)
