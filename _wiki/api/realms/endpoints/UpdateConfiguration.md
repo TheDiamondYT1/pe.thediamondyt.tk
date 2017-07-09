@@ -32,7 +32,7 @@ User-Agent: MCPE/Android
 ```
 {
     "description": {
-        "description: "",
+        "description": "",
         "name": "Example Realm",
     },
     "options": {
