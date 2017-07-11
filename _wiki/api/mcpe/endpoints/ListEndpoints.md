@@ -1,10 +1,10 @@
 ---
-title: Realms API | List Endpoints
-permalink: /wiki/api/realms/list-endpoints/
+title: MCPE API | List Endpoints
+permalink: /wiki/api/mcpe/list-endpoints/
 shortname: List Endpoints
 ---
 ## List Endpoints
-This endpoint lists all endpoints related to the pocket realms service.
+This endpoint lists all endpoints related to Minecraft Pocket Edition.
 
 ---
 

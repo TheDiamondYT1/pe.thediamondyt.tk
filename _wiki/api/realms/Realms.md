@@ -15,7 +15,6 @@ Mojang have a private API for interacting with their Realms servers. Here i will
 * [Close Realm](close/)  
 * [Update Configuration](configuration/)  
 * [New Trial](new-trial/)  
-* [List Endpoints](list-endpoints/)  
 * [Pending Invites Count](invites-count/)  
   
 ### User Agents
