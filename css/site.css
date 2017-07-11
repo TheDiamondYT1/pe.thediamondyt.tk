@@ -9,6 +9,12 @@
   padding-right: 20px;
 }
 
+.navbar {
+  -webkit-box-shadow: 0 1px 6px 1px #999;
+  -moz-box-shadow: 0 1px 6px 1px #999;
+  box-shadow: 0 1px 6px 1px #999;
+}
+
 /**
  * Code block syntax highlighting 
  * https://gist.github.com/demisx/8408522
