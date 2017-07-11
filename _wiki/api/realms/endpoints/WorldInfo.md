@@ -31,28 +31,45 @@ User-Agent: MCPE/Android
 ### Response
 ```
 {
-    "id": 218350,
-    "remoteSubscriptionId": "96f47dc6774640f1834f7feb21f4d133",
-    "owner": null,
-    "ownerUUID": "2535430636236042",
-    "name": "TheDiamondYT7's Realm",
-    "motd": "Welcome to my realm!",
-    "state": "CLOSED",
-    "daysLeft": -1,
-    "expired": true,
-    "expiredTrial": false,
-    "worldType": "NORMAL",
-    "players": [],
-    "maxPlayers": 10,
-    "minigameName": null,
-    "minigameId": null,
-    "minigameImage": null,
-    "activeSlot": 1,
-    "slots": [{
-        "options": "{\"difficulty\":0,\"versionRef\":\"2f4f297297cc24be0213b4bc366757fb28712ef8\"}",
-        "slotId": 1
-    }],
-    "member": false
+    "id":686765,
+    "remoteSubscriptionId":"7a7bc42fb9ae4da5b51efa755fbd7dc3",
+    "owner":null,
+    "ownerUUID":"2535451711971661",
+    "name":"TheDiamondYT's Realm",
+    "motd":"",
+    "state":"CLOSED",
+    "daysLeft":28,
+    "expired":false,
+    "expiredTrial":false,
+    "worldType":"NORMAL",
+    "players":[
+        {
+            "uuid":"2535405917539341",
+            "name":null,
+            "operator":false,
+            "accepted":false,
+            "online":false
+        },
+        {
+            "uuid":"2535430636236042",
+            "name":null,
+            "operator":true,
+            "accepted":false,
+            "online":false
+        }
+    ],
+    "maxPlayers":10,
+    "minigameName":null,
+    "minigameId":null,
+    "minigameImage":null,
+    "activeSlot":1,
+    "slots":[
+        {
+            "options":"{\"slotName\":null,\"pvp\":true,\"spawnAnimals\":true,\"spawnMonsters\":true,\"spawnNPCs\":true,\"spawnProtection\":0,\"commandBlocks\":false,\"forceGameMode\":false,\"gameMode\":2,\"difficulty\":2,\"worldTemplateId\":-1,\"worldTemplateImage\":null,\"adventureMap\":false,\"resourcePackHash\":null,\"versionRef\":\"6a17fb20b03d09b222ccf37e6dd4501624849f4a\",\"versionLock\":false,\"cheatsAllowed\":true,\"texturePacksRequired\":false,\"enabledPacks\":{\"resourcePacks\":[],\"behaviorPacks\":[]},\"availablePacks\":{\"resourcePacks\":[],\"behaviorPacks\":[]}}",
+            "slotId":1
+        }
+    ],
+    "member":false
 }
 ```
   

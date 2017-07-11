@@ -31,14 +31,14 @@ User-Agent: MCPE/Android
 ### Example Payload
 ```
 {
-    "description": {
-        "description": "",
-        "name": "Example Realm",
+    "description":{
+        "description":"",
+        "name":"TheDiamondYT's Realm"
     },
-    "options": {
-        "cheatsAllowed": true,
-        "difficulty": 3,
-        "gameMode": 1
+    "options":{
+        "cheatsAllowed":true,
+        "difficulty":3,
+        "gameMode":1
     }
 }
 ```

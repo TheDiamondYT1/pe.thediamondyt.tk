@@ -32,87 +32,88 @@ Content-Type: application/json
 
 ```
 {
-    "EndPoints": [
-    {
-        "Protocol": "https",
-        "Host": "peoapi.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://peoapi.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "peoapi-stage.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://peoapi-stage.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "pocket-stage.realms.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://pocket-stage.realms.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "pocket.realms.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://pocket.realms.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "payments.realms.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://payments.realms.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "pocket-dev.realms.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://pocket-dev.realms.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "payments-dev.realms.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://payments-dev.realms.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "payments-stage.realms.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://payments-stage.realms.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "multiplayer.minecraft.net",
-        "HostType": "fqdn",
-        "RelyingParty": "https://multiplayer.minecraft.net/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "https",
-        "Host": "multiplayer.mojang.zone",
-        "HostType": "fqdn",
-        "RelyingParty": "https://multiplayer.mojang.zone/",
-        "TokenType": "JWT"
-    },
-    {
-        "Protocol": "http",
-        "Host": "*",
-        "HostType": "wildcard"
-    },
-    {
-        "Protocol": "https",
-        "Host": "*",
-        "HostType": "wildcard"
-    }]
+    "EndPoints":[
+        {
+            "Protocol":"https",
+            "Host":"peoapi.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://peoapi.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"peoapi-stage.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://peoapi-stage.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"pocket-stage.realms.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://pocket-stage.realms.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"pocket.realms.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://pocket.realms.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"payments.realms.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://payments.realms.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"pocket-dev.realms.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://pocket-dev.realms.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"payments-dev.realms.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://payments-dev.realms.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"payments-stage.realms.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://payments-stage.realms.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"multiplayer.minecraft.net",
+            "HostType":"fqdn",
+            "RelyingParty":"https://multiplayer.minecraft.net/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"https",
+            "Host":"multiplayer.mojang.zone",
+            "HostType":"fqdn",
+            "RelyingParty":"https://multiplayer.mojang.zone/",
+            "TokenType":"JWT"
+        },
+        {
+            "Protocol":"http",
+            "Host":"*",
+            "HostType":"wildcard"
+        },
+        {
+            "Protocol":"https",
+            "Host":"*",
+            "HostType":"wildcard"
+        }
+    ]
 }
 ```
   

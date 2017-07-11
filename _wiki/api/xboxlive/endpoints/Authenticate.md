@@ -21,13 +21,13 @@ POST /user/authenticate
 
 ```
 {
-    "Properties": {
-        "AuthMethod": "RPS",
-        "RpsTicket": "{accessToken}",
-        "SiteName": "user.auth.xboxlive.com"
+    "Properties":{
+        "AuthMethod":"RPS",
+        "RpsTicket":"{accessToken}",
+        "SiteName":"user.auth.xboxlive.com"
     },
-    "RelyingParty": "http://auth.xboxlive.com",
-    "TokenType": "JWT"
+    "RelyingParty":"http://auth.xboxlive.com",
+    "TokenType":"JWT"
 }
 ```
   
@@ -41,14 +41,15 @@ The `{accessToken}` **must** be filled with a valid access token.
 ### Example Response
 ```
 {
-    "IssueInstant": "2017-06-06T22:16:20.2362278Z",
-    "NotAfter": "2017-06-20T22:16:20.2362278Z",
-    "Token": "(xboxToken)",
-    "DisplayClaims": {
-        "xui": [
-        {
-            "uhs": "12278597279218493392"
-        }]
+    "IssueInstant":"2017-06-06T22:16:20.2362278Z",
+    "NotAfter":"2017-06-20T22:16:20.2362278Z",
+    "Token":"(xboxToken)",
+    "DisplayClaims":{
+        "xui":[
+            {
+                "uhs":"12278597279218493392"
+            }
+        ]
     }
 }
 ```

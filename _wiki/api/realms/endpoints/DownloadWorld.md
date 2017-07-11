@@ -30,8 +30,8 @@ User-Agent: MCPE/Android
 #### Response
 ```
 {
-    "downloadUrl": "https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds",
-    "token": "(long identity public key)"
+    "downloadUrl":"https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds",
+    "token":"(long identity public key)"
 }
 ```
 

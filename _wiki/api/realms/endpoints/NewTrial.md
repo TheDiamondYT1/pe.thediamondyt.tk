@@ -39,8 +39,8 @@ User-Agent: MCPE/Android
 ##### Example 
 ```
 {
-    "errorCode": 403, 
-    "errorMsg": "Trial is not available"
+    "errorCode":403, 
+    "errorMsg":"Trial is not available"
 }
 ```
 
