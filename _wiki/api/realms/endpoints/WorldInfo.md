@@ -81,6 +81,7 @@ User-Agent: MCPE/Android
 * `state` is the open state of the realm. 
   * `CLOSED` the realm is offline  
   * `OPEN` the realm is online  
+* `daysLeft` is the amount of days before your realm expires  
 * `maxPlayers` is the maximum amount of players who can join the realm.  
   
 I did not pay for my realm and used the free trial, that's why some things are `null`. I will update this data some other time.
