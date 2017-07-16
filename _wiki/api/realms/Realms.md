@@ -13,7 +13,6 @@ Mojang have a private API for interacting with their Realms servers. Here i will
 * [Download World](download-world/)  
 * [Open Realm](open/)  
 * [Close Realm](close/)  
-* [Join Reapm](join/)  
 * [Update Configuration](configuration/)  
 * [New Trial](new-trial/)  
 * [Pending Invites Count](invites-count/)  
