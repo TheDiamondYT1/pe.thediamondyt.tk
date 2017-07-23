@@ -17,7 +17,7 @@ GET /worlds/{id}
 ```
   
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
@@ -29,7 +29,7 @@ User-Agent: MCPE/Android
   
 <br>
 ### Response
-```
+```json
 {
     "id":686765,
     "remoteSubscriptionId":"7a7bc42fb9ae4da5b51efa755fbd7dc3",

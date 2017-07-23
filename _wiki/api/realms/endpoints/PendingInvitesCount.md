@@ -18,7 +18,7 @@ GET /invites/count/pending
 ```
   
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android

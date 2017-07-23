@@ -18,7 +18,7 @@ GET /titles/1739947436/endpoints
 ```
   
 ### Headers
-```
+```http
 Authorization: {xboxToken}
 Content-Type: application/json
 ```
@@ -30,7 +30,7 @@ Content-Type: application/json
   
 ### Example Response
 
-```
+```json
 {
     "EndPoints":[
         {

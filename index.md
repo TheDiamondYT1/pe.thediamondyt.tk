@@ -5,6 +5,7 @@ title: Minecraft: Pocket Edition | TheDiamondYT
 
 Check out the wiki until i update this page.  
 
+<br><br>[Modding](http://modding.pe.thediamondyt.tk)
 ---
 
 ### Contact 

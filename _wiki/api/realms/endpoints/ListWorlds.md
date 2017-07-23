@@ -17,7 +17,7 @@ GET /worlds
 ```
   
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
@@ -30,14 +30,14 @@ User-Agent: MCPE/Android
 <br>
 ### Response
 If you don't own any servers, it will return an empty array
-```
+```json
 {
     "servers": []
 }
 ```
   
 However if you do own a server, it will return something like this
-```
+```json
 {
     "servers":[
         {

@@ -17,7 +17,7 @@ POST /worlds/{id}/configuration
 ```
   
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
@@ -29,7 +29,7 @@ User-Agent: MCPE/Android
   
 <br>
 ### Example Payload
-```
+```json
 {
     "description":{
         "description":"",

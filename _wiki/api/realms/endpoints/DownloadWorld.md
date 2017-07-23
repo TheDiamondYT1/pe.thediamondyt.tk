@@ -22,13 +22,13 @@ GET /archive/download/world/{id}/{world}/latest
 ```
 
 ##### Headers
-```
+```http
 User-Agent: MCPE/Android
 ```
   
 <br>
 #### Response
-```
+```json
 {
     "downloadUrl":"https://archive-pocket-production-eu-west-1.realms.minecraft.net/worlds",
     "token":"(long identity public key)"
@@ -42,7 +42,7 @@ GET {downloadUrl}
 ```
 
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 ```
 

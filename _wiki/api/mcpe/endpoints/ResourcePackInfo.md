@@ -22,14 +22,14 @@ GET /v1/catalog/items/{id}/
 For example, for the Plastic Texture Pack: `G009SWJHK75F`
   
 ##### Headers
-```
+```http
 Content-Type: application/json
 ```
   
 <br>
 ### Example Response
 
-```
+```json
 {
     "id": "G009SWJHK75F",
     "title": {

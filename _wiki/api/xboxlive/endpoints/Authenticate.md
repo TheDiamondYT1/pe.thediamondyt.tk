@@ -19,7 +19,7 @@ POST /user/authenticate
   
 ##### Payload
 
-```
+```json
 {
     "Properties":{
         "AuthMethod":"RPS",
@@ -39,7 +39,7 @@ The `{accessToken}` **must** be filled with a valid access token.
   
 <br>
 ### Example Response
-```
+```json
 {
     "IssueInstant":"2017-06-06T22:16:20.2362278Z",
     "NotAfter":"2017-06-20T22:16:20.2362278Z",

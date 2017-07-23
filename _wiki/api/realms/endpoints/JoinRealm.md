@@ -18,7 +18,7 @@ POST /worlds/{id}/join
 ```
   
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
@@ -30,7 +30,7 @@ User-Agent: MCPE/Android
   
 <br>
 ### Response
-```
+```json
 {
     "address":"ec2-54-246-211-112.eu-west-1.compute.amazonaws.com:27178",
     "pendingUpdate":false

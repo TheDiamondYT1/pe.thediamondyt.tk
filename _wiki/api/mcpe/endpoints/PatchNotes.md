@@ -24,12 +24,12 @@ POST /v1/catalog/items/search
 ```
   
 ##### Headers
-```
+```http
 Content-Type: application/json
 ```
   
 ##### Payload
-```
+```json
 {
     "count":true,
     "filter":{
@@ -50,7 +50,7 @@ Content-Type: application/json
   
 Once you have done that, you will get a response that looks somewhat like the following:
 
-```
+```json
 {
     "count":1,
     "facets":null,
@@ -111,13 +111,13 @@ GET /v1/catalog/items/{productId}
 ```
 
 ##### Headers
-```
+```http
 Content-Type: application/json
 ```
 
 which returns something like
 
-```
+```json
 {
     "id":"G009SWL69327",
     "title":{

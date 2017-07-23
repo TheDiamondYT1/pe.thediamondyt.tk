@@ -17,7 +17,7 @@ GET /trial/new
 ```
   
 ##### Headers
-```
+```http
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
@@ -37,7 +37,7 @@ User-Agent: MCPE/Android
 ```
 
 ##### Example 
-```
+```json
 {
     "errorCode":403, 
     "errorMsg":"Trial is not available"
