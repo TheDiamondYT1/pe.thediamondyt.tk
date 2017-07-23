@@ -18,7 +18,7 @@ PUT /worlds/{id}/close
 ```
   
 ##### Headers
-```http
+```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android

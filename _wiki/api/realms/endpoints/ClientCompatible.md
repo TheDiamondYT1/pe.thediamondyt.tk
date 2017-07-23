@@ -18,7 +18,7 @@ GET /mco/client/compatible
 ```
   
 ##### Headers
-```http
+```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android

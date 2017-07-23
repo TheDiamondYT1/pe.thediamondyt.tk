@@ -24,7 +24,7 @@ POST /v1/catalog/items/search
 ```
   
 ##### Headers
-```http
+```
 Content-Type: application/json
 ```
   

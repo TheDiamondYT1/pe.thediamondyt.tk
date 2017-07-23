@@ -17,7 +17,7 @@ GET /worlds
 ```
   
 ##### Headers
-```http
+```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android

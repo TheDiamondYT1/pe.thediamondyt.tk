@@ -18,7 +18,7 @@ PUT /worlds/{id}/open
 ```
   
 ##### Headers
-```http
+```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android

@@ -22,7 +22,7 @@ GET /archive/download/world/{id}/{world}/latest
 ```
 
 ##### Headers
-```http
+```
 User-Agent: MCPE/Android
 ```
   

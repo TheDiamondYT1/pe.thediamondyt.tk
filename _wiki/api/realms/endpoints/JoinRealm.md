@@ -18,7 +18,7 @@ POST /worlds/{id}/join
 ```
   
 ##### Headers
-```http
+```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android

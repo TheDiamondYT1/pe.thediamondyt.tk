@@ -17,7 +17,7 @@ POST /worlds/{id}/configuration
 ```
   
 ##### Headers
-```http
+```
 Authorization: {xboxToken}
 Client-Version: {clientVersion}
 User-Agent: MCPE/Android
