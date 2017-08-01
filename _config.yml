@@ -1,17 +1,14 @@
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-
 timezone: Europe/London
 
 title: "Minecraft: Pocket Edition"
-
-excerpt_separator: <!--read more-->
 
 collections:
   wiki:
     output: true
     permalink: /wiki/:path/
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/
  
 defaults:
   - scope:
@@ -23,3 +20,9 @@ defaults:
     values:
       layout: page
       secondarytitle: MCPE Wiki
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: page
+      secondarytitle: MCPE Tutorials

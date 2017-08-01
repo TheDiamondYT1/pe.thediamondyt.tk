@@ -56,7 +56,6 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
  * Build height limit messages for custom world heights ([(Level.php#1708](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/Level.php#L1708))
  * Decrease light level by time of day ([Level.php#1297](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/Level.php#L1297))
  * Implement `LastUpdate` and `InheritedTime` tags in all level providers ([Anvil.php#L47#L48](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/format/io/region/Anvil.php#L47#L48)), ([McRegion.php#L61#L62](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/format/io/region/McRegion.php#L61#L62))
- * Make light updates asynchronous.
  
 ---
   
@@ -81,11 +80,6 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
  
 #### Other
  * Write documentation for all functions
- * Typehint more functions
- * Add missing fields to RakNet broadcast name 
-   * Server ID: long
-   * World Name: string
-   * Game Type: string
  * Rewrite translation system to use sprintf and support for vanilla language files ([#207 (comment)](https://github.com/pmmp/PocketMine-MP/issues/207#issuecomment-280027871))
  * Check if player is swimming and apply exhaustion ([Player.php#L1597](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/Player.php#L1597))
  * Move inventory data to JSON ([InventoryType.php#L64](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/inventory/InventoryType.php#L64))

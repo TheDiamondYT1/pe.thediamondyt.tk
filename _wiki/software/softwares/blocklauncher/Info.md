@@ -11,11 +11,11 @@ shortname: BlockLauncher
 |Creator|Zhuowei Zhang|
 |Platform|Android|
 
-BlockLauncher is a launcher for Minecraft PE that patches the game and allows developers to create modifications, like Minecraft: Java Edition.  
+BlockLauncher is a launcher for Minecraft PE that patches the game and allows developers to create modifications. 
 
 ---
 
-#### ModPE
-ModPE is the modding api for modifying the game. Mods are coded in JavaScript or C++ native addons.
+#### Modding
+Read about modding and view tutorials in full detail @ [http://modding.pe.thediamondyt.tk](http://modding.pe.thediamondyt.tk).
 
 ---
