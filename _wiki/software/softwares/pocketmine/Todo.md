@@ -13,12 +13,17 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
  * Give command overflow handling ([GiveCommand.php#L88](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/command/defaults/GiveCommand.php#L88))
  
 ##### To implement
+ * /alwaysday [true:false]
  * /clear [player: target] [itemName: string] [data: int] [maxCount: int]
  * /clone \<begin: x y z> \<end: x y z> \<destination: x y z> [maskMode: string] [cloneMode: string] [tileName: string] [tileData: int]
+ * /connect \<serverUri: text>
  * /execute 
    * \<origin: target> \<position: x y z> \<command: string>
    * \<origin: target> \<position: x y z> \<detect: string> \<detectPos: x y z> \<detectBlock: string> \<detectData: int> \<command: string>
- * /fill \<from: x y z> \<to: x y z> \<tileName: string> [tileData: int] [oldBlockHandling: string] [replaceTileName: string] [replaceDataValue: int]
+ * /daylock [true:false]
+ * /fill 
+   * \<from: x y z> \<to: x y z> \<tileName: string> [tileData: int] [outline:hollow:destroy:keep]
+   * \<from: x y z> \<to: x y z> \<tileName: string> [tileData: int] [replaceTileName: string] [replaceDataValue: int]
  * /gamerule 
    * \<rule: string> \<value: bool>
    * \<rule: string> \<value: int>
