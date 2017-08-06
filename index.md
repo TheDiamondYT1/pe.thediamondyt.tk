@@ -9,7 +9,7 @@ title: Minecraft: Pocket Edition | TheDiamondYT
   I regularly updated this wiki with various development information and tutorials. Soon i'll start working on adding detailed information about every MCPE version since the beginning!<br><br>
   
   Check out the wiki!
-<center>
+</center>
 
 ---
 
