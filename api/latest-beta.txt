@@ -1,4 +1,0 @@
----
-permalink: /api/latest-beta
----
-1.1.2.9
