@@ -1,0 +1,10 @@
+{
+    "source": "",
+    "additions": [
+        "Added left hand controls",
+        "Added in-game sound toggle"
+    ],
+    "changes": [
+        "Enabled third person view for all devices"
+    ]
+}

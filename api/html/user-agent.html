@@ -1,0 +1,16 @@
+---
+permalink: /api/user-agent
+---
+<html><script>
+(function() {
+    var userAgent = navigator.userAgent;
+    if(userAgent.indexOf('Android')) {
+	    document.title = 'Android';
+        document.write('MCPE/Android');
+    }
+    else if(userAgent.indexOf('Windows')) {
+	    document.title = 'Windows';
+        document.write('MCPE/UWP');
+    }
+})();
+</script></html>

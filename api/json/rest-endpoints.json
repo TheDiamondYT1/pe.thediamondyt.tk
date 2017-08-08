@@ -1,0 +1,50 @@
+---
+permalink: /api/rest-endpoints
+---
+{
+    "realms": {
+        "baseUrl": "pocket.realms.minecraft.net",
+        "endpoints": [
+            {
+                "name": "List Worlds",
+                "method": "GET",
+                "path": "\/worlds"
+            },
+            {
+                "name": "Client Compatible",
+                "method": "GET",
+                "path": "\/mco\/client\/compatible"
+            },
+            {
+                "name": "Open Realm",
+                "method": "PUT",
+                "path": "\/worlds\/{id}\/open"
+            },
+            {
+                "name": "Close Realm",
+                "method": "PUT",
+                "path": "\/worlds\/{id}\/close"
+            },
+            {
+                "name": "Pending Invites Count",
+                "method": "GET",
+                "path": "\/invites\/count\/pending"
+            },
+            {
+                "name": "Pending Invites",
+                "method": "GET",
+                "path": "\/invites\/pending"
+            },
+            {
+                "name": "Update Configuration",
+                "method": "POST",
+                "path": "\/worlds\/{id}\/configuration"
+            },
+            {
+                "name": "New Trial",
+                "method": "GET",
+                "path": "\/trial\/new"
+            }
+        ]
+    }
+}

@@ -14,5 +14,3 @@ This was the first version of the game available on iOS.
 * Third person view for all devices
 * Left hand controls
 * In-game sound toggle
-  
-[Protocol Info](protocol/)

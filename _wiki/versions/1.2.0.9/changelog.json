@@ -1,0 +1,7 @@
+{
+    "source": "https://minecraft.gamepedia.com/Pocket_Edition_1.2_build_3",
+    "fixes": [
+        "Nametags should again work as expected",
+        "Fixed a crash when connecting to servers"
+    ]
+}

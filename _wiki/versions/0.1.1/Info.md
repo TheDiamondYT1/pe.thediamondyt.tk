@@ -13,15 +13,3 @@ This version of the game was re-uploaded on October 8th, 2011 to fix issues with
 ##### Additions
 * Auto Jump feature
 * Added touchscreen controls
-
----
-
-### Dumps
-All functions in the libminecraftpe.so Android binary.  
-
-[Full Dump](dumps/fulldump.txt)  
-[Blocks Dump](dumps/blockdump.txt)  
-[Items Dump](dumps/itemdump.txt)  
-[Packet Dump](dumps/packetdump.txt)  
-  
-[Protocol Info](protocol/)
