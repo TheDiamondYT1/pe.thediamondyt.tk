@@ -1,0 +1,17 @@
+---
+permalink: /api/version-info
+---
+<html><script src="http://pe.thediamondyt.tk/js/jquery.min.js"></script><script src="http://pe.thediamondyt.tk/js/jquery-helper.js"></script><script>
+(function() {
+    if((version = $.getParam('version')) == undefined) {
+        $.error('Undefined client version');
+        return;
+    }
+    $.getJSON(window.location.origin + '/wiki/versions/' + version + '/json/info.json', function(data) {
+        $.writeJSON(data)
+    })
+    .fail(function() {
+        $.error('JSON fetch failed. Maybe the client version doesn\'t exist?');
+    });;
+})();
+</script><html>

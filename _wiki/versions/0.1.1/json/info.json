@@ -1,0 +1,14 @@
+{
+    "name": "Minecraft: Pocket Edition alpha 0.1.1,
+    "type": "alpha",
+    "devices": [
+        "Android"
+    ],
+    "release_dates": {
+        "Android": "October 7, 2011"
+    },
+    "has_realms": false,
+    "changelog_url": "http://pe.thediamondyt.tk/wiki/versions/0.1.1/changelog",
+    "wiki_url": "http://minecraft.gamepedia.com/Pocket_Edition_Alpha_0.1.1",
+    "notes": "Alpha 0.1.1 was reuploaded on October 8, 2011 to fix the Xperia PLAY controls."
+}

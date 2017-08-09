@@ -5,6 +5,7 @@
         "Added in-game sound toggle"
     ],
     "changes": [
-        "Enabled third person view for all devices"
+        "Enabled third person view for all devices",
+        "Display help text if license verification fails"
     ]
 }
