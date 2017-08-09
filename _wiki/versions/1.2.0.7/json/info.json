@@ -1,3 +1,16 @@
 {
-    "releaseDate": "August 4, 2017"
+    "name": "Minecraft: Pocket Edition 1.2 build 2",
+    "codename": "The Better Together Update",
+    "type": "snapshot",
+    "platforms": [
+        "Android",
+        "UWP"
+    ],
+    "release_dates": {
+        "Android": "August 4, 2017",
+        "UWP": "August 4, 2017"
+    },
+    "has_realms": true
+    "changelog_url": "http://pe.thediamondyt.tk/api/client-info?type=changelog&version=1.2.0.7",
+    "wiki_url": "https://minecraft.gamepedia.com/Pocket_Edition_1.2_build_2"
 }

@@ -7,11 +7,13 @@ permalink: /api/version-info
         $.error('Undefined client version');
         return;
     }
-    $.getJSON(window.location.origin + '/wiki/versions/' + version + '/json/info.json', function(data) {
+    var file = $.getParam('type') || 'info';
+    
+    $.getJSON(window.location.origin + '/wiki/versions/' + version + '/json/' + file + '.json', function(data) {
         $.writeJSON(data)
     })
     .fail(function() {
-        $.error('JSON fetch failed. Maybe the client version doesn\'t exist?');
+        $.error('JSON fetch failed. Maybe the client version or type doesn\'t exist?');
     });;
 })();
 </script><html>

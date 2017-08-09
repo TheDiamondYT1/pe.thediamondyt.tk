@@ -1,0 +1,19 @@
+{
+    "version": "?",
+    "packets": {
+        "Login": "?",
+        "Message": "?",
+        "Add Player": "?",
+        "Chunk Data": "?",
+        "Start Game": "?",
+        "Move Entity": "?",
+        "Move Player": "?",
+        "Place Block": "?",
+        "Remove Block": "?",
+        "Update Block": "?",
+        "Remove Entity": "?",
+        "Request Chunk": "?",
+        "Player Equipment": "?"
+    },
+    "notes": "No support for external servers in this version."
+}
