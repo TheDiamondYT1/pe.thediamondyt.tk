@@ -6,7 +6,7 @@ I created an easy to use JSON API for easy access to Minecraft [Pocket Edition] 
 
 ---
 
-Every endpoint is located in `http://pe.thediamondyt.tk/api/`, and every endpoint can be accessed directly from the browser.
+Every endpoint is located in `http://peapi.thediamondyt.tk`, and every endpoint can be accessed directly from the browser.
 <br>
 ### Getting the latest beta
 ```
@@ -19,7 +19,7 @@ GET /latest-beta.json
     "name": "Minecraft 1.2 build 3",
     "codename": "The Better Together Update",
     "version": "1.2.0.9",
-    "info_url": "http://pe.thediamondyt.tk/api/v/1.2.0.9/info.json"
+    "info_url": "http://peapi.thediamondyt.tk/v/1.2.0.9/info.json"
 }
 ```
 
@@ -49,8 +49,8 @@ GET /v/{version}/info.json
         "UWP": "August 8, 2017"
     },
     "has_realms": true,
-    "changelog_url": "http://pe.thediamondyt.tk/api/v/1.2.0.9/changelog.json",
-    "protocol_url": "http://pe.thediamondyt.tk/api/v/1.2.0.9/protocol.json",
+    "changelog_url": "http://peapi.thediamondyt.tk/v/1.2.0.9/changelog.json",
+    "protocol_url": "http://peapi.thediamondyt.tk/v/1.2.0.9/protocol.json",
     "wiki_url": "https://minecraft.gamepedia.com/Pocket_Edition_1.2_build_3"
 }
 ```
