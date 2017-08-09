@@ -1,0 +1,16 @@
+{
+    "name": "Minecraft: Pocket Edition alpha 0.2.0",
+    "type": "alpha",
+    "platforms": [
+        "Android",
+        "iOS"
+    ],
+    "release_dates": {
+        "Android": "",
+        "iOS": ""
+    },
+    "has_realms": false,
+    "changelog_url": "http://pe.thediamondyt.tk/api/v/0.2.0/changelog.json",
+    "protocol_url": "http://pe.thediamondyt.tk/api/v/0.2.0/protocol.json",
+    "wiki_url": "http://minecraft.gamepedia.com/Pocket_Edition_Alpha_0.2.0"
+}

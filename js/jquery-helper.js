@@ -12,6 +12,10 @@ $.error = function(text) {
 	$.writeJSON({'error': text});
 }
 
-$.writeJSON = function(name) {
+$.writeJSON = function(name, minify) {
+    if(minify) {
+        document.write(JSON.stringify(name));
+        return;
+    }
 	document.write('<pre>' + JSON.stringify(name, null, 4) + '</pre>');
 }

@@ -1,0 +1,38 @@
+---
+layout: page
+permalink: /lab/render-changelog
+---
+<html><head><script src="../js/jquery.min.js"></script><script src="../js/jquery-helper.js"></script><script>
+(function() {
+    var version = $.getParam('version') || $.getParam('v');
+    if(version == undefined) {
+        $.error('Undefined client version.');
+        return;
+    }
+    var changelog = $.getJSON(window.location.origin + '/api/v/' + version + '/changelog.json', function(data) {
+        if(data.additions != undefined) {
+            $('body').append('<h1>Additions</h1>');
+            $.each(data.additions, function(key, value) {
+                $('body').append('<li>' + value + '</li>');
+            });
+        }
+        if(data.changes != undefined) {
+            $('body').append('<h1>Changes</h1>');
+            $.each(data.changes, function(key, value) {
+                $('body').append('<li>' + value + '</li>');
+            });
+        }
+        if(data.fixes != undefined) {
+            $('body').append('<h1>Fixes</h1>');
+            $.each(data.fixes, function(key, value) {
+                $('body').append('<li>' + value + '</li>');
+            });
+        }
+        $('body').append('<hr>');
+        $('body').append('<a href="' + data.source + '">Source</a>');
+    })
+    .fail(function() {
+        $.error('JSON fetch failed. Check the specified client version exists.');
+    });
+})();
+</script></head><body></body></html>

@@ -11,6 +11,6 @@
         "UWP": "August 4, 2017"
     },
     "has_realms": true
-    "changelog_url": "http://pe.thediamondyt.tk/api/client-info?type=changelog&version=1.2.0.7",
+    "changelog_url": "http://pe.thediamondyt.tk/api/v/1.2.0.7/changelog.json",
     "wiki_url": "https://minecraft.gamepedia.com/Pocket_Edition_1.2_build_2"
 }

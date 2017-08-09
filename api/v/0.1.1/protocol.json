@@ -1,5 +1,6 @@
 {
     "version": "?",
+    "supports_external_servers": false,
     "packets": {
         "Login": "?",
         "Message": "?",
@@ -14,6 +15,5 @@
         "Remove Entity": "?",
         "Request Chunk": "?",
         "Player Equipment": "?"
-    },
-    "notes": "No support for external servers in this version."
+    }
 }

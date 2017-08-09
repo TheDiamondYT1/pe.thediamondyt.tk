@@ -1,0 +1,7 @@
+{
+    "version": "130",
+    "supports_external_servers": true,
+    "packets": {
+        "Login": "0x01"
+    }
+}
