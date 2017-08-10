@@ -1,8 +1,7 @@
 ---
-layout: default
 permalink: /lab/render-changelog
 ---
-<script>
+<html><head><script src="../js/jquery.min.js"></script><script src="../js/jquery-helper.js"></script><script>
 (function() {
     var version = $.getParam('version') || $.getParam('v');
     if(version == undefined) {
@@ -39,7 +38,8 @@ permalink: /lab/render-changelog
         $.error('JSON fetch failed. Check the specified client version exists.');
     });
 })();
-</script>
-<div id="page" class="page">
+</script></head><body>
+<div id="page" class="container">
   
 </div>
+</body></html>
