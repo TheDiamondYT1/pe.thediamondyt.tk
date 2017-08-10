@@ -15,5 +15,8 @@
   box-shadow: 0 1px 6px 1px #999;
 }
 
-.page > .highlight pre code { display: block; white-space: pre; overflow-x: auto; } /* Other Styling */
+pre {
+  background-color: #FFFFFF;
+}
 
+.page > .highlight pre code { display: block; white-space: pre; overflow-x: auto; } /* Other Styling */
