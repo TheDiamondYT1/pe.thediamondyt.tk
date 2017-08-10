@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /lab/render-changelog
 ---
 <script>
@@ -15,28 +15,31 @@ permalink: /lab/render-changelog
     }
     var changelog = $.getJSON('http://peapi.thediamondyt.tk/v/' + version + '/changelog.json', function(data) {
         if(data.additions != undefined) {
-            $('#body').append('<h1>Additions</h1>');
+            $('#page').append('<h1>Additions</h1>');
             $.each(data.additions, function(key, value) {
-                $('#body').append('<li>' + value.text + '</li>');
+                $('#page').append('<li>' + value.text + '</li>');
             });
         }
         if(data.changes != undefined) {
-            $('#body').append('<h1>Changes</h1>');
+            $('#page').append('<h1>Changes</h1>');
             $.each(data.changes, function(key, value) {
-                $('#body').append('<li>' + value.text + '</li>');
+                $('#page').append('<li>' + value.text + '</li>');
             });
         }
         if(data.fixes != undefined) {
-            $('#body').append('<h1>Fixes</h1>');
+            $('#page').append('<h1>Fixes</h1>');
             $.each(data.fixes, function(key, value) {
-                $('#body').append('<li>' + value.text + '</li>');
+                $('#page').append('<li>' + value.text + '</li>');
             });
         }
-        $('#body').append('<hr>');
-        $('#body').append('<a href="' + data.source + '">Source</a>');
+        $('#page').append('<hr>');
+        $('#page').append('<a href="' + data.source + '">Source</a>');
     })
     .fail(function() {
         $.error('JSON fetch failed. Check the specified client version exists.');
     });
 })();
 </script>
+<div id="page" class="page">
+  
+</div>

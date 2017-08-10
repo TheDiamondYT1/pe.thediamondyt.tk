@@ -13,9 +13,5 @@ $.error = function(text) {
 }
 
 $.writeJSON = function(name, minify) {
-    if(minify) {
-        document.write(JSON.stringify(name));
-        return;
-    }
-	document.write('<pre>' + JSON.stringify(name, null, 4) + '</pre>');
+	document.getElementById('page').innerHTML = '<pre>' + JSON.stringify(name, null, 4) + '</pre>';
 }
