@@ -9,6 +9,9 @@ collections:
   tutorials:
     output: true
     permalink: /tutorials/:path/
+  testy:
+    output: true
+    permalink: /testy/:path/
  
 defaults:
   - scope:
@@ -22,7 +25,7 @@ defaults:
       secondarytitle: MCPE Wiki
   - scope:
       path: ""
-      type: tutorials
+      type: testy
     values:
       layout: page
       secondarytitle: MCPE Tutorials
