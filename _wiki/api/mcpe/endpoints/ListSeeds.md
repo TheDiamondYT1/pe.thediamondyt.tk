@@ -9,7 +9,7 @@ shortname: List Seeds
 
 |Host|Authentication|
 |----|--------------|
-|xforge.xboxlive.com:443|No|
+|xforge.xboxlive.com|No|
   
 ### Constructing the request
 

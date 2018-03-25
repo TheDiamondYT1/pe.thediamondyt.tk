@@ -9,7 +9,7 @@ shortname: Resource Pack Info
 
 |Host|Authentication|
 |----|--------------|
-|xforge.xboxlive.com:443|No|
+|xforge.xboxlive.com|No|
   
 ### Constructing the request
 ```

@@ -7,6 +7,7 @@ shortname: versions
 Click the version of your choice to view method dumps from libminecraftpe.so.
 
 ### How to create a dump
+**This tutorial is no longer updated and will soon be removed. I have a bettter one on my [modding wiki]()!
 I simply went in my Android Linux terminal and typed the following.
 
 ##### Full Dump

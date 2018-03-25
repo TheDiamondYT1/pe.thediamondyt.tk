@@ -10,7 +10,7 @@ This endpoint lists all endpoints related to Minecraft Pocket Edition.
 
 |Host|Authentication|
 |----|--------------|
-|title.mgt.xboxlive.com:443|Yes|
+|title.mgt.xboxlive.com|Yes|
   
 ### Constructing the request
 ```
