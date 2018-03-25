@@ -8,24 +8,10 @@ There are various APIs that Minecraft: Pocket Edition uses to do stuff such as c
 I am providing quick links in the nested lists but if you want a full description then click on the heading (Such as Realms API).  
   
 * [Realms API](realms/)  
-  * [Client Compatible](client-compatible/)
-  * [List Worlds](list-worlds/)  
-  * [Download World](download-world/)  
-  * [Open Realm](open/)  
-  * [Close Realm](close/)  
-  * [Update Configuration](configuration/)  
-  * [New Trial](new-trial/)  
-  * [Pending Invites Count](invites-count/)  
-<br>
 
 * [General MCPE API](mcpe/)
-  * [Get Patch Notes](patch-notes/)  
-  * [List Seeds](list-seeds/) (incomplete)
-  * [List Endpoints](list-endpoints/)  
-<br>
 
 * [Xbox Live API](xboxlive/)  
-  * [Authenticate](authenticate/) (incomplete)
 
 ---
 
