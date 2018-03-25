@@ -14,12 +14,14 @@ This wiki (and the entire site) is open-source. Check it out @ [Github](https://
 <br>
   
 #### APIs
-There are various APIs that Minecraft: Pocket Edition uses to do stuff such as connect to realms, login to xbox live and more.
-  
-* [Realms API](api/realms/)  
-* [Store API](api/store/)  
-* [General MCPE API](api/mcpe/)  
-* [Xbox Live API](api/xboxlive/)  
+There are various APIs that Minecraft: Pocket Edition uses to do stuff such as manipulate realms, login to xbox live and more. 
+<br>
+[REST API](api/)  
+
+Contains:  
+  * Realms API  
+  * General MCPE API  
+  * Xbox Live API  
 
 <br>
 #### Server Stuff
@@ -31,7 +33,6 @@ There are various APIs that Minecraft: Pocket Edition uses to do stuff such as c
 Other stuff related to Minecraft: Pocket Edition. This includes MCPE changelogs, updates, and any software related to the game. 
   
 * [Softwares](software/)  
-* [MCPE Update Info & Dumps](versions/)
 
 ---
   

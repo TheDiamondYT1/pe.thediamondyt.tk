@@ -16,12 +16,14 @@ I am providing quick links in the nested lists but if you want a full descriptio
   * [Update Configuration](configuration/)  
   * [New Trial](new-trial/)  
   * [Pending Invites Count](invites-count/)  
+<br>
 
 * [General MCPE API](mcpe/)
   * [Get Patch Notes](patch-notes/)  
   * [List Seeds](list-seeds/) (incomplete)
   * [List Endpoints](list-endpoints/)  
-  
+<br>
+
 * [Xbox Live API](xboxlive/)  
   * [Authenticate](authenticate/) (incomplete)
 
