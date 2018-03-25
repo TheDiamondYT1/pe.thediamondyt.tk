@@ -10,7 +10,7 @@ This endpoint returns the amount of players invitied to join your realm.
 
 |Host|Authentication|
 |----|--------------|
-|pocket.realms.minecraft.net:443|Yes|
+|pocket.realms.minecraft.net|Yes|
   
 ### Constructing the request
 ```

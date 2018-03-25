@@ -18,7 +18,7 @@ Mojang have a private API for interacting with their Realms servers. Here i will
 * [Pending Invites Count](invites-count/)  
   
 ### User Agents
-Here are all the user agents i have currently found out.
+Here are all the user agents i have currently found out. In any of the tutorials you can replace `MCPE/Android` with one of these.
 
 |Platform|User Agent|
 |--------|----------|

@@ -9,7 +9,7 @@ shortname: New Trial
 
 |Host|Authentication|
 |----|--------------|
-|pocket.realms.minecraft.net:443|Yes|
+|pocket.realms.minecraft.net|Yes|
 
 ### Constructing the request
 ```

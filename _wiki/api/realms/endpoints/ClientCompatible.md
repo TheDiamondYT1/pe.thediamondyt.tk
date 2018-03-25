@@ -10,7 +10,7 @@ This endpoint returns whether or not the client is compatible for use with Realm
 
 |Host|Authentication|
 |----|--------------|
-|pocket.realms.minecraft.net:443|Yes|
+|pocket.realms.minecraft.net|Yes|
   
 ### Constructing the request
 ```

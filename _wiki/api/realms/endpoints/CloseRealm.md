@@ -10,7 +10,7 @@ This endpoint bring the realm online. This will allow players to join it and you
 
 |Host|Authentication|
 |----|--------------|
-|pocket.realms.minecraft.net:443|Yes|
+|pocket.realms.minecraft.net|Yes|
   
 ### Constructing the request
 ```

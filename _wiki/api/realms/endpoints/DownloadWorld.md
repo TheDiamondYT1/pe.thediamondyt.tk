@@ -10,7 +10,7 @@ It requires 2 seperate requests to actually obtain the world.
 
 |Host|Authentication|
 |----|--------------|
-|pocket.realms.minecraft.net:443|Yes|
+|pocket.realms.minecraft.net|Yes|
 
 ### Making the requests
 Firstly, we make a `GET` request to obtain the download url.
