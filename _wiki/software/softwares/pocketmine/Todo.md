@@ -9,14 +9,13 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
 ---
 
 #### Commands
- * Remove start and stop arguments from [TimeCommand.php](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/command/defaults/TimeCommand.php#L49#L74)
- * Give command overflow handling ([GiveCommand.php#L88](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/command/defaults/GiveCommand.php#L88))
+ * Remove start and stop arguments from [TimeCommand.php](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/command/defaults/TimeCommand.php#L49#L74)
+ * Give command overflow handling ([GiveCommand.php#L91](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/command/defaults/GiveCommand.php#L91))
  
 ##### To implement
  * /alwaysday [true:false]
  * /clear [player: target] [itemName: string] [data: int] [maxCount: int]
  * /clone \<begin: x y z> \<end: x y z> \<destination: x y z> [maskMode: string] [cloneMode: string] [tileName: string] [tileData: int]
- * /connect \<serverUri: text>
  * /execute 
    * \<origin: target> \<position: x y z> \<command: string>
    * \<origin: target> \<position: x y z> \<detect: string> \<detectPos: x y z> \<detectBlock: string> \<detectData: int> \<command: string>
@@ -46,8 +45,8 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
  
 #### Blocks
  * Redstone is not implemented
- * Implement block bounding boxes and collision boxes ([#169](https://github.com/pmmp/PocketMine-MP/issues/169))
- * Add nether portals ([FlintSteel.php#L40](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/item/FlintSteel.php#L40))
+ * Implement block bounding boxes and collision boxes ([#169](https://github.com/pmmp/PocketMine-MP/issues/169)) - Being implemented [here](https://github.com/pmmp/PocketMine-MP/pull/1880)
+ * Add nether portals ([FlintSteel.php#L40](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/item/FlintSteel.php#L40))
  * Farmland doesnt get turned back to dirt when jumped on
  * Dead bush can be placed on any block.
  * Add enchantment table lock
@@ -55,22 +54,23 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
 ---
  
 #### World
- * Add support for limited worlds ([LevelDB.php#L151](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/format/io/leveldb/LevelDB.php#L151))
- * Add emerald to mountain biome ([MountainBiome.php#L41](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/generator/normal/biome/MountainsBiome.php#L41))
- * Add world height options ([Anvil.php#L160](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/format/io/region/Anvil.php#L160))
- * Build height limit messages for custom world heights ([(Level.php#1708](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/Level.php#L1708))
+ * Add support for limited worlds ([LevelDB.php#L179](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/level/format/io/leveldb/LevelDB.php#L179))
+ * Add emerald to mountain biome ([MountainBiome.php#L43](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/level/generator/normal/biome/MountainsBiome.php#L43))
+ * Add world height options ([Anvil.php#L155](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/level/format/io/region/Anvil.php#L155))
+ * Build height limit messages for custom world heights ([(Level.php#1780](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/level/Level.php#L1780))
  * Decrease light level by time of day ([Level.php#1297](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/Level.php#L1297))
- * Implement `LastUpdate` and `InheritedTime` tags in all level providers ([Anvil.php#L47#L48](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/format/io/region/Anvil.php#L47#L48)), ([McRegion.php#L61#L62](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/level/format/io/region/McRegion.php#L61#L62))
+ * Implement `LastUpdate` in all level providers and `InheritedTime` tag in Anvil provider ([Anvil.php#L47#L48](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/level/format/io/region/Anvil.php#L47#L48)), ([McRegion.php#L57](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/level/format/io/region/McRegion.php#L57))
  
 ---
   
 #### Entities
  * Add lingering potions
- * Add lightning checks to EntityDamageEvent ([EntityDamageEvent.php#L152](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/event/entity/EntityDamageEvent.php#L152))
+ * Add lightning checks to EntityDamageEvent ([EntityDamageEvent.php#L152](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/event/entity/EntityDamageEvent.php#L152))
  * Add power and flame enchantment effects to bows.
- * Implement inverse effects for undead mobs ([Effect.php#L313](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/entity/Effect.php#L313))
- * Add effect particles for witch spell ([#L393](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/entity/Effect.php#L393))
- * Vehicle collision events, when they are implemented ;) ([Entity.php#L1608](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/entity/Entity.php#L1608))
+ * Implement inverse effects for undead mobs ([Effect.php#L313](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/entity/Effect.php#L313))
+ * Add effect particles for witch spell ([#L393](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/entity/Effect.php#L393))
+ * Vehicle collision events, when they are implemented ;) ([Entity.php#L1608](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/entity/Entity.php#L1608))
+ * Check if player is swimming and apply exhaustion ([Player.php#L1606](https://github.com/pmmp/PocketMine-MP/blob/master/src/pocketmine/Player.php#L1606))
  
 ---
  
@@ -86,12 +86,4 @@ A compiled list of all things that arent currently implemented in PocketMine, bu
 #### Other
  * Write documentation for all functions
  * Rewrite translation system to use sprintf and support for vanilla language files ([#207 (comment)](https://github.com/pmmp/PocketMine-MP/issues/207#issuecomment-280027871))
- * Check if player is swimming and apply exhaustion ([Player.php#L1597](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/Player.php#L1597))
  * Move inventory data to JSON ([InventoryType.php#L64](https://github.com/pmmp/PocketMine-MP/blob/api3/blocks/src/pocketmine/inventory/InventoryType.php#L64))
- * Add JWT encryption for Xbox Live login
- 
----
- 
-#### Work in Progress
- * Weather ([PR #460](https://github.com/pmmp/PocketMine-MP/pull/460))
- 
